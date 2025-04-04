@@ -1,0 +1,710 @@
+c:\users\user\documents\visual studio 2015\Projects\BMI\BMI\bin\Debug\BMI.exe.config
+c:\users\user\documents\visual studio 2015\Projects\BMI\BMI\bin\Debug\BMI.exe
+c:\users\user\documents\visual studio 2015\Projects\BMI\BMI\bin\Debug\BMI.pdb
+c:\users\user\documents\visual studio 2015\Projects\BMI\BMI\obj\Debug\BMI.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2015\Projects\BMI\BMI\obj\Debug\BMI.Form1.resources
+c:\users\user\documents\visual studio 2015\Projects\BMI\BMI\obj\Debug\BMI.Properties.Resources.resources
+c:\users\user\documents\visual studio 2015\Projects\BMI\BMI\obj\Debug\BMI.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2015\Projects\BMI\BMI\obj\Debug\BMI.exe
+c:\users\user\documents\visual studio 2015\Projects\BMI\BMI\obj\Debug\BMI.pdb
+c:\users\user\documents\visual studio 2015\Projects\BMI\BMI\obj\Debug\BMI.Anakredit.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\BMI\BMI\obj\Debug\BMI.Avtomobil.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\BMI\BMI\obj\Debug\BMI.Menzil.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\BMI\BMI\obj\Debug\BMI.Qizil.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\BMI\BMI\obj\Debug\BMI.Zamin.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\BMI\BMI\bin\Debug\MetroFramework.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\BMI\BMI\obj\Debug\BMI.Zaminler.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\BMI\BMI\obj\Debug\BMI.Menzil_sahibi.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\BMI\BMI\obj\Debug\BMI.Girov_melumatlari.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\BMI\BMI\obj\Debug\BMI.csproj.ResolveComReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\BMI\BMI\obj\Debug\BMI.qizilmelumatlari.resources
+C:\BMI\BMI\bin\Debug\BMI.exe.config
+C:\BMI\BMI\obj\Debug\BMI.csproj.ResolveComReference.cache
+C:\BMI\BMI\obj\Debug\BMI.exe
+C:\BMI\BMI\obj\Debug\BMI.pdb
+C:\BMI\BMI\obj\Debug\BMI.csprojResolveAssemblyReference.cache
+C:\BMI\BMI\obj\Debug\BMI.Avtomobil.resources
+C:\BMI\BMI\obj\Debug\BMI.Form1.resources
+C:\BMI\BMI\obj\Debug\BMI.Anakredit.resources
+C:\BMI\BMI\obj\Debug\BMI.Girov_melumatlari.resources
+C:\BMI\BMI\obj\Debug\BMI.Menzil_sahibi.resources
+C:\BMI\BMI\obj\Debug\BMI.Menzil.resources
+C:\BMI\BMI\obj\Debug\BMI.Properties.Resources.resources
+C:\BMI\BMI\obj\Debug\BMI.Qizil.resources
+C:\BMI\BMI\obj\Debug\BMI.qizilmelumatlari.resources
+C:\BMI\BMI\obj\Debug\BMI.Zamin.resources
+C:\BMI\BMI\obj\Debug\BMI.Zaminler.resources
+C:\BMI\BMI\obj\Debug\BMI.csproj.GenerateResource.Cache
+C:\BMI\BMI\bin\Debug\BMI.exe
+C:\BMI\BMI\bin\Debug\BMI.pdb
+C:\BMI\BMI\bin\Debug\MetroFramework.dll
+C:\BMI\BMI\obj\Debug\BMI.DYP.resources
+C:\BMI\BMI\obj\Debug\BMI.Pul_Kocurmesi.resources
+C:\BMI\BMI\obj\Debug\Interop.ORAOLEDBLib.dll
+C:\BMI\BMI\bin\Debug\Oracle.ManagedDataAccessIOP.dll
+C:\BMI\BMI\obj\Debug\BMI.gedenhevale.resources
+C:\BMI\BMI\obj\Debug\BMI.ged_hev.resources
+C:\BMI\BMI\obj\Debug\BMI.Hevale.resources
+C:\BMI\BMI\obj\Debug\BMI.Gel_hev.resources
+C:\BMI\BMI\bin\Debug\Irana_kocurmeler.mdb
+C:\BMI\BMI\obj\Debug\BMI.XaricMektub.resources
+C:\BMI\BMI\obj\Debug\BMI.Daxilmektub.resources
+C:\BMI\BMI\obj\Debug\BMI.Login.resources
+C:\BMI\BMI\obj\Debug\BMI.Mektublar.resources
+C:\BMI\BMI\obj\Debug\BMI.Ged_hev_duzelis.resources
+C:\BMI\BMI\obj\Debug\BMI.Gel_hev_duzelis.resources
+C:\BMI\BMI\obj\Debug\BMI.Duzelisler.resources
+C:\BMI\BMI\bin\Debug\Duzelisler.accdb
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\bin\Debug\BMI.exe.config
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\Interop.ORAOLEDBLib.dll
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.csproj.ResolveComReference.cache
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.exe
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.pdb
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\bin\Debug\Duzelisler.accdb
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\bin\Debug\Irana_kocurmeler.mdb
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\bin\Debug\BMI.exe
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\bin\Debug\BMI.pdb
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\bin\Debug\MetroFramework.dll
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.csprojResolveAssemblyReference.cache
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.Avtomobil.resources
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.Daxilmektub.resources
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.Duzelisler.resources
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.DYP.resources
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.Form1.resources
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.Anakredit.resources
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.gedenhevale.resources
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.ged_hev.resources
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.Ged_hev_duzelis.resources
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.Gel_hev.resources
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.Gel_hev_duzelis.resources
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.Girov_melumatlari.resources
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.Hevale.resources
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.Login.resources
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.Mektublar.resources
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.Menzil_sahibi.resources
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.Menzil.resources
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.Properties.Resources.resources
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.Pul_Kocurmesi.resources
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.Qizil.resources
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.qizilmelumatlari.resources
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.XaricMektub.resources
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.Zamin.resources
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.Zaminler.resources
+C:\Users\samir\Desktop\New folder (2)\BMI_\BMI\obj\Debug\BMI.csproj.GenerateResource.Cache
+C:\BMI_\BMI\obj\Debug\BMI.csproj.AssemblyReference.cache
+C:\BMI_\BMI\obj\Debug\Interop.ORAOLEDBLib.dll
+C:\BMI_\BMI\obj\Debug\BMI.csproj.ResolveComReference.cache
+C:\BMI_\BMI\obj\Debug\BMI.Aktivlerin_tesnifi.frmduz_sehv_ehtiyatlar.resources
+C:\BMI_\BMI\obj\Debug\BMI.AMLexcel.resources
+C:\BMI_\BMI\obj\Debug\BMI.AML.Aml_bas_idare_ayliq_hesabat.resources
+C:\BMI_\BMI\obj\Debug\BMI.AML.frm_aml_bas_idare_yanasma.resources
+C:\BMI_\BMI\obj\Debug\BMI.AML.frm_mebleg_uzre_sorgu_limit_asma.resources
+C:\BMI_\BMI\obj\Debug\BMI.AML.frm_risk_yenilenme.resources
+C:\BMI_\BMI\obj\Debug\BMI.AML_elaqeli_sexs.resources
+C:\BMI_\BMI\obj\Debug\BMI.Emek_haqqi_ve_davamiyyet.frm_Elaveler.resources
+C:\BMI_\BMI\obj\Debug\BMI.Emek_haqqi_ve_davamiyyet.frm_EmekHaqqi_Yeni.resources
+C:\BMI_\BMI\obj\Debug\BMI.Emek_haqqi_ve_davamiyyet.frm_emek_haqq_stat.resources
+C:\BMI_\BMI\obj\Debug\BMI.Emek_haqqi_ve_davamiyyet.frm_Isciler.resources
+C:\BMI_\BMI\obj\Debug\BMI.Emeliyyat.frm_Main.resources
+C:\BMI_\BMI\obj\Debug\BMI.Emek_haqqi_ve_davamiyyet.frm_mezuniyyet_elave_Illik.resources
+C:\BMI_\BMI\obj\Debug\BMI.Emek_haqqi_ve_davamiyyet.frm_MXE.resources
+C:\BMI_\BMI\obj\Debug\BMI.Emek_haqqi_ve_davamiyyet.frm_MXO.resources
+C:\BMI_\BMI\obj\Debug\BMI.Esas.frm_isci_derece.resources
+C:\BMI_\BMI\obj\Debug\BMI.Esas.frm_setup.resources
+C:\BMI_\BMI\obj\Debug\BMI.Esas.frm_setup_icaze.resources
+C:\BMI_\BMI\obj\Debug\BMI.Kassa.frmExchange.resources
+C:\BMI_\BMI\obj\Debug\BMI.Kassa.frm_kursSayt.resources
+C:\BMI_\BMI\obj\Debug\BMI.Avtomobil.resources
+C:\BMI_\BMI\obj\Debug\BMI.daxil_olam_mektub.resources
+C:\BMI_\BMI\obj\Debug\BMI.daxil_olan_mektub.resources
+C:\BMI_\BMI\obj\Debug\BMI.Duzelisler.resources
+C:\BMI_\BMI\obj\Debug\BMI.DYP.resources
+C:\BMI_\BMI\obj\Debug\BMI.Elave_Zamin.resources
+C:\BMI_\BMI\obj\Debug\BMI.Emeliyyat.frm_cari_hesab_melumati.resources
+C:\BMI_\BMI\obj\Debug\BMI.Form1.resources
+C:\BMI_\BMI\obj\Debug\BMI.Anakredit.resources
+C:\BMI_\BMI\obj\Debug\BMI.Form3.resources
+C:\BMI_\BMI\obj\Debug\Kredit_isler.Formesas.resources
+C:\BMI_\BMI\obj\Debug\BMI.frmaktivtesnif.resources
+C:\BMI_\BMI\obj\Debug\BMI.frmAtlas_Cars_girov.resources
+C:\BMI_\BMI\obj\Debug\BMI.frmbalanssorgu.resources
+C:\BMI_\BMI\obj\Debug\BMI.frmbircixaris.resources
+C:\BMI_\BMI\obj\Debug\BMI.frmborcalantemizlik.resources
+C:\BMI_\BMI\obj\Debug\BMI.frmcarsmektubcix.resources
+C:\BMI_\BMI\obj\Debug\BMI.frmehtiyatlarin_cedveli.resources
+C:\BMI_\BMI\obj\Debug\BMI.frmehtiyyatlar.resources
+C:\BMI_\BMI\obj\Debug\BMI.frmehtiyyatlaruzresorgu.resources
+C:\BMI_\BMI\obj\Debug\BMI.frmhesabsorgu.resources
+C:\BMI_\BMI\obj\Debug\BMI.frmkataloq.resources
+C:\BMI_\BMI\obj\Debug\BMI.frmikicixaris.resources
+C:\BMI_\BMI\obj\Debug\BMI.frmkreditveziyyeti.resources
+C:\BMI_\BMI\obj\Debug\BMI.frmmenzil.resources
+C:\BMI_\BMI\obj\Debug\BMI.frmmenzilmuq.resources
+C:\BMI_\BMI\obj\Debug\BMI.frmmuracietler.resources
+C:\BMI_\BMI\obj\Debug\BMI.frmmuracietyazdir.resources
+C:\BMI_\BMI\obj\Debug\BMI.frmmusteridanisiq.resources
+C:\BMI_\BMI\obj\Debug\BMI.frmsmssiyahi.resources
+C:\BMI_\BMI\obj\Debug\BMI.frm_AML_huquqi_hesab_imza.resources
+C:\BMI_\BMI\obj\Debug\BMI.frm_kredit_faizleri.resources
+C:\BMI_\BMI\obj\Debug\BMI.frm_kredit_umumi_sorgular.resources
+C:\BMI_\BMI\obj\Debug\BMI.frm_odenis_ferqlisilinme.resources
+C:\BMI_\BMI\obj\Debug\BMI.frm_rest_yaxs.resources
+C:\BMI_\BMI\obj\Debug\BMI.ManagerApproval.frmExchangeTesdiq.resources
+C:\BMI_\BMI\obj\Debug\BMI.Muhasibat.frm_reziden_ve_qeyri_rezident.resources
+C:\BMI_\BMI\obj\Debug\BMI.frmİddiaerizesi.resources
+C:\BMI_\BMI\obj\Debug\BMI.gedenhevaleyeni.resources
+C:\BMI_\BMI\obj\Debug\BMI.geden_hevale.resources
+C:\BMI_\BMI\obj\Debug\BMI.ged_hev.resources
+C:\BMI_\BMI\obj\Debug\BMI.Ged_hev_duzelis.resources
+C:\BMI_\BMI\obj\Debug\BMI.Gelen_hevale.resources
+C:\BMI_\BMI\obj\Debug\Kredit_isler.Gelme_vaxti.resources
+C:\BMI_\BMI\obj\Debug\BMI.Gel_hev.resources
+C:\BMI_\BMI\obj\Debug\BMI.Gel_hev_duzelis.resources
+C:\BMI_\BMI\obj\Debug\BMI.Girov_melumatlari.resources
+C:\BMI_\BMI\obj\Debug\BMI.Girov_ve_zamin_melumatlari.resources
+C:\BMI_\BMI\obj\Debug\BMI.Hesab_qaliq.resources
+C:\BMI_\BMI\obj\Debug\BMI.Hevale.resources
+C:\BMI_\BMI\obj\Debug\BMI.hevalegeden.resources
+C:\BMI_\BMI\obj\Debug\BMI.Kassa.frç_kassa_alis_satis_sexs.resources
+C:\BMI_\BMI\obj\Debug\BMI.Kredit.frm_bk_qalanlar.resources
+C:\BMI_\BMI\obj\Debug\BMI.Kredit.frm_portfel.resources
+C:\BMI_\BMI\obj\Debug\BMI.Kredit_silinme.resources
+C:\BMI_\BMI\obj\Debug\BMI.Logiin.resources
+C:\BMI_\BMI\obj\Debug\BMI.Login.resources
+C:\BMI_\BMI\obj\Debug\BMI.Mebleg_uzre.resources
+C:\BMI_\BMI\obj\Debug\BMI.Mektublar.resources
+C:\BMI_\BMI\obj\Debug\BMI.Menzil_sahibi.resources
+C:\BMI_\BMI\obj\Debug\BMI.Menzil.resources
+C:\BMI_\BMI\obj\Debug\BMI.Muhasibat.frm_ADD1.resources
+C:\BMI_\BMI\obj\Debug\BMI.Muhasibat.frm_Daily_Report.resources
+C:\BMI_\BMI\obj\Debug\BMI.Muhasibat.frm_Dep.resources
+C:\BMI_\BMI\obj\Debug\BMI.Muhasibat.frm_iran_hesabat.resources
+C:\BMI_\BMI\obj\Debug\BMI.Muhasibat.frm_report_comments_Yeni.resources
+C:\BMI_\BMI\obj\Debug\BMI.Muhasibat.frm_elaqeli_dep_cem.resources
+C:\BMI_\BMI\obj\Debug\BMI.Muhasibat.frm_valyuta_alis_satis.resources
+C:\BMI_\BMI\obj\Debug\BMI.Muhasibat.frm_XBBIS.resources
+C:\BMI_\BMI\obj\Debug\BMI.Muhasibat.LCR.resources
+C:\BMI_\BMI\obj\Debug\BMI.Onlayn.resources
+C:\BMI_\BMI\obj\Debug\BMI.Properties.Resources.resources
+C:\BMI_\BMI\obj\Debug\BMI.Pul_Kocurmesi.resources
+C:\BMI_\BMI\obj\Debug\BMI.Qizil.resources
+C:\BMI_\BMI\obj\Debug\BMI.qizilmelumatlari.resources
+C:\BMI_\BMI\obj\Debug\BMI.SMSExcel.resources
+C:\BMI_\BMI\obj\Debug\BMI.Telebe.resources
+C:\BMI_\BMI\obj\Debug\BMI.Sorgular.frm_Currency_accounts_Nostro.resources
+C:\BMI_\BMI\obj\Debug\BMI.Tel_axraris.resources
+C:\BMI_\BMI\obj\Debug\BMI.Verilmis_kr.resources
+C:\BMI_\BMI\obj\Debug\BMI.UTimeMaster.frmUTimemasterMain.resources
+C:\BMI_\BMI\obj\Debug\BMI.UTimeMaster.frm_InputOutput.resources
+C:\BMI_\BMI\obj\Debug\BMI.UTimeMaster.frm_Workers.resources
+C:\BMI_\BMI\obj\Debug\BMI.XaricMektub.resources
+C:\BMI_\BMI\obj\Debug\BMI.Xarix_olan_mektub.resources
+C:\BMI_\BMI\obj\Debug\BMI.zamin_deyisme.resources
+C:\BMI_\BMI\obj\Debug\BMI.Zamin.resources
+C:\BMI_\BMI\obj\Debug\BMI.zaminarayis.resources
+C:\BMI_\BMI\obj\Debug\BMI.Zaminler.resources
+C:\BMI_\BMI\obj\Debug\BMI.İpoteka_vaxt_uzadilma.resources
+C:\BMI_\BMI\obj\Debug\BMI.csproj.GenerateResource.cache
+C:\BMI_\BMI\obj\Debug\BMI.exe.licenses
+C:\BMI_\BMI\obj\Debug\BMI.csproj.CoreCompileInputs.cache
+C:\BMI_\BMI\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\BMI_\BMI\bin\Debug\BMIxmlconnection.xml
+C:\BMI_\BMI\bin\Debug\Duzelisler.accdb
+C:\BMI_\BMI\bin\Debug\Irana_kocurmeler.mdb
+C:\BMI_\BMI\bin\Debug\Kredit.accdb
+C:\BMI_\BMI\bin\Debug\BMI.exe.config
+C:\BMI_\BMI\bin\Debug\BMI.exe.manifest
+C:\BMI_\BMI\bin\Debug\BMI.application
+C:\BMI_\BMI\bin\Debug\BMI.exe
+C:\BMI_\BMI\bin\Debug\BMI.pdb
+C:\BMI_\BMI\bin\Debug\BouncyCastle.Cryptography.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.Charts.v24.1.Core.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.CodeParser.v24.1.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.Data.Desktop.v24.1.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.Data.v24.1.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.DataAccess.v24.1.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.DataAccess.v24.1.UI.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.Diagram.v24.1.Core.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.Drawing.v24.1.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.Images.v24.1.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.Office.v24.1.Core.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.Pdf.v24.1.Core.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.Pdf.v24.1.Drawing.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.PivotGrid.v24.1.Core.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.Printing.v24.1.Core.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.RichEdit.v24.1.Core.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.RichEdit.v24.1.Export.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.Sparkline.v24.1.Core.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.Utils.v24.1.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.Utils.v24.1.UI.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.Xpo.v24.1.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraBars.v24.1.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraCharts.v24.1.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraCharts.v24.1.Extensions.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraCharts.v24.1.Wizard.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraDiagram.v24.1.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraEditors.v24.1.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraGauges.v24.1.Core.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraGrid.v24.1.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraLayout.v24.1.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraNavBar.v24.1.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraPivotGrid.v24.1.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraPrinting.v24.1.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraReports.v24.1.CodeCompletion.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraReports.v24.1.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraReports.v24.1.Extensions.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraRichEdit.v24.1.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraTreeList.v24.1.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraVerticalGrid.v24.1.dll
+C:\BMI_\BMI\bin\Debug\DocumentFormat.OpenXml.dll
+C:\BMI_\BMI\bin\Debug\EntityFramework.dll
+C:\BMI_\BMI\bin\Debug\EntityFramework.SqlServer.dll
+C:\BMI_\BMI\bin\Debug\EPPlus.dll
+C:\BMI_\BMI\bin\Debug\EPPlus.Interfaces.dll
+C:\BMI_\BMI\bin\Debug\EPPlus.System.Drawing.dll
+C:\BMI_\BMI\bin\Debug\ExcelFinancialFunctions.dll
+C:\BMI_\BMI\bin\Debug\FSharp.Core.dll
+C:\BMI_\BMI\bin\Debug\itext.barcodes.dll
+C:\BMI_\BMI\bin\Debug\itext.bouncy-castle-adapter.dll
+C:\BMI_\BMI\bin\Debug\itext.bouncy-castle-connector.dll
+C:\BMI_\BMI\bin\Debug\itext.commons.dll
+C:\BMI_\BMI\bin\Debug\itext.forms.dll
+C:\BMI_\BMI\bin\Debug\itext.io.dll
+C:\BMI_\BMI\bin\Debug\itext.kernel.dll
+C:\BMI_\BMI\bin\Debug\itext.layout.dll
+C:\BMI_\BMI\bin\Debug\itext.pdfa.dll
+C:\BMI_\BMI\bin\Debug\itext.pdfua.dll
+C:\BMI_\BMI\bin\Debug\itext.sign.dll
+C:\BMI_\BMI\bin\Debug\itext.styledxmlparser.dll
+C:\BMI_\BMI\bin\Debug\itext.svg.dll
+C:\BMI_\BMI\bin\Debug\itextsharp.dll
+C:\BMI_\BMI\bin\Debug\itextsharp.pdfa.dll
+C:\BMI_\BMI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\BMI_\BMI\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\BMI_\BMI\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\BMI_\BMI\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\BMI_\BMI\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\BMI_\BMI\bin\Debug\Newtonsoft.Json.dll
+C:\BMI_\BMI\bin\Debug\Npgsql.dll
+C:\BMI_\BMI\bin\Debug\Npgsql.RawPostgis.dll
+C:\BMI_\BMI\bin\Debug\Oracle.DataAccess.dll
+C:\BMI_\BMI\bin\Debug\oracle.manageddataaccess.dll
+C:\BMI_\BMI\bin\Debug\System.Data.SQLite.dll
+C:\BMI_\BMI\bin\Debug\System.Data.SQLite.EF6.dll
+C:\BMI_\BMI\bin\Debug\System.Data.SQLite.Linq.dll
+C:\BMI_\BMI\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\BMI_\BMI\bin\Debug\System.Text.Encodings.Web.dll
+C:\BMI_\BMI\bin\Debug\System.Text.Json.dll
+C:\BMI_\BMI\bin\Debug\System.ValueTuple.dll
+C:\BMI_\BMI\bin\Debug\Xceed.Document.NET.dll
+C:\BMI_\BMI\bin\Debug\Xceed.Pdf.dll
+C:\BMI_\BMI\bin\Debug\Xceed.Words.NET.dll
+C:\BMI_\BMI\bin\Debug\DevExpress.DataVisualization.v24.1.Core.dll
+C:\BMI_\BMI\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\BMI_\BMI\bin\Debug\System.Memory.dll
+C:\BMI_\BMI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\BMI_\BMI\bin\Debug\System.Numerics.Vectors.dll
+C:\BMI_\BMI\bin\Debug\System.Buffers.dll
+C:\BMI_\BMI\bin\Debug\BouncyCastle.Cryptography.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.Charts.v24.1.Core.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.DataAccess.v24.1.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.DataAccess.v24.1.UI.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.Diagram.v24.1.Core.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.Drawing.v24.1.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.Data.v24.1.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.Office.v24.1.Core.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.Pdf.v24.1.Core.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.Pdf.v24.1.Drawing.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.PivotGrid.v24.1.Core.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.Printing.v24.1.Core.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.RichEdit.v24.1.Core.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.Sparkline.v24.1.Core.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.Data.Desktop.v24.1.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.Utils.v24.1.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.Utils.v24.1.UI.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.Xpo.v24.1.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraBars.v24.1.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraCharts.v24.1.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraCharts.v24.1.Wizard.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraDiagram.v24.1.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraEditors.v24.1.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraGauges.v24.1.Core.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraGrid.v24.1.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraLayout.v24.1.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraNavBar.v24.1.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraPivotGrid.v24.1.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraPrinting.v24.1.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraReports.v24.1.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraReports.v24.1.CodeCompletion.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraReports.v24.1.Extensions.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraRichEdit.v24.1.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraTreeList.v24.1.xml
+C:\BMI_\BMI\bin\Debug\DevExpress.XtraVerticalGrid.v24.1.xml
+C:\BMI_\BMI\bin\Debug\DocumentFormat.OpenXml.xml
+C:\BMI_\BMI\bin\Debug\EntityFramework.xml
+C:\BMI_\BMI\bin\Debug\EntityFramework.SqlServer.xml
+C:\BMI_\BMI\bin\Debug\EPPlus.xml
+C:\BMI_\BMI\bin\Debug\ExcelFinancialFunctions.xml
+C:\BMI_\BMI\bin\Debug\FSharp.Core.xml
+C:\BMI_\BMI\bin\Debug\itext.barcodes.xml
+C:\BMI_\BMI\bin\Debug\itext.bouncy-castle-adapter.xml
+C:\BMI_\BMI\bin\Debug\itext.bouncy-castle-connector.xml
+C:\BMI_\BMI\bin\Debug\itext.commons.xml
+C:\BMI_\BMI\bin\Debug\itext.forms.xml
+C:\BMI_\BMI\bin\Debug\itext.io.xml
+C:\BMI_\BMI\bin\Debug\itext.kernel.xml
+C:\BMI_\BMI\bin\Debug\itext.layout.xml
+C:\BMI_\BMI\bin\Debug\itext.pdfa.xml
+C:\BMI_\BMI\bin\Debug\itext.pdfua.xml
+C:\BMI_\BMI\bin\Debug\itext.sign.xml
+C:\BMI_\BMI\bin\Debug\itext.styledxmlparser.xml
+C:\BMI_\BMI\bin\Debug\itext.svg.xml
+C:\BMI_\BMI\bin\Debug\itextsharp.xml
+C:\BMI_\BMI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\BMI_\BMI\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\BMI_\BMI\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\BMI_\BMI\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\BMI_\BMI\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\BMI_\BMI\bin\Debug\Newtonsoft.Json.xml
+C:\BMI_\BMI\bin\Debug\Npgsql.xml
+C:\BMI_\BMI\bin\Debug\Npgsql.RawPostgis.xml
+C:\BMI_\BMI\bin\Debug\System.Data.SQLite.xml
+C:\BMI_\BMI\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\BMI_\BMI\bin\Debug\System.Text.Encodings.Web.xml
+C:\BMI_\BMI\bin\Debug\System.Text.Json.xml
+C:\BMI_\BMI\bin\Debug\System.ValueTuple.xml
+C:\BMI_\BMI\bin\Debug\Xceed.Document.NET.xml
+C:\BMI_\BMI\bin\Debug\Xceed.Words.NET.xml
+C:\BMI_\BMI\bin\Debug\cs\FSharp.Core.resources.dll
+C:\BMI_\BMI\bin\Debug\de\FSharp.Core.resources.dll
+C:\BMI_\BMI\bin\Debug\es\FSharp.Core.resources.dll
+C:\BMI_\BMI\bin\Debug\fr\FSharp.Core.resources.dll
+C:\BMI_\BMI\bin\Debug\it\FSharp.Core.resources.dll
+C:\BMI_\BMI\bin\Debug\ja\FSharp.Core.resources.dll
+C:\BMI_\BMI\bin\Debug\ko\FSharp.Core.resources.dll
+C:\BMI_\BMI\bin\Debug\pl\FSharp.Core.resources.dll
+C:\BMI_\BMI\bin\Debug\pt-BR\FSharp.Core.resources.dll
+C:\BMI_\BMI\bin\Debug\ru\FSharp.Core.resources.dll
+C:\BMI_\BMI\bin\Debug\tr\FSharp.Core.resources.dll
+C:\BMI_\BMI\bin\Debug\zh-Hans\FSharp.Core.resources.dll
+C:\BMI_\BMI\bin\Debug\zh-Hant\FSharp.Core.resources.dll
+C:\BMI_\BMI\obj\Debug\BMI.exe.manifest
+C:\BMI_\BMI\obj\Debug\BMI.application
+C:\BMI_\BMI\obj\Debug\BMI.csproj.Up2Date
+C:\BMI_\BMI\obj\Debug\BMI.exe
+C:\BMI_\BMI\obj\Debug\BMI.pdb
+C:\BMI_\BMI\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\BMI_\BMI\bin\Debug\System.Collections.Immutable.dll
+C:\BMI_\BMI\bin\Debug\System.Threading.Channels.dll
+C:\BMI_\BMI\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\BMI_\BMI\bin\Debug\System.Collections.Immutable.xml
+C:\BMI_\BMI\bin\Debug\System.Threading.Channels.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\BMIxmlconnection.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Duzelisler.accdb
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Irana_kocurmeler.mdb
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Kredit.accdb
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\BMI.exe.config
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\BMI.exe.manifest
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\BMI.application
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\BMI.exe
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\BMI.pdb
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Charts.v24.1.Core.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.CodeParser.v24.1.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Data.Desktop.v24.1.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Data.v24.1.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.DataAccess.v24.1.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.DataAccess.v24.1.UI.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Diagram.v24.1.Core.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Drawing.v24.1.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Images.v24.1.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Office.v24.1.Core.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Pdf.v24.1.Core.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Pdf.v24.1.Drawing.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.PivotGrid.v24.1.Core.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Printing.v24.1.Core.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.RichEdit.v24.1.Core.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.RichEdit.v24.1.Export.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Sparkline.v24.1.Core.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Utils.v24.1.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Utils.v24.1.UI.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Xpo.v24.1.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraBars.v24.1.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraCharts.v24.1.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraCharts.v24.1.Extensions.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraCharts.v24.1.Wizard.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraDiagram.v24.1.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraEditors.v24.1.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraGauges.v24.1.Core.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraGrid.v24.1.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraLayout.v24.1.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraNavBar.v24.1.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraPivotGrid.v24.1.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraPrinting.v24.1.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraReports.v24.1.CodeCompletion.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraReports.v24.1.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraReports.v24.1.Extensions.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraRichEdit.v24.1.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraTreeList.v24.1.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraVerticalGrid.v24.1.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\EntityFramework.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\EPPlus.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\ExcelFinancialFunctions.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\FSharp.Core.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.barcodes.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.bouncy-castle-adapter.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.commons.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.forms.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.io.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.kernel.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.layout.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.pdfa.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.pdfua.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.sign.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.styledxmlparser.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.svg.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itextsharp.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itextsharp.pdfa.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Npgsql.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Npgsql.RawPostgis.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Oracle.DataAccess.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\oracle.manageddataaccess.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\System.Collections.Immutable.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\System.Data.SQLite.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\System.Text.Json.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\System.Threading.Channels.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\System.ValueTuple.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Xceed.Document.NET.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Xceed.Pdf.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Xceed.Words.NET.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.DataVisualization.v24.1.Core.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\System.Memory.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\System.Buffers.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Charts.v24.1.Core.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.DataAccess.v24.1.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.DataAccess.v24.1.UI.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Diagram.v24.1.Core.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Drawing.v24.1.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Data.v24.1.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Office.v24.1.Core.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Pdf.v24.1.Core.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Pdf.v24.1.Drawing.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.PivotGrid.v24.1.Core.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Printing.v24.1.Core.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.RichEdit.v24.1.Core.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Sparkline.v24.1.Core.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Data.Desktop.v24.1.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Utils.v24.1.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Utils.v24.1.UI.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.Xpo.v24.1.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraBars.v24.1.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraCharts.v24.1.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraCharts.v24.1.Wizard.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraDiagram.v24.1.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraEditors.v24.1.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraGauges.v24.1.Core.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraGrid.v24.1.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraLayout.v24.1.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraNavBar.v24.1.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraPivotGrid.v24.1.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraPrinting.v24.1.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraReports.v24.1.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraReports.v24.1.CodeCompletion.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraReports.v24.1.Extensions.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraRichEdit.v24.1.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraTreeList.v24.1.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DevExpress.XtraVerticalGrid.v24.1.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\EntityFramework.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\EPPlus.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\ExcelFinancialFunctions.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\FSharp.Core.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.barcodes.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.bouncy-castle-adapter.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.commons.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.forms.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.io.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.kernel.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.layout.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.pdfa.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.pdfua.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.sign.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.styledxmlparser.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itext.svg.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\itextsharp.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Npgsql.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Npgsql.RawPostgis.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\System.Collections.Immutable.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\System.Data.SQLite.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\System.Text.Json.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\System.Threading.Channels.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\System.ValueTuple.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Xceed.Document.NET.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\Xceed.Words.NET.xml
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\cs\FSharp.Core.resources.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\de\FSharp.Core.resources.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\es\FSharp.Core.resources.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\fr\FSharp.Core.resources.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\it\FSharp.Core.resources.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\ja\FSharp.Core.resources.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\ko\FSharp.Core.resources.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\pl\FSharp.Core.resources.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\pt-BR\FSharp.Core.resources.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\ru\FSharp.Core.resources.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\tr\FSharp.Core.resources.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\zh-Hans\FSharp.Core.resources.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\bin\Debug\zh-Hant\FSharp.Core.resources.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.csproj.AssemblyReference.cache
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\Interop.ORAOLEDBLib.dll
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.csproj.ResolveComReference.cache
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Aktivlerin_tesnifi.frmduz_sehv_ehtiyatlar.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.AMLexcel.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.AML.Aml_bas_idare_ayliq_hesabat.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.AML.frm_aml_bas_idare_yanasma.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.AML.frm_mebleg_uzre_sorgu_limit_asma.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.AML.frm_risk_yenilenme.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.AML_elaqeli_sexs.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Emek_haqqi_ve_davamiyyet.frm_Elaveler.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Emek_haqqi_ve_davamiyyet.frm_EmekHaqqi_Yeni.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Emek_haqqi_ve_davamiyyet.frm_emek_haqq_stat.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Emek_haqqi_ve_davamiyyet.frm_Isciler.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Emeliyyat.frm_Main.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Emek_haqqi_ve_davamiyyet.frm_mezuniyyet_elave_Illik.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Emek_haqqi_ve_davamiyyet.frm_MXE.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Emek_haqqi_ve_davamiyyet.frm_MXO.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Esas.frm_isci_derece.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Esas.frm_setup.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Esas.frm_setup_icaze.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Kassa.frmExchange.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Kassa.frm_kursSayt.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Avtomobil.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.daxil_olam_mektub.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.daxil_olan_mektub.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Duzelisler.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.DYP.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Elave_Zamin.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Emeliyyat.frm_cari_hesab_melumati.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Form1.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Anakredit.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Form3.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\Kredit_isler.Formesas.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.frmaktivtesnif.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.frmAtlas_Cars_girov.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.frmbalanssorgu.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.frmbircixaris.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.frmborcalantemizlik.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.frmcarsmektubcix.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.frmehtiyatlarin_cedveli.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.frmehtiyyatlar.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.frmehtiyyatlaruzresorgu.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.frmhesabsorgu.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.frmkataloq.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.frmikicixaris.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.frmkreditveziyyeti.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.frmmenzil.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.frmmenzilmuq.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.frmmuracietler.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.frmmuracietyazdir.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.frmmusteridanisiq.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.frmsmssiyahi.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.frm_AML_huquqi_hesab_imza.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.frm_kredit_faizleri.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.frm_kredit_umumi_sorgular.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.frm_odenis_ferqlisilinme.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.frm_rest_yaxs.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.ManagerApproval.frmExchangeTesdiq.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Muhasibat.frm_reziden_ve_qeyri_rezident.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.frmİddiaerizesi.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.gedenhevaleyeni.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.geden_hevale.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.ged_hev.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Ged_hev_duzelis.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Gelen_hevale.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\Kredit_isler.Gelme_vaxti.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Gel_hev.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Gel_hev_duzelis.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Girov_melumatlari.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Girov_ve_zamin_melumatlari.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Hesab_qaliq.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Hevale.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.hevalegeden.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Kassa.frç_kassa_alis_satis_sexs.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Kredit.frm_bk_qalanlar.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Kredit.frm_portfel.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Kredit_silinme.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Logiin.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Login.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Mebleg_uzre.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Mektublar.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Menzil_sahibi.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Menzil.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Muhasibat.frm_ADD1.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Muhasibat.frm_Daily_Report.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Muhasibat.frm_Dep.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Muhasibat.frm_iran_hesabat.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Muhasibat.frm_report_comments_Yeni.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Muhasibat.frm_elaqeli_dep_cem.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Muhasibat.frm_valyuta_alis_satis.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Muhasibat.frm_XBBIS.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Muhasibat.LCR.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Onlayn.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Properties.Resources.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Pul_Kocurmesi.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Qizil.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.qizilmelumatlari.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.SMSExcel.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Telebe.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Sorgular.frm_Currency_accounts_Nostro.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Tel_axraris.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Verilmis_kr.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.UTimeMaster.frmUTimemasterMain.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.UTimeMaster.frm_InputOutput.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.UTimeMaster.frm_Workers.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.XaricMektub.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Xarix_olan_mektub.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.zamin_deyisme.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Zamin.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.zaminarayis.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Zaminler.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.İpoteka_vaxt_uzadilma.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.csproj.GenerateResource.cache
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.exe.licenses
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.csproj.CoreCompileInputs.cache
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.exe.manifest
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.application
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.csproj.Up2Date
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.exe
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.pdb
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.AML.frm_Benefisiar_hesabat.resources

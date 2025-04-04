@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Server>
+  <OracleServer ID ="1">
+    <ServerIP>10.2.94.10</ServerIP>
+    <DataSource>BMI</DataSource>
+    <UserID>FOXPRO</UserID>
+    <Password>pass</Password>
+    <Currentuser>Noname</Currentuser>
+    <Muvekkil>Щасщеми Сейеднезам Сейедаббас</Muvekkil>
+    <Vezifesi>Мцштяри Хидмятляри Департаментинин рящбяри</Vezifesi>
+    <Kreditdeprehber>Мяммядов Турал Гаракиши Оьлу</Kreditdeprehber>
+    <Kreditdepvezife>Кредит департаментинин рящбяри</Kreditdepvezife>
+    <HMpapkayol>\\PDC\CustomerContract\Hesabmugavilesi</HMpapkayol>
+    <KRDMpapkayol>\\PDC\CustomerContract\Kreditmugavilesi</KRDMpapkayol>
+  </OracleServer>
+</Server>

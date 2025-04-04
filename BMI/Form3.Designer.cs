@@ -1,0 +1,76 @@
+﻿namespace BMI
+{
+    partial class Form3
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            //System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
+            //this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            //this.axAcroPDF1 = new AxAcroPDFLib.AxAcroPDF();
+            //((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            //((System.ComponentModel.ISupportInitialize)(this.axAcroPDF1)).BeginInit();
+            //this.SuspendLayout();
+            //// 
+            //// dataGridView1
+            //// 
+            //this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            //this.dataGridView1.Location = new System.Drawing.Point(12, 12);
+            //this.dataGridView1.Name = "dataGridView1";
+            //this.dataGridView1.Size = new System.Drawing.Size(696, 15);
+            //this.dataGridView1.TabIndex = 0;
+            //// 
+            //// axAcroPDF1
+            //// 
+            //this.axAcroPDF1.Enabled = true;
+            //this.axAcroPDF1.Location = new System.Drawing.Point(12, 71);
+            //this.axAcroPDF1.Name = "axAcroPDF1";
+            //this.axAcroPDF1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axAcroPDF1.OcxState")));
+            //this.axAcroPDF1.Size = new System.Drawing.Size(192, 192);
+            //this.axAcroPDF1.TabIndex = 1;
+            //// 
+            //// Form3
+            //// 
+            //this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            //this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            //this.ClientSize = new System.Drawing.Size(729, 275);
+            //this.Controls.Add(this.axAcroPDF1);
+            //this.Controls.Add(this.dataGridView1);
+            //this.Name = "Form3";
+            //this.Text = "Form3";
+            //this.Load += new System.EventHandler(this.Form3_Load);
+            //((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            //((System.ComponentModel.ISupportInitialize)(this.axAcroPDF1)).EndInit();
+            //this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.DataGridView dataGridView1;
+        //private AxAcroPDFLib.AxAcroPDF axAcroPDF1;
+    }
+}

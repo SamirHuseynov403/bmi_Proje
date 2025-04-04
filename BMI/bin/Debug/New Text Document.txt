@@ -1,0 +1,2 @@
+DYP
+{mekNo} {mektarixi} {borcalan} {muqtar} {muqNo} {avtoNo} {marka} {avtoil} {muh} {ban} {reng}

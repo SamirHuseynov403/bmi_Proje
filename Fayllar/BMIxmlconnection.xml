@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BMISERVER>
+  <OracleServer ID="1">
+    <DataSource>BMI</DataSource>
+    <UserID>FOXPRO</UserID>
+    <Password>pass</Password>
+    <UserName>SAMIR</UserName>
+  </OracleServer>
+</BMISERVER>

@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{620DF227-13A3-4D6F-A22A-DEAB975681FC}|BMI\\BMI.csproj|c:\\users\\mehemmed\\desktop\\axirinci bmi\\bmi_\\bmi\\aml\\frmhesabsorgu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{620DF227-13A3-4D6F-A22A-DEAB975681FC}|BMI\\BMI.csproj|solutionrelative:bmi\\aml\\frmhesabsorgu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620DF227-13A3-4D6F-A22A-DEAB975681FC}|BMI\\BMI.csproj|c:\\users\\mehemmed\\desktop\\axirinci bmi\\bmi_\\bmi\\aml\\frmhesabsorgu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{620DF227-13A3-4D6F-A22A-DEAB975681FC}|BMI\\BMI.csproj|solutionrelative:bmi\\aml\\frmhesabsorgu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620DF227-13A3-4D6F-A22A-DEAB975681FC}|BMI\\BMI.csproj|c:\\users\\mehemmed\\desktop\\axirinci bmi\\bmi_\\bmi\\aml\\frm_benefisiar_hesabat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{620DF227-13A3-4D6F-A22A-DEAB975681FC}|BMI\\BMI.csproj|solutionrelative:bmi\\aml\\frm_benefisiar_hesabat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620DF227-13A3-4D6F-A22A-DEAB975681FC}|BMI\\BMI.csproj|C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\bmi\\aml\\frm_benefisiar_hesabat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{620DF227-13A3-4D6F-A22A-DEAB975681FC}|BMI\\BMI.csproj|solutionrelative:bmi\\aml\\frm_benefisiar_hesabat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620DF227-13A3-4D6F-A22A-DEAB975681FC}|BMI\\BMI.csproj|C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\bmi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{620DF227-13A3-4D6F-A22A-DEAB975681FC}|BMI\\BMI.csproj|solutionrelative:bmi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620DF227-13A3-4D6F-A22A-DEAB975681FC}|BMI\\BMI.csproj|C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\bmi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{620DF227-13A3-4D6F-A22A-DEAB975681FC}|BMI\\BMI.csproj|solutionrelative:bmi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620DF227-13A3-4D6F-A22A-DEAB975681FC}|BMI\\BMI.csproj|C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\bmi\\muhasibat\\frm_add1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{620DF227-13A3-4D6F-A22A-DEAB975681FC}|BMI\\BMI.csproj|solutionrelative:bmi\\muhasibat\\frm_add1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620DF227-13A3-4D6F-A22A-DEAB975681FC}|BMI\\BMI.csproj|C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\bmi\\muhasibat\\frm_add1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{620DF227-13A3-4D6F-A22A-DEAB975681FC}|BMI\\BMI.csproj|solutionrelative:bmi\\muhasibat\\frm_add1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620DF227-13A3-4D6F-A22A-DEAB975681FC}|BMI\\BMI.csproj|C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\bmi\\aml\\frm_aml_huquqi_hesab_imza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{620DF227-13A3-4D6F-A22A-DEAB975681FC}|BMI\\BMI.csproj|solutionrelative:bmi\\aml\\frm_aml_huquqi_hesab_imza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620DF227-13A3-4D6F-A22A-DEAB975681FC}|BMI\\BMI.csproj|C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\bmi\\aml\\frm_aml_huquqi_hesab_imza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{620DF227-13A3-4D6F-A22A-DEAB975681FC}|BMI\\BMI.csproj|solutionrelative:bmi\\aml\\frm_aml_huquqi_hesab_imza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmhesabsorgu.cs",
+              "DocumentMoniker": "C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\BMI\\AML\\frmhesabsorgu.cs",
+              "RelativeDocumentMoniker": "BMI\\AML\\frmhesabsorgu.cs",
+              "ToolTip": "C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\BMI\\AML\\frmhesabsorgu.cs",
+              "RelativeToolTip": "BMI\\AML\\frmhesabsorgu.cs",
+              "ViewState": "AgIAACMBAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T10:08:00.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmhesabsorgu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\BMI\\AML\\frmhesabsorgu.cs",
+              "RelativeDocumentMoniker": "BMI\\AML\\frmhesabsorgu.cs",
+              "ToolTip": "C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\BMI\\AML\\frmhesabsorgu.cs [Design]",
+              "RelativeToolTip": "BMI\\AML\\frmhesabsorgu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T10:07:56.199Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\BMI\\Form1.cs",
+              "RelativeDocumentMoniker": "BMI\\Form1.cs",
+              "ToolTip": "C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\BMI\\Form1.cs",
+              "RelativeToolTip": "BMI\\Form1.cs",
+              "ViewState": "AgIAABsCAAAAAAAAAAAQwCgCAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T08:35:44.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\BMI\\Form1.cs",
+              "RelativeDocumentMoniker": "BMI\\Form1.cs",
+              "ToolTip": "C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\BMI\\Form1.cs [Design]",
+              "RelativeToolTip": "BMI\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T08:34:58.032Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frm_Benefisiar_hesabat.cs",
+              "DocumentMoniker": "C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\BMI\\AML\\frm_Benefisiar_hesabat.cs",
+              "RelativeDocumentMoniker": "BMI\\AML\\frm_Benefisiar_hesabat.cs",
+              "ToolTip": "C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\BMI\\AML\\frm_Benefisiar_hesabat.cs",
+              "RelativeToolTip": "BMI\\AML\\frm_Benefisiar_hesabat.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T08:10:23.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frm_ADD1.cs",
+              "DocumentMoniker": "C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\BMI\\Muhasibat\\frm_ADD1.cs",
+              "RelativeDocumentMoniker": "BMI\\Muhasibat\\frm_ADD1.cs",
+              "ToolTip": "C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\BMI\\Muhasibat\\frm_ADD1.cs",
+              "RelativeToolTip": "BMI\\Muhasibat\\frm_ADD1.cs",
+              "ViewState": "AgIAAGECAAAAAAAAAAAcwHECAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T08:09:38.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frm_ADD1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\BMI\\Muhasibat\\frm_ADD1.cs",
+              "RelativeDocumentMoniker": "BMI\\Muhasibat\\frm_ADD1.cs",
+              "ToolTip": "C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\BMI\\Muhasibat\\frm_ADD1.cs [Design]",
+              "RelativeToolTip": "BMI\\Muhasibat\\frm_ADD1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T08:08:14.88Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frm_Benefisiar_hesabat.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\BMI\\AML\\frm_Benefisiar_hesabat.cs",
+              "RelativeDocumentMoniker": "BMI\\AML\\frm_Benefisiar_hesabat.cs",
+              "ToolTip": "C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\BMI\\AML\\frm_Benefisiar_hesabat.cs [Design]",
+              "RelativeToolTip": "BMI\\AML\\frm_Benefisiar_hesabat.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T08:06:36.22Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frm_AML_huquqi_hesab_imza.cs",
+              "DocumentMoniker": "C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\BMI\\AML\\frm_AML_huquqi_hesab_imza.cs",
+              "RelativeDocumentMoniker": "BMI\\AML\\frm_AML_huquqi_hesab_imza.cs",
+              "ToolTip": "C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\BMI\\AML\\frm_AML_huquqi_hesab_imza.cs",
+              "RelativeToolTip": "BMI\\AML\\frm_AML_huquqi_hesab_imza.cs",
+              "ViewState": "AgIAAHIBAAAAAAAAAAAzwOAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T08:03:48.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frm_AML_huquqi_hesab_imza.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\BMI\\AML\\frm_AML_huquqi_hesab_imza.cs",
+              "RelativeDocumentMoniker": "BMI\\AML\\frm_AML_huquqi_hesab_imza.cs",
+              "ToolTip": "C:\\Users\\mehemmed\\Desktop\\axirinci bmi\\BMI_\\BMI\\AML\\frm_AML_huquqi_hesab_imza.cs [Design]",
+              "RelativeToolTip": "BMI\\AML\\frm_AML_huquqi_hesab_imza.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T08:03:30.804Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
