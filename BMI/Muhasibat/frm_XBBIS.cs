@@ -226,7 +226,7 @@ namespace BMI.Muhasibat
                     {
                         worksheet1.Cells[startRow + i, startColumn + 21].Value = "";
                         //AD
-                        worksheet1.Cells[startRow + i, startColumn + 27].Value = _dt_dovr2.Rows[i][14];
+                        worksheet1.Cells[startRow + i, startColumn + 27].Value = _dt_dovr_artma.Rows[i][14];
                         //AE
                         worksheet1.Cells[startRow + i, startColumn + 28].Value = 0.0;
                         //AF
@@ -236,7 +236,7 @@ namespace BMI.Muhasibat
                         //AH
                         worksheet1.Cells[startRow + i, startColumn + 31].Value = 0.0;
                         //AI
-                        worksheet1.Cells[startRow + i, startColumn + 32].Value = _dt_dovr2.Rows[i][15];
+                        worksheet1.Cells[startRow + i, startColumn + 32].Value = _dt_dovr_artma.Rows[i][15];
                         //AJ
                         worksheet1.Cells[startRow + i, startColumn + 33].Value = 0.0;
                         //AK
@@ -321,7 +321,7 @@ namespace BMI.Muhasibat
                         //AB
                         worksheet1.Cells[startRow + i, startColumn + 25].Value = 0.0;
                         //AD
-                        worksheet1.Cells[startRow + i, startColumn + 27].Value = _dt_dovr2.Rows[i][14];
+                        worksheet1.Cells[startRow + i, startColumn + 27].Value = _dt_dovr_artma.Rows[i][14];
                         //AE
                         worksheet1.Cells[startRow + i, startColumn + 28].Value = 0.0;
                         //AF
@@ -331,7 +331,7 @@ namespace BMI.Muhasibat
                         //AH
                         worksheet1.Cells[startRow + i, startColumn + 31].Value = 0.0;
                         //AI
-                        worksheet1.Cells[startRow + i, startColumn + 32].Value = _dt_dovr2.Rows[i][15];
+                        worksheet1.Cells[startRow + i, startColumn + 32].Value = _dt_dovr_artma.Rows[i][15];
                         //AJ
                         worksheet1.Cells[startRow + i, startColumn + 33].Value = 0.0;
                         //AK
@@ -536,10 +536,6 @@ namespace BMI.Muhasibat
                         sirasay = 0; // Növbəti dövr üçün sıfırlayırıq
 
                     }
-
-                   
-
-
                 }
                 #endregion
 
@@ -757,10 +753,7 @@ namespace BMI.Muhasibat
 
                  
                 }
-#endregion
-
-
-
+                #endregion
                 filePath = System.IO.Path.Combine(dosyayolu, fileName);
                 package.SaveAs(new FileInfo(filePath)); // Excel dosyasını kaydet
                 System.Diagnostics.Process.Start(filePath);

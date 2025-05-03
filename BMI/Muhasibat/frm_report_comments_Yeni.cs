@@ -28,14 +28,14 @@ namespace BMI.Muhasibat
         Aletler aletler = new Aletler();
         string qovluqyolu = Aletler.Layiheanaqovluq();
         //string connectionString = "DATA SOURCE=BMI;USER ID=FOXPRO;Password=pass";
-        string lcrcem,lcrazn,lcrval;
+        string lcrcem, lcrazn, lcrval;
         string lcrcemd, lcraznd, lcrvald, lcr4, lcr5;
 
 
         string[] A1 = { "100" };
         string[] A2 = { "110" };
         string[] A2a = { "11010000040000200000" };
-        string[] A2b = { "11010000010000200000","11020020010000200000" };
+        string[] A2b = { "11010000010000200000", "11020020010000200000" };
         string[] A3a = { "159" };
         string[] A3a_qeydno = { "000010" };
         string[] A3a_1 = { "15020" };
@@ -47,24 +47,24 @@ namespace BMI.Muhasibat
         string[] A3a_2a_yanasma = { "10" };
         //A3a_2b bos
         //A4a bos
-        string[] A4_1a = { "14030", "14032"};
+        string[] A4_1a = { "14030", "14032" };
         string[] A4_1a1 = { "14030", "14032" };
         string[] A4_1b = { "14010", "14012" };
         string[] A4_1b1 = { "14010", "14012" };
         string[] A4_1c = { };
         //A4_2a-dan A4_3c kimi bos
-        string[] A5 = { "15770","11710"};//yalniz manat
+        string[] A5 = { "15770", "11710" };//yalniz manat
         string[] A6 = { "11110", "15210", "15213", "15220", "15220", "15223", "15223", "15225", "15225" };
         string[] A6a = { "11110" };
         //A6a,A6b bos
         string[] A6c = { "15910000000001200100" };
-        string[] A7 = {"15620"};
+        string[] A7 = { "15620" };
         //A7a bos
-        string[] A8_1 = {};
-        string[] A8_2 = {};
+        string[] A8_1 = { };
+        string[] A8_2 = { };
         //A83 bos
-        string[] A8b = {"209","219" };// son iki reqemi 25=> ve ya üç reqemi 100 olanlar
-        string[] A8b_yanasma = { "11", "12","16" };
+        string[] A8b = { "209", "219" };// son iki reqemi 25=> ve ya üç reqemi 100 olanlar
+        string[] A8b_yanasma = { "11", "12", "16" };
 
         string[] setir_9_a = {
                 "15022", "15027", "15028", "15212",
@@ -94,7 +94,7 @@ namespace BMI.Muhasibat
                 "21911000000001501100", "21911000000001502100", "21912000000001400030",
                 "21912000000001400100", "21912000000001500030", "21912000000001500100",
                 "21913000000001401100", "21913000000001501100", "23910000000001501100"};
-        
+
         string[] setir_10_a = {
                 "35090", "35100", "35100", "35100", "35938", "38030", "38040", "38130", "38140",
                 "38090", "38190", "38939", "38943", "38949", "39010", "39020", "39020", "39070",
@@ -110,16 +110,16 @@ namespace BMI.Muhasibat
                 "41932", "41933","41942", "41943"};
 
         string[] setir_10_fizik = {
-                "41010", "41011", "41015", "41016", "41020",  "41021", 
+                "41010", "41011", "41015", "41016", "41020",  "41021",
                 "41025", "41026", "41930", "41931",  "41940", "41941",
                 "41942",};
 
         // string[] setir_11a = { "11010", "11020" }; siyahida yoxdur
-        string[] A9 = { "28"};
-        string[] A9_istisna = { "28110","28111","28120","28121","28130","28131" };
+        string[] A9 = { "28" };
+        string[] A9_istisna = { "28110", "28111", "28120", "28121", "28130", "28131" };
         string[] A10 = { "27012" };
         string[] A10a = { "27012" };
-        string[] A10b = { "27012","27013" };
+        string[] A10b = { "27012", "27013" };
         string[] A10b_27013 = { "27013" };
         //A11 bos
         string[] A12_qisa = {"11112","15022", "15027", "15028",
@@ -143,11 +143,11 @@ namespace BMI.Muhasibat
                 "21129", "21129", "21142", "21144", "21212", "21214", "21217", "21219", "21222", "21224",
                 "21227", "21227", "21227", "21229", "21229", "21229", "21242", "21244", "21247", "21249","21252",
                 "21254", "21257", "21259", "23124", "23302", "25069"  };
-        string[] A12b = { "159","209", "219", "239" };
-        string[] A12b_istisna = { "10","11", "12", "16" };
-        string[] A12c = {"209","219","239"};
-        string[] A12c_uzun = { "15910000000001301100","15910000000001302100","15910000000001500100","23911000000001100100" };
-        string[] A12c_yanasma = { "11", "12", "16"};
+        string[] A12b = { "159", "209", "219", "239" };
+        string[] A12b_istisna = { "10", "11", "12", "16" };
+        string[] A12c = { "209", "219", "239" };
+        string[] A12c_uzun = { "15910000000001301100", "15910000000001302100", "15910000000001500100", "23911000000001100100" };
+        string[] A12c_yanasma = { "11", "12", "16" };
         string[] B1a = {
                 "35090", "35100", "35100", "35100", "35938", "38030", "38040", "38130", "38140",
                 "38090", "38190", "38939", "38943", "38949", "39010", "39020", "39020", "39070",
@@ -166,10 +166,10 @@ namespace BMI.Muhasibat
                 "41040", "41045","41050", "41055"};
         string[] B2b = { "41110", "41112", "41115", "41117", "41120" };
         string[] B4a = { "35020", "35940" };
-        string[] B4b = { "35015", "35025",};
+        string[] B4b = { "35015", "35025", };
 
         string[] B5a = { "35226", "49025" };
-        string[] B5a_1 = {"49025" };
+        string[] B5a_1 = { "49025" };
         string[] B8 = { "35770" };
         string[] B10 = { "35026", "35770", "35772", "35227", "41122", "44010", "44510", "45010", "45011",
                 "45013", "45019", "45020", "45021", "45021", "45021", "45021", "45021", "45023",
@@ -178,7 +178,7 @@ namespace BMI.Muhasibat
                 "45102", "45103", "45105", "45110", "45150", "45159","45160", "45270", "45280" };
         string[] B10a = { "35772", "35227", "41122" };
         string[] B12 = { "50020", "50060", "50110", "50120", "50130" };
-        string[] B12_eht = {"209","219" };
+        string[] B12_eht = { "209", "219" };
         string[] B12a = { "50020" };
         string[] B13 = { "50130" };
         string[] setir_006 = { "27013000000001000006" };
@@ -217,18 +217,41 @@ namespace BMI.Muhasibat
     "14030",
     "14034",
     "15020",
-    "15025"
+    "15025",
+    "15770",
+    "11110",
+    "11710",
+    "14012",
+    "14032"
+};
+        string[] likvid_risk_1_istisna = new string[]
+{
+            "11010000010000200000",
+        "11020020010000200000",
+        "11010000040000200000"
+
 };
         string[] likvid_risk_2 = new string[]
                 {
                             "35026", "49025", "41011", "41026","40061","44510","35770","35772","411","412"
                 };
         string[] likvid_risk_4 = { "10", "11", "14" };
-        string[] likvid_risk_4_elave = { "15770", "15025","11710" };
+        string[] likvid_risk_4_elave = { "15770", "15025", "11710" };
         string[] likvid_risk_4_istisna = { "11010000040000200000", "11010000010000200000", "11020020010000200000" };
         string[] likvid_risk_5 = { "38", "39", "40", "41", "35020", "35025" };
+        string[] likvid_risk_5_41 = { "41" };
+        string[] likvid_risk_5_38_39_40 = { "38", "39", "40" };
+        string[] likvid_risk_5_35938 = { "35938" };
+        string[] likvid_risk_5_35020_35025 = { "35020", "35025", "35026", "49025" };
         string[] likvid_risk_5_bk = { "99530" };
-        
+
+        string[] ani_likvidlik_emsali_AZN = { "10010", "11010", "11110", "11710", "14010", "14012", "14030", "14032" };
+        string[] ani_likvidlik_emsali_USD = { "10020", "11020" };
+        string[] ani_likvidlik_emsali_EUR = { "10020", "11020" };
+        string[] ani_likvidlik_emsali_AZN_istisna = { "11010000010000200000", "11010000040000200000" };
+        string[] ani_likvidlik_emsali_USD_istisna = { "11020010010000200000" };
+        string[] ani_likvidlik_emsali_EUR_istisna = { "11020020010000200000" };
+
         string[] setir_001 = new string[]
     {
                 "15910000000001001001",
@@ -344,2408 +367,70 @@ namespace BMI.Muhasibat
                 "21912000000001500005",
                 "21912000000001501005"
     };
-        
+
+        public class FaizAraligi
+        {
+            public decimal Min { get; set; }
+            public decimal Max { get; set; }
+            public decimal Faiz { get; set; } // Məsələn: 0.20 = 20%
+        }
+
+        List<FaizAraligi> faizAraliqlari_AZN = new List<FaizAraligi>
+            {
+                new FaizAraligi { Min = 0, Max = 100000, Faiz = 0.20m },
+                new FaizAraligi { Min = 100001, Max = 500000, Faiz = 0.25m },
+                new FaizAraligi { Min = 500001, Max = 1000000, Faiz = 0.30m },
+                new FaizAraligi { Min = 1000001, Max = decimal.MaxValue, Faiz = 0.35m }
+            };
+        List<FaizAraligi> faizAraliqlari_USD = new List<FaizAraligi>
+            {
+                new FaizAraligi { Min = 0, Max = 100000, Faiz = 0.18m },
+                new FaizAraligi { Min = 100001, Max = 500000, Faiz = 0.23m },
+                new FaizAraligi { Min = 500001, Max = 1000000, Faiz = 0.28m },
+                new FaizAraligi { Min = 1000001, Max = decimal.MaxValue, Faiz = 0.33m }
+            };
+        List<FaizAraligi> faizAraliqlari_EUR = new List<FaizAraligi>
+            {
+                new FaizAraligi { Min = 0, Max = 100000, Faiz = 0.18m },
+                new FaizAraligi { Min = 100001, Max = 500000, Faiz = 0.23m },
+                new FaizAraligi { Min = 500001, Max = 1000000, Faiz = 0.28m },
+                new FaizAraligi { Min = 1000001, Max = decimal.MaxValue, Faiz = 0.33m }
+            };
+
+        decimal GetFaiz(List<FaizAraligi> faizList, decimal mebleg)
+        {
+            decimal pozitivMebleg = Math.Abs(mebleg); // mənfi olsa da, müsbət kimi bax
+            var araliq = faizList.FirstOrDefault(f => pozitivMebleg >= f.Min && pozitivMebleg <= f.Max);
+            return araliq?.Faiz ?? 0m;
+        }
+        decimal HesablaFaizliTotal(List<DataRow> satirlar, List<FaizAraligi> faizSiyahisi)
+        {
+            return satirlar.Sum(row =>
+            {
+                decimal mebleg = row.Field<decimal>(3);
+                decimal faiz = GetFaiz(faizSiyahisi, mebleg);
+                return (mebleg * faiz) / 1000;
+            });
+        }
+        decimal HesablaSabitFaizliTotal(List<DataRow> satirlar, decimal faiz)
+        {
+            return satirlar.Sum(row => row.Field<decimal>(3) * faiz) / 1000;
+        }
+        List<DataRow> GetFilteredRows(DataTable dt, IEnumerable<string> kodList, int kodUzunlugu, string valyuta)
+        {
+            return dt.AsEnumerable()
+                     .Where(row =>
+                         kodList.Contains(row.Field<string>(1).Substring(0, kodUzunlugu)) &&
+                         row.Field<string>(2) == valyuta)
+                     .ToList();
+        }
+
         public OracleCommand Orcom;
         public OracleDataAdapter Orda;
         public OracleDataReader Ordr;
         public System.Data.DataTable dt;
 
-        private void Excel_daily_comment_Yeni()
-        {
 
-            //duz olan
-            #region sql_kodlar
-
-            
-            string daily_report = "SELECT ar.date_oper AS tarix, ar.licsch AS hesab, " +
-               "CASE WHEN SUBSTR(ar.licsch, 0, 3) IN ('159','209','219','239','259') THEN SUBSTR(ar.licsch, 16, 2) " +
-               "ELSE SUBSTR(ar.licsch, 6, 2) END AS valyuta, " +
-               "ar.saldo_ish_nacval AS qaliq " +
-               "FROM odb.arh_saldo_ls ar, licsch ch " +
-               "WHERE ar.date_oper = TO_DATE('" + txtdtbugun.Text + "', 'dd/mm/yyyy') " +
-               "AND ch.licsch = ar.licsch " +
-               "AND (ch.date_close_licsch IS NULL OR ar.date_oper <= ch.date_close_licsch)";
-
-            string daily_report_bk = "select t.date_oper tarix,t.vbs,t.licsch,substr(t.licsch,6,2),t.ssls,t.ostatok_ish," +
-                "t.ostatok_ish*ROUND(odb.func_get_kurval(substr(t.licsch,6,2),t.date_oper),6) ekv," +
-                "ROUND(odb.func_get_kurval(substr(t.licsch,6,2),t.date_oper),6)  kurs " +
-                "from odb.arh_saldo_vbls t where t.date_oper =TO_DATE('" + txtdtbugun.Text + "', 'dd/mm/yyyy') and t.vbs in (99530,99531,99550,99300,99301) and t.ostatok_ish<>0";
-
-            string daily_report_kataloq = "select al.date_oper,al.licschkre,substr(al.licschkre,6,2), tk.code,tk.name,al.summa,al.summa_19," +
-                "(al.summa+al.summa_19)*ROUND(odb.func_get_kurval(substr(al.licschkre,6,2),al.date_oper),6) ekv," +
-                "ROUND(odb.func_get_kurval(substr(al.licschkre,6,2),al.date_oper),6) kurs " +
-                    "from arh_licschkre al,tipkre tk where al.tipkredita = tk.code and (al.date_close is null or al.date_close>TO_DATE('" + txtdtdunen.Text + "', 'dd/mm/yyyy')) " +
-                    "and al.date_oper=TO_DATE('" + txtdtbugun.Text + "', 'dd/mm/yyyy')";
-
-            string daily_report1 = "SELECT ar.date_oper AS tarix, ar.licsch AS hesab, " +
-               "CASE WHEN SUBSTR(ar.licsch, 0, 3) IN ('159','209','219','239','259') THEN SUBSTR(ar.licsch, 16, 2) " +
-               "ELSE SUBSTR(ar.licsch, 6, 2) END AS valyuta, " +
-               "ar.saldo_ish_nacval AS qaliq " +
-               "FROM odb.arh_saldo_ls ar, licsch ch " +
-               "WHERE ar.date_oper = TO_DATE('" + txtdtdunen.Text + "', 'dd/mm/yyyy') " +
-               "AND ch.licsch = ar.licsch " +
-               "AND (ch.date_close_licsch IS NULL OR ar.date_oper <= ch.date_close_licsch)";
-
-            string daily_report_bk1 = "select t.date_oper tarix,t.vbs,t.licsch,substr(t.licsch,6,2),t.ssls,t.ostatok_ish," +
-                "t.ostatok_ish*ROUND(odb.func_get_kurval(substr(t.licsch,6,2),t.date_oper),6) ekv," +
-                "ROUND(odb.func_get_kurval(substr(t.licsch,6,2),t.date_oper),6)  kurs " +
-                "from odb.arh_saldo_vbls t where t.date_oper =TO_DATE('" + txtdtdunen.Text + "', 'dd/mm/yyyy') and t.vbs in (99530,99531,99550,99300,99301) and t.ostatok_ish<>0";
-
-            string daily_report_kataloq1 = "select al.date_oper,al.licschkre,substr(al.licschkre,6,2), tk.code,tk.name,al.summa,al.summa_19," +
-                "(al.summa+al.summa_19)*ROUND(odb.func_get_kurval(substr(al.licschkre,6,2),al.date_oper),6) ekv," +
-                "ROUND(odb.func_get_kurval(substr(al.licschkre,6,2),al.date_oper),6) kurs " +
-                    "from arh_licschkre al,tipkre tk where al.tipkredita = tk.code and (al.date_close is null or al.date_close>TO_DATE('" + txtdtdunen.Text + "', 'dd/mm/yyyy')) " +
-                    "and al.date_oper=TO_DATE('" + txtdtdunen.Text + "', 'dd/mm/yyyy')";
-
-            string gun_erzinde_odenisler = "select case when d.date_oper=to_date('" + txtdtdunen.Text + "','dd/mm/yyyy') then 'dunen' else 'bugun' end tar, " +
-                "'odenisler'gun_erzinde,round(sum(d.summa_v_nacval), 2) meb, " +
-                "case when l.tipkredita = 2 then 'fiziki' " +
-                "when l.tipkredita in (1, 3) then 'sahibkar' end tip " +
-                ", substr(l.licschkre, 6, 2)val," +
-                "case when "+
-                "l.date_restructure is null then 'bos' else 'dolu' end rest " +
-                "    from arh_licschkre l, arh_dd d,odb.balschkli b " +
-                "where d.kredit in (l.licschkre, l.licsch_19) and d.date_oper between to_date('" + txtdtdunen.Text + "', 'dd-mm-yyyy') and to_date('" + txtdtbugun.Text + "','dd-mm-yyyy')   " +
-                "and l.date_oper = d.date_oper and substr(d.debet,1,5)= b.balsch and substr(d.debet,10,6)= substr(d.kredit, 10, 6) " +
-                "and d.ssk = l.subschkre group by case when d.date_oper = to_date('" + txtdtdunen.Text + "', 'dd/mm/yyyy') then 'dunen' else 'bugun' end,l.tipkredita,substr(l.licschkre, 6, 2),l.date_restructure";
-            string qaliqlar_30_90 = "SELECT case when m.date_oper=to_date('" + txtdtdunen.Text + "','dd/mm/yyyy') then 'dunen' else 'bugun' end tar, " +
-                    " case when " +
-                    " m.tipkredita = 1 then 'huquqi' " +
-                    " when m.tipkredita = 2 then 'fiziki' " +
-                    " else 'sahibkar' end tip, " +
-                    " odb.tar_ferq360(x.date_oper, nvl(x.lastoverduedate, x.date_oper)) gec_gun, " +
-                    " ((m.summa * ROUND(odb.func_get_kurval(substr(m.licschkre, 6, 2), m.date_oper), 6)) + (m.summa_19 * ROUND(odb.func_get_kurval(substr(m.licschkre, 6, 2), m.date_oper), 6)))  qal , " +
-                    " case when m.summa_19 > 0 then 'vk' end gecikme,case when m.date_restructure is not null then 'rest' end restur,substr(m.licschkre, 6, 2) val " +
-                    " from view_nacpogprokre_all x, arh_licschkre m where " +
-                    " x.date_oper = m.date_oper " +
-                    " and x.licschpkre = m.licschpkre and x.subschkre = m.subschkre " +
-                    " and m.date_oper between to_date('"+txtdtdunen.Text+ "', 'dd-mm-yyyy') and to_date('" + txtdtbugun.Text + "','dd-mm-yyyy') and m.date_close is null " +
-                    " and x.licschpkre = m.licschpkre and x.subschkre = m.subschkre " +
-                    " and m.date_close is null";
-            string qaliqlar_kr_tip = " select case when m.date_oper=to_date('"+txtdtdunen.Text+"','dd/mm/yyyy') then 'dunen' else 'bugun' end tar, " +
-                    " case when " +
-                     " (m.tipkredita = 1 or m.tipkredita = 3) and m.index_otrasli != '01902'  then 'biznes' " +
-                     " when m.tipkredita = 2 and m.index_otrasli != '01902' then 'fiziki' " +
-                     " when m.index_otrasli = '01902' then 'dasinmaz' " +
-                     " end tip, sum((m.summa * ROUND(odb.func_get_kurval(substr(m.licschkre, 6, 2), m.date_oper), 6)) + (m.summa_19 * ROUND(odb.func_get_kurval(substr(m.licschkre, 6, 2), m.date_oper), 6)))  qal,  " +
-                     " substr(m.licschkre, 6, 2) val " +
-                     " from arh_licschkre m " +
-                     " where m.date_oper between to_date('"+txtdtdunen.Text+"', 'dd-mm-yyyy') and to_date('"+txtdtbugun.Text+"','dd-mm-yyyy') and m.date_close is null " +
-                     " group by case when m.date_oper = to_date('"+txtdtdunen.Text+"', 'dd/mm/yyyy') then 'dunen' else 'bugun' end,  " +
-                     " m.tipkredita,substr(m.licschkre, 6, 2),m.index_otrasli";
-
-            string medaxiller = "select case when d.date_oper=to_date('" + txtdtdunen.Text + "','dd/mm/yyyy') then 'dunen' else 'bugun' end tar," +
-                                "CASE    " +
-                    "WHEN r.yurik = 1 then 'huquqi' " +
-                    "WHEN r.predprinimatel = 1  THEN 'sahibkar' "+
-                    "WHEN r.fizik = 1  THEN 'fiziki' "+
-                    "ELSE 'unknown' END AS tip,round(sum(d.summa_v_nacval) , 2) meb,substr(d.kredit,6,2) val,count(d.kredit) " +
-                    "      from arh_dd d, regnom r,odb.balschkli b,licsch l " +
-                  " where d.date_oper between to_date('" + txtdtdunen.Text + "', 'dd-mm-yyyy') and to_date('" + txtdtbugun.Text + "','dd-mm-yyyy') " +
-                  "and substr(d.kredit,1,5)= b.balsch and" +
-                  " d.kredit=l.licsch and l.registrac_nomer=r.regnom " +
-                  "and substr(d.debet,1,5) not in ('66220', '86220') " +
-                  " group by case when d.date_oper=to_date('" + txtdtdunen.Text + "','dd/mm/yyyy') then 'dunen' else 'bugun' end," +
-                  "CASE " +
-                  "WHEN r.yurik = 1 then 'huquqi' " +
-                    "WHEN r.predprinimatel = 1  THEN 'sahibkar' " +
-                    "WHEN r.fizik = 1  THEN 'fiziki' " +
-                  "  ELSE 'unknown' END,substr(d.kredit,6,2)";
-            string mexaricler = "select case when d.date_oper=to_date('" + txtdtdunen.Text + "','dd/mm/yyyy') then 'dunen' else 'bugun' end tar, " +
-                   "CASE " +
-                   "WHEN r.yurik = 1 then 'huquqi' " +
-                   "WHEN r.predprinimatel = 1  THEN 'sahibkar' " +
-                   "WHEN r.fizik = 1  THEN 'fiziki' " +
-                   "ELSE 'unknown' END AS tip,round(sum(d.summa_v_nacval), 2) meb,substr(d.kredit, 6, 2) val " +
-                   "from arh_dd d, regnom r,odb.balschkli b, licsch l " +
-                   "where d.date_oper between to_date('" + txtdtdunen.Text + "', 'dd-mm-yyyy') and to_date('" + txtdtbugun.Text + "','dd-mm-yyyy') and substr(d.debet,1,5)= b.balsch " +
-                   "and d.debet = l.licsch and l.registrac_nomer = r.regnom " +
-                   "and substr(d.kredit,1,5) not in ('66220', '86220') " +
-                   "group by case when d.date_oper = to_date('" + txtdtdunen.Text + "', 'dd-mm-yyyy') then 'dunen' else 'bugun' end ,  " +
-                   "CASE " +
-                   "WHEN r.yurik = 1 then 'huquqi' " +
-                   "WHEN r.predprinimatel = 1  THEN 'sahibkar' " +
-                   "WHEN r.fizik = 1  THEN 'fiziki' " +
-                   "ELSE 'unknown' END,substr(d.kredit, 6, 2)";
-            string ver_kr_lar = "select case when d.date_oper=to_date('" + txtdtdunen.Text + "','dd-mm-yyyy') then 'dunen' else 'bugun' end tar, " +
-                    "case when l.tipkredita = 2 then 'fiziki' " +
-                    "when l.tipkredita in (1, 3) then 'sahibkar' end tip " +
-                    ", sum(d.summa_v_nacval) meb,substr(d.kredit, 6, 2) val, " +
-                    "case when " +
-                    "l.date_restructure is null then 'bos' else 'dolu' end rest " +
-                    "from arh_dd d,regnom r, arh_licschkre l,odb.balschkli b " +
-                    "where d.date_oper between to_date('" + txtdtdunen.Text + "', 'dd-mm-yyyy') and to_date('" + txtdtbugun.Text + "','dd-mm-yyyy') and d.debet = l.licschkre " +
-                    "and substr(d.kredit,10,6)= substr(l.licschkre, 10, 6) " +
-                    "and l.date_oper = d.date_oper and substr(d.kredit,1,5)= b.balsch and d.ssd = l.subschkre and l.date_close is null " +
-                    "and substr(d.debet,10,6)= r.regnom " +
-                    "group by case when d.date_oper = to_date('" + txtdtdunen.Text + "', 'dd/mm/yyyy') then 'dunen' else 'bugun' end, " +
-                    "case when l.tipkredita = 2 then 'fiziki' " +
-                    "when l.tipkredita in (1, 3) then 'sahibkar' end ,substr(d.kredit, 6, 2),l.date_restructure";
-            #endregion
-            DataTable _dt_daily_report = new DataTable();
-            DataTable _dt_daily_report_bk = new DataTable();
-            DataTable _dt_daily_report_kataloq = new DataTable();
-
-            DataTable _dt_daily_report1 = new DataTable();
-            DataTable _dt_daily_report_bk1 = new DataTable();
-            DataTable _dt_daily_report_kataloq1 = new DataTable();
-
-            DataTable _dt_odenisler = new DataTable();
-            DataTable _dt_qali_gunler = new DataTable();
-            DataTable _dt_qaliq_tip = new DataTable();
-            DataTable _dt_medaxil = new DataTable();
-            DataTable _dt_mexaric = new DataTable();
-            DataTable _dt_verilmis = new DataTable();
-
-            using (OracleConnection connection = new OracleConnection(cl.con))
-            {
-                using (OracleCommand command = new OracleCommand(daily_report, connection))
-                {
-                    connection.Open();
-                    OracleDataAdapter adapter = new OracleDataAdapter(command);
-                    adapter.Fill(_dt_daily_report);
-                }
-
-                using (OracleCommand command = new OracleCommand(daily_report_bk, connection))
-                {
-                    //connection.Open();
-                    OracleDataAdapter adapter = new OracleDataAdapter(command);
-                    adapter.Fill(_dt_daily_report_bk);
-                }
-
-                using (OracleCommand command = new OracleCommand(daily_report_kataloq, connection))
-                {
-                    //connection.Open();
-                    OracleDataAdapter adapter = new OracleDataAdapter(command);
-                    adapter.Fill(_dt_daily_report_kataloq);
-                }
-
-                using (OracleCommand command = new OracleCommand(daily_report1, connection))
-                {
-                    //connection.Open();
-                    OracleDataAdapter adapter = new OracleDataAdapter(command);
-                    adapter.Fill(_dt_daily_report1);
-                }
-
-                using (OracleCommand command = new OracleCommand(daily_report_bk1, connection))
-                {
-                    //connection.Open();
-                    OracleDataAdapter adapter = new OracleDataAdapter(command);
-                    adapter.Fill(_dt_daily_report_bk1);
-                }
-
-                using (OracleCommand command = new OracleCommand(daily_report_kataloq1, connection))
-                {
-                    //connection.Open();
-                    OracleDataAdapter adapter = new OracleDataAdapter(command);
-                    adapter.Fill(_dt_daily_report_kataloq1);
-                }
-                using (OracleCommand command = new OracleCommand(gun_erzinde_odenisler, connection))
-                {
-                    //connection.Open();
-                    OracleDataAdapter adapter = new OracleDataAdapter(command);
-                    adapter.Fill(_dt_odenisler);
-                }
-
-                using (OracleCommand command = new OracleCommand(qaliqlar_30_90, connection))
-                {
-                    //connection.Open();
-                    OracleDataAdapter adapter = new OracleDataAdapter(command);
-                    adapter.Fill(_dt_qali_gunler);
-                }
-
-                using (OracleCommand command = new OracleCommand(qaliqlar_kr_tip, connection))
-                {
-                    //connection.Open();
-                    OracleDataAdapter adapter = new OracleDataAdapter(command);
-                    adapter.Fill(_dt_qaliq_tip);
-                }
-                using (OracleCommand command = new OracleCommand(medaxiller, connection))
-                {
-                    //connection.Open();
-                    OracleDataAdapter adapter = new OracleDataAdapter(command);
-                    adapter.Fill(_dt_medaxil);
-                }
-
-                using (OracleCommand command = new OracleCommand(mexaricler, connection))
-                {
-                    //connection.Open();
-                    OracleDataAdapter adapter = new OracleDataAdapter(command);
-                    adapter.Fill(_dt_mexaric);
-                }
-
-                using (OracleCommand command = new OracleCommand(ver_kr_lar, connection))
-                {
-                    //connection.Open();
-                    OracleDataAdapter adapter = new OracleDataAdapter(command);
-                    adapter.Fill(_dt_verilmis);
-                }
-                connection.Close();
-            }
-            string dosyayolu = System.IO.Path.Combine(qovluqyolu, aletler.sorgular, "Yaradilmis exceller");
-            string textBoxText = txtdtbugun.Text; // TextBox'tan alınan metni sakla
-            string yeniMetin = textBoxText.Replace("-", ""); ;
-            string baseFileName = "CUR.v02.1124d"+yeniMetin; // Temel dosya adı
-            string fileName = baseFileName + ".xlsm";
-            string templateFilePath = System.IO.Path.Combine(qovluqyolu, "Fayllar", "Muhasibat", "Exceller", "Daily_report_comments_Yeni_.xlsm");
-            string filePath = System.IO.Path.Combine(dosyayolu, fileName);
-
-            if (File.Exists(System.IO.Path.Combine(dosyayolu, fileName)))
-            {
-                int fileCounter = 1;
-                while (File.Exists(System.IO.Path.Combine(dosyayolu, $"{baseFileName} - {fileCounter}.xlsm")))
-                {
-                    fileCounter++;
-                }
-                fileName = $"{baseFileName} - {fileCounter}.xlsm";
-            }
-            //"15020",
-            FileInfo templateFile = new FileInfo(templateFilePath);
-
-            using (ExcelPackage package = new ExcelPackage(templateFile))
-            {
-                #region excel_kodlar
-
-                
-                ExcelWorksheet worksheet1 = package.Workbook.Worksheets["Daily-Report"];
-                ExcelWorksheet worksheet2 = package.Workbook.Worksheets["comments"];
-                ExcelWorksheet worksheet3 = package.Workbook.Worksheets["Daily_Credit_Deposit"];
-                //******************Setir A1
-                //******************Setir B11a
-                var total_a1 = new Dictionary<string, decimal>();
-                var types_a1 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a1)
-                {
-                    var Setir_a1 = _dt_daily_report.AsEnumerable()
-                                        .Where(row => A1.Contains(row.Field<string>(1).Substring(0, 3)) && row.Field<string>(2) == type)
-                                        .ToList();
-                    total_a1[type] = Setir_a1.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E8"].Value = total_a1["00"];
-                worksheet1.Cells["F8"].Value = total_a1["01"];
-                worksheet1.Cells["G8"].Value = total_a1["02"];
-                worksheet1.Cells["I8"].Value = total_a1["03"];
-                worksheet1.Cells["K8"].Value = total_a1["04"];
-                worksheet1.Cells["O8"].Value = total_a1["05"];
-
-                var Setir_a1_1 = _dt_daily_report1.AsEnumerable()
-                                        .Where(row => A1.Contains(row.Field<string>(1).Substring(0, 3)))
-                                        .ToList();
-                decimal total_a1_1_c = Setir_a1_1.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["c8"].Value = total_a1_1_c;
-
-                //******************Setir A2
-                var total_a2 = new Dictionary<string, decimal>();
-                var types_a2 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a2)
-                {
-                    var Setir_a2 = _dt_daily_report.AsEnumerable()
-                                        .Where(row => A2.Contains(row.Field<string>(1).Substring(0, 3)) && row.Field<string>(2) == type)
-                                        .ToList();
-                    total_a2[type] = Setir_a2.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E9"].Value = total_a2["00"];
-                worksheet1.Cells["F9"].Value = total_a2["01"];
-                worksheet1.Cells["G9"].Value = total_a2["02"];
-                worksheet1.Cells["I9"].Value = total_a2["03"];
-                worksheet1.Cells["K9"].Value = total_a2["04"];
-                worksheet1.Cells["O9"].Value = total_a2["05"];
-
-                var Setir_a2_1 = _dt_daily_report1.AsEnumerable()
-                                        .Where(row => A2.Contains(row.Field<string>(1).Substring(0, 3)))
-                                        .ToList();
-                decimal total_a2_1_c = Setir_a2_1.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["c9"].Value = total_a2_1_c;
-                //******************Setir A2a
-
-                var total_a2a = new Dictionary<string, decimal>();
-                var types_a2a = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a2a)
-                {
-                    var Setir_a2a = _dt_daily_report.AsEnumerable()
-                                        .Where(row => A2a.Contains(row.Field<string>(1)) && row.Field<string>(2) == type)
-                                        .ToList();
-                    total_a2a[type] = Setir_a2a.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E10"].Value = total_a2a["00"];
-                worksheet1.Cells["F10"].Value = total_a2a["01"];
-                worksheet1.Cells["G10"].Value = total_a2a["02"];
-                worksheet1.Cells["I10"].Value = total_a2a["03"];
-                worksheet1.Cells["K10"].Value = total_a2a["04"];
-                worksheet1.Cells["O10"].Value = total_a2a["05"];
-                var Setir_a2a_1 = _dt_daily_report1.AsEnumerable()
-                                        .Where(row => A2a.Contains(row.Field<string>(1)))
-                                        .ToList();
-                decimal total_a2_1 = Setir_a2a_1.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["c10"].Value = total_a2_1;
-
-                //******************Setir A2b
-                var total_a2b = new Dictionary<string, decimal>();
-                var types_a2b = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a2b)
-                {
-                    var Setir_a2b = _dt_daily_report.AsEnumerable()
-                                        .Where(row => A2b.Contains(row.Field<string>(1)) && row.Field<string>(2) == type)
-                                        .ToList();
-                    total_a2b[type] = Setir_a2b.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E11"].Value = total_a2b["00"];
-                worksheet1.Cells["F11"].Value = total_a2b["01"];
-                worksheet1.Cells["G11"].Value = total_a2b["02"];
-                worksheet1.Cells["I11"].Value = total_a2b["03"];
-                worksheet1.Cells["K11"].Value = total_a2b["04"];
-                worksheet1.Cells["O11"].Value = total_a2b["05"];
-                var Setir_a2b_1 = _dt_daily_report1.AsEnumerable()
-                                        .Where(row => A2b.Contains(row.Field<string>(1)) )
-                                        .ToList();
-                decimal total_a2b_1_c = Setir_a2b_1.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["c11"].Value = total_a2b_1_c;
-                //******************Setir A3a
-                var total_a3a = new Dictionary<string, decimal>();
-                var types_a3a = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a3a)
-                {
-                    var Setir_a3a = _dt_daily_report.AsEnumerable()
-                                        .Where(row => A3a.Contains(row.Field<string>(1).Substring(0, 3)) && A3a_qeydno.Contains(row.Field<string>(1).Substring(9, 6)) 
-                                        && row.Field<string>(2) == type &&
-                                        (Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 2))) >= 25
-                                        || Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 3))) == 100))
-                                        .ToList();
-                    total_a3a[type] = Setir_a3a.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                    string str = "15910000000001200100";
-
-                    // Son iki rakamı almak için:
-                    string lastTwoDigits = str.Substring(14, 2);
-                }
-                worksheet1.Cells["E13"].Value = -total_a3a["00"];
-                worksheet1.Cells["F13"].Value = -total_a3a["01"];
-                worksheet1.Cells["G13"].Value = -total_a3a["02"];
-                worksheet1.Cells["I13"].Value = -total_a3a["03"];
-                worksheet1.Cells["K13"].Value = -total_a3a["04"];
-                worksheet1.Cells["O13"].Value = -total_a3a["05"];
-                var Setir_a31_1 = _dt_daily_report1.AsEnumerable()
-                                        .Where(row => A3a.Contains(row.Field<string>(1).Substring(0, 3)) && 
-                                        A3a_qeydno.Contains(row.Field<string>(1).Substring(9, 6))&&
-                                        (Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 2))) >= 25
-                                        || Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 3))) == 100))
-                                        .ToList();
-                decimal total_3a_1_c = Setir_a31_1.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["c13"].Value = -total_3a_1_c;
-
-                //******************Setir A3a1
-                var total_a3a1 = new Dictionary<string, decimal>();
-                var types_a3a1 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a3a1)
-                {
-                    var Setir_a3a1 = _dt_daily_report.AsEnumerable()
-                                        .Where(row => A3a_1.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == type)
-                                        .ToList();
-                    total_a3a1[type] = Setir_a3a1.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E14"].Value = total_a3a1["00"];
-                worksheet1.Cells["F14"].Value = total_a3a1["01"];
-                worksheet1.Cells["G14"].Value = total_a3a1["02"];
-                worksheet1.Cells["I14"].Value = total_a3a1["03"];
-                worksheet1.Cells["K14"].Value = total_a3a1["04"];
-                worksheet1.Cells["O14"].Value = total_a3a1["05"];
-                var Setir_a3a1_1 = _dt_daily_report1.AsEnumerable()
-                                        .Where(row => A3a_1.Contains(row.Field<string>(1).Substring(0, 5)) )
-                                        .ToList();
-                decimal total_3a1_1_c = Setir_a3a1_1.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["c14"].Value = total_3a1_1_c;
-
-                //******************Setir A3a1a
-                var total_a3a1a = new Dictionary<string, decimal>();
-                var types_a3a1a = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a3a1a)
-                {//&& row.Field<string>(2) == type
-                    var Setir_a3a1a = _dt_daily_report.AsEnumerable()
-                                        .Where(row => A3a_1a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == type
-                                        && A3a_1a_yanasma.Contains(row.Field<string>(1).Substring(13, 2))
-               && (Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 2))) >= 25
-                                        || Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 3))) == 100))
-                                        .ToList();
-                    total_a3a1a[type] = Setir_a3a1a.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E15"].Value = -total_a3a1a["00"];
-                worksheet1.Cells["F15"].Value = -total_a3a1a["01"];
-                worksheet1.Cells["G15"].Value = -total_a3a1a["02"];
-                worksheet1.Cells["I15"].Value = -total_a3a1a["03"];
-                worksheet1.Cells["K15"].Value = -total_a3a1a["04"];
-                worksheet1.Cells["O15"].Value = -total_a3a1a["05"];
-                var Setir_a3a1a_1 = _dt_daily_report1.AsEnumerable()
-                                        .Where(row => A3a_1a.Contains(row.Field<string>(1).Substring(0, 5))
-                                        && A3a_1a_yanasma.Contains(row.Field<string>(1).Substring(13, 2))
-               && (Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 2))) >= 25
-                                        || Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 3))) == 100))
-                                        .ToList();
-                decimal total_3a1a_1_c = Setir_a3a1a_1.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["C15"].Value = -total_3a1a_1_c;
-                //******************Setir A3a2
-                var total_a3a2 = new Dictionary<string, decimal>();
-                var types_a3a2 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a3a2)
-                {
-                    var Setir_a3a2 = _dt_daily_report.AsEnumerable()
-                                        .Where(row => A3a_2.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == type
-                                    )
-                                        .ToList();
-                    total_a3a2[type] = Setir_a3a2.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E17"].Value = total_a3a2["00"];
-                worksheet1.Cells["F17"].Value = total_a3a2["01"];
-                worksheet1.Cells["G17"].Value = total_a3a2["02"];
-                worksheet1.Cells["I17"].Value = total_a3a2["03"];
-                worksheet1.Cells["K17"].Value = total_a3a2["04"];
-                worksheet1.Cells["O17"].Value = total_a3a2["05"];
-                var Setir_a3a2_1 = _dt_daily_report1.AsEnumerable()
-                                        .Where(row => A3a_2.Contains(row.Field<string>(1).Substring(0, 5)) 
-                                    )
-                                        .ToList();
-                decimal total_3a2_1_c = Setir_a3a2_1.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["c17"].Value = total_3a2_1_c;
-
-                //******************Setir A3a2a
-                var total_a3a2a = new Dictionary<string, decimal>();
-                var types_a3a2a = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a3a2a)
-                {
-                    var Setir_a3a2a = _dt_daily_report.AsEnumerable()
-                                        .Where(row => A3a_2a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == type
-                                        && A3a_2a_yanasma.Contains(row.Field<string>(1).Substring(13, 2)))
-                                        .ToList();
-                    total_a3a2a[type] = Setir_a3a2a.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E18"].Value = -total_a3a2a["00"];
-                worksheet1.Cells["F18"].Value = -total_a3a2a["01"];
-                worksheet1.Cells["G18"].Value = -total_a3a2a["02"];
-                worksheet1.Cells["I18"].Value = -total_a3a2a["03"];
-                worksheet1.Cells["K18"].Value = -total_a3a2a["04"];
-                worksheet1.Cells["O18"].Value = -total_a3a2a["05"];
-                var Setir_a3a2a_1 = _dt_daily_report1.AsEnumerable()
-                                         .Where(row => A3a_2a.Contains(row.Field<string>(1).Substring(0, 5)) 
-                                         && A3a_2a_yanasma.Contains(row.Field<string>(1).Substring(13, 2)))
-                                         .ToList();
-                decimal total_3a2a_1_c = Setir_a3a2a_1.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["c18"].Value = -total_3a2a_1_c;
-
-                
-                //******************Setir A4_1a
-                var total_a4_1a = new Dictionary<string, decimal>();
-                var types_a4_1a = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a4_1a)
-                {
-                    var Setir_a4_1a = _dt_daily_report.AsEnumerable()
-                                        .Where(row => A4_1a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == type)
-                                        .ToList();
-                    total_a4_1a[type] = Setir_a4_1a.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E23"].Value = total_a4_1a["00"];
-                worksheet1.Cells["F23"].Value = total_a4_1a["01"];
-                worksheet1.Cells["G23"].Value = total_a4_1a["02"];
-                worksheet1.Cells["I23"].Value = total_a4_1a["03"];
-                worksheet1.Cells["K23"].Value = total_a4_1a["04"];
-                worksheet1.Cells["O23"].Value = total_a4_1a["05"];
-                var Setir_a4_1a_1 = _dt_daily_report1.AsEnumerable()
-                                        .Where(row => A4_1a.Contains(row.Field<string>(1).Substring(0, 5)) )
-                                        .ToList();
-                decimal total_a4_1a_1 = Setir_a4_1a_1.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["c23"].Value = total_a4_1a_1;
-                //******************Setir A4_1a1
-                var total_a4_1a1 = new Dictionary<string, decimal>();
-                var types_a4_1a1 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a4_1a1)
-                {
-                    var Setir_a4_1a1 = _dt_daily_report.AsEnumerable()
-                                        .Where(row => A4_1a1.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == type)
-                                        .ToList();
-                    total_a4_1a1[type] = Setir_a4_1a1.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E24"].Value = total_a4_1a1["00"];
-                worksheet1.Cells["F24"].Value = total_a4_1a1["01"];
-                worksheet1.Cells["G24"].Value = total_a4_1a1["02"];
-                worksheet1.Cells["I24"].Value = total_a4_1a1["03"];
-                worksheet1.Cells["K24"].Value = total_a4_1a1["04"];
-                worksheet1.Cells["O24"].Value = total_a4_1a1["05"];
-
-                var Setir_a4_1a1_c = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => A4_1a1.Contains(row.Field<string>(1).Substring(0, 5)))
-                                    .ToList();
-                decimal total_a4_1a1_c = Setir_a4_1a1_c.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["C24"].Value = total_a4_1a1_c;
-
-                //******************Setir A4_1b
-                var total_a4_1b = new Dictionary<string, decimal>();
-                var types_a4_1b = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a4_1b)
-                {
-                    var Setir_a4_1b = _dt_daily_report.AsEnumerable()
-                                        .Where(row => A4_1b.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == type)
-                                        .ToList();
-                    total_a4_1b[type] = Setir_a4_1b.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E25"].Value = total_a4_1b["00"];
-                worksheet1.Cells["F25"].Value = total_a4_1b["01"];
-                worksheet1.Cells["G25"].Value = total_a4_1b["02"];
-                worksheet1.Cells["I25"].Value = total_a4_1b["03"];
-                worksheet1.Cells["K25"].Value = total_a4_1b["04"];
-                worksheet1.Cells["O25"].Value = total_a4_1b["05"];
-
-                var Setir_a4_1b_d = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => A4_1b.Contains(row.Field<string>(1).Substring(0, 5)))
-                                    .ToList();
-                decimal total_a4_1b_d = Setir_a4_1b_d.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["c25"].Value = total_a4_1b_d;
-
-                //******************Setir A4_1b
-                var total_a4_1b_1 = new Dictionary<string, decimal>();
-                var types_a4_1b_1 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a4_1b_1)
-                {
-                    var Setir_a4_1b_1 = _dt_daily_report.AsEnumerable()
-                                        .Where(row => A4_1b1.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == type)
-                                        .ToList();
-                    total_a4_1b_1[type] = Setir_a4_1b_1.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E26"].Value = total_a4_1b_1["00"];
-                worksheet1.Cells["F26"].Value = total_a4_1b_1["01"];
-                worksheet1.Cells["G26"].Value = total_a4_1b_1["02"];
-                worksheet1.Cells["I26"].Value = total_a4_1b_1["03"];
-                worksheet1.Cells["K26"].Value = total_a4_1b_1["04"];
-                worksheet1.Cells["O26"].Value = total_a4_1b_1["05"];
-
-                var Setir_a4_1b_1_d = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => A4_1b1.Contains(row.Field<string>(1).Substring(0, 5)))
-                                    .ToList();
-                decimal total_a4_1b_1_d = Setir_a4_1b_1_d.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["c26"].Value = total_a4_1b_d;
-
-                //******************Setir A5
-                var total_a5 = new Dictionary<string, decimal>();
-                var types_a5 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a5)
-                {
-                    var Setir_a5 = _dt_daily_report.AsEnumerable()
-                                        .Where(row => A5.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == type)
-                                        .ToList();
-                    total_a5[type] = Setir_a5.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E40"].Value = total_a5["00"];
-                worksheet1.Cells["F40"].Value = total_a5["01"];
-                worksheet1.Cells["G40"].Value = total_a5["02"];
-                worksheet1.Cells["I40"].Value = total_a5["03"];
-                worksheet1.Cells["K40"].Value = total_a5["04"];
-                worksheet1.Cells["O40"].Value = total_a5["05"];
-
-                var Setir_a5_c = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => A5.Contains(row.Field<string>(1).Substring(0, 5)))
-                                    .ToList();
-                decimal total_a5_c = Setir_a5_c.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["C40"].Value = total_a5_c;
-
-                //******************Setir A6
-                var total_a6 = new Dictionary<string, decimal>();
-                var types_a6 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a6)
-                {
-                    var Setir_a6 = _dt_daily_report.AsEnumerable()
-                                        .Where(row => A6.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == type)
-                                        .ToList();
-                    total_a6[type] = Setir_a6.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E41"].Value = total_a6["00"];
-                worksheet1.Cells["F41"].Value = total_a6["01"];
-                worksheet1.Cells["G41"].Value = total_a6["02"];
-                worksheet1.Cells["I41"].Value = total_a6["03"];
-                worksheet1.Cells["K41"].Value = total_a6["04"];
-                worksheet1.Cells["O41"].Value = total_a6["05"];
-
-                var Setir_a6_1 = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => A6.Contains(row.Field<string>(1).Substring(0, 5)))
-                                    .ToList();
-                decimal total_a6_1 = Setir_a6_1.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["c41"].Value = total_a6_1;
-
-                //******************Setir A6c
-                var total_a6c = new Dictionary<string, decimal>();
-                var types_a6c = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a6c)
-                {
-                    var Setir_a6c = _dt_daily_report.AsEnumerable()
-                                        .Where(row => A6c.Contains(row.Field<string>(1)) && row.Field<string>(2) == type
-                                    && (Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 2))) >= 25
-                                        || Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 3))) == 100))
-                                        .ToList();
-                    total_a6c[type] = Setir_a6c.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E44"].Value = -total_a6c["00"];
-                worksheet1.Cells["F44"].Value = -total_a6c["01"];
-                worksheet1.Cells["G44"].Value = -total_a6c["02"];
-                worksheet1.Cells["I44"].Value = -total_a6c["03"];
-                worksheet1.Cells["K44"].Value = -total_a6c["04"];
-                worksheet1.Cells["O44"].Value = -total_a6c["05"];
-
-                var Setir_a6c_c = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => A6c.Contains(row.Field<string>(1))
-                                    && (Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 2))) >= 25
-                                        || Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 3))) == 100))
-                                    .ToList();
-                decimal total_a6c_c = Setir_a6c_c.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["c44"].Value = -total_a6c_c;
-
-                //******************Setir A7
-               
-                var total_a7 = new Dictionary<string, decimal>();
-                var types_a7 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a7)
-                {
-                    var Setir_a7 = _dt_daily_report.AsEnumerable()
-                                        .Where(row => A7.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == type)
-                                        .ToList();
-                    total_a7[type] = Setir_a7.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E45"].Value = total_a7["00"];
-                worksheet1.Cells["F45"].Value = total_a7["01"];
-                worksheet1.Cells["G45"].Value = total_a7["02"];
-                worksheet1.Cells["I45"].Value = total_a7["03"];
-                worksheet1.Cells["K45"].Value = total_a7["04"];
-                worksheet1.Cells["O45"].Value = total_a7["05"];
-
-                var Setir_a7_1 = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => A7.Contains(row.Field<string>(1).Substring(0, 5)))
-                                    .ToList();
-                decimal total_a7_1 = Setir_a7_1.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["C45"].Value = total_a7_1;
-                //******************Setir A8.1
-                var total_a8_1 = new Dictionary<string, decimal>();
-                var types_a8_1 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a8_1)
-                {
-                    var Setir_a8_1 = _dt_qaliq_tip.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "bugun" && row.Field<string>(1) == "biznes" 
-                                         && row.Field<string>(3) == type))
-                                        .ToList();
-                    total_a8_1[type] = Setir_a8_1.Sum(row => row.Field<decimal>(2)) / 1000;
-                }
-                worksheet1.Cells["E48"].Value = total_a8_1["00"];
-                worksheet1.Cells["F48"].Value = total_a8_1["01"];
-                worksheet1.Cells["G48"].Value = total_a8_1["02"];
-                worksheet1.Cells["I48"].Value = total_a8_1["03"];
-                worksheet1.Cells["K48"].Value = total_a8_1["04"];
-                worksheet1.Cells["O48"].Value = total_a8_1["05"];
-
-                var Setir_a8_1_1 = _dt_qaliq_tip.AsEnumerable()
-                                    .Where(row => (row.Field<string>(0) == "dunen" && row.Field<string>(1) == "biznes"))
-                                    .ToList();
-                decimal total_a8_1_1 = Setir_a8_1_1.Sum(row => row.Field<decimal>(2)) / 1000;
-                worksheet1.Cells["C48"].Value = total_a8_1_1;
-
-                //******************Setir A8.2
-                var total_a8_2 = new Dictionary<string, decimal>();
-                var types_a8_2 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a8_2)
-                {
-                    var Setir_a8_2 = _dt_qaliq_tip.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "bugun" && row.Field<string>(1) == "fiziki"
-                                         && row.Field<string>(3) == type))
-                                        .ToList();
-                    total_a8_2[type] = Setir_a8_2.Sum(row => row.Field<decimal>(2)) / 1000;
-                }
-                worksheet1.Cells["E49"].Value = total_a8_2["00"];
-                worksheet1.Cells["F49"].Value = total_a8_2["01"];
-                worksheet1.Cells["G49"].Value = total_a8_2["02"];
-                worksheet1.Cells["I49"].Value = total_a8_2["03"];
-                worksheet1.Cells["K49"].Value = total_a8_2["04"];
-                worksheet1.Cells["O49"].Value = total_a8_2["05"];
-
-                var Setir_a8_1_2 = _dt_qaliq_tip.AsEnumerable()
-                                    .Where(row => (row.Field<string>(0) == "dunen" && row.Field<string>(1) == "fiziki"))
-                                    .ToList();
-                decimal total_a8_1_2 = Setir_a8_1_2.Sum(row => row.Field<decimal>(2)) / 1000;
-                worksheet1.Cells["C49"].Value = total_a8_1_2;
-
-
-                //******************Setir A8.3
-                var total_a8_3 = new Dictionary<string, decimal>();
-                var types_a8_3 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a8_3)
-                {
-                    var Setir_a8_3 = _dt_qaliq_tip.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "bugun" && row.Field<string>(1) == "dasinmaz"
-                                         && row.Field<string>(3) == type))
-                                        .ToList();
-                    total_a8_3[type] = Setir_a8_3.Sum(row => row.Field<decimal>(2)) / 1000;
-                }
-                worksheet1.Cells["E50"].Value = total_a8_3["00"];
-                worksheet1.Cells["F50"].Value = total_a8_3["01"];
-                worksheet1.Cells["G50"].Value = total_a8_3["02"];
-                worksheet1.Cells["I50"].Value = total_a8_3["03"];
-                worksheet1.Cells["K50"].Value = total_a8_3["04"];
-                worksheet1.Cells["O50"].Value = total_a8_3["05"];
-
-                var Setir_a8_1_3 = _dt_qaliq_tip.AsEnumerable()
-                                    .Where(row => (row.Field<string>(0) == "dunen" && row.Field<string>(1) == "dasinmaz"))
-                                    .ToList();
-                decimal total_a8_1_3 = Setir_a8_1_3.Sum(row => row.Field<decimal>(2)) / 1000;
-                worksheet1.Cells["C50"].Value = total_a8_1_3;
-
-
-                //******************Setir A8b
-                var total_a8b = new Dictionary<string, decimal>();
-                var types_a8b = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a8b)
-                {
-                    var Setir_a8b = _dt_daily_report.AsEnumerable()
-                                        .Where(row => A8b.Contains(row.Field<string>(1).Substring(0, 3)) && row.Field<string>(2) == type
-                                        && A8b_yanasma.Contains(row.Field<string>(1).Substring(13, 2))
-                                    && (Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 2))) >= 25
-                                        || Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 3))) == 100))
-                                        .ToList();
-                    
-
-                    total_a8b[type] = Setir_a8b.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                    
-                }
-                worksheet1.Cells["E51"].Value = -total_a8b["00"];
-                worksheet1.Cells["F51"].Value = -total_a8b["01"];
-                worksheet1.Cells["G51"].Value = -total_a8b["02"];
-                worksheet1.Cells["I51"].Value = -total_a8b["03"];
-                worksheet1.Cells["K51"].Value = -total_a8b["04"];
-                worksheet1.Cells["O51"].Value = -total_a8b["05"];
-
-                var Setir_a8b_c = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => A8b.Contains(row.Field<string>(1).Substring(0, 3))
-                                     && A8b_yanasma.Contains(row.Field<string>(1).Substring(13, 2))
-                                    && (Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 2))) >= 25
-                                        || Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 3))) == 100))
-                                    .ToList();
-                decimal total_a8b_c = Setir_a8b_c.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["C51"].Value = -total_a8b_c;
-
-                //******************Setir A9
-
-                var total_a9 = new Dictionary<string, decimal>();
-                var types_a9 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a9)
-                {
-                    var Setir_a9 = _dt_daily_report.AsEnumerable()
-                                        .Where(row => A9.Contains(row.Field<string>(1).Substring(0, 2)) && !A9_istisna.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == type)
-                                        .ToList();
-                    total_a9[type] = Setir_a9.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E52"].Value = total_a9["00"];
-                worksheet1.Cells["F52"].Value = total_a9["01"];
-                worksheet1.Cells["G52"].Value = total_a9["02"];
-                worksheet1.Cells["I52"].Value = total_a9["03"];
-                worksheet1.Cells["K52"].Value = total_a9["04"];
-                worksheet1.Cells["O52"].Value = total_a9["05"];
-
-                var Setir_a9_c = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => A9.Contains(row.Field<string>(1).Substring(0, 2)) && !A9_istisna.Contains(row.Field<string>(1).Substring(0, 5)))
-                                    .ToList();
-                decimal total_a9_c = Setir_a9_c.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["C52"].Value = total_a9_c;
-
-                //******************Setir A10
-                var total_a10 = new Dictionary<string, decimal>();
-                var types_a10 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a10)
-                {
-                    var Setir_a10 = _dt_daily_report.AsEnumerable()
-                                        .Where(row => A10.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == type)
-                                        .ToList();
-                    total_a10[type] = Setir_a10.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E53"].Value = total_a10["00"];
-                worksheet1.Cells["F53"].Value = total_a10["01"];
-                worksheet1.Cells["G53"].Value = total_a10["02"];
-                worksheet1.Cells["I53"].Value = total_a10["03"];
-                worksheet1.Cells["K53"].Value = total_a10["04"];
-                worksheet1.Cells["O53"].Value = total_a10["05"];
-
-                var Setir_a10_c = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => A10.Contains(row.Field<string>(1).Substring(0, 5)))
-                                    .ToList();
-                decimal total_a10_c = Setir_a10_c.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["C53"].Value = total_a10_c;
-
-
-                //******************Setir A10a
-                var total_a10a = new Dictionary<string, decimal>();
-                var types_a10a = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a10a)
-                {
-                    var Setir_a10a = _dt_daily_report.AsEnumerable()
-                                        .Where(row => A10a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == type)
-                                        .ToList();
-                    total_a10a[type] = Setir_a10a.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E54"].Value = total_a10a["00"];
-                worksheet1.Cells["F54"].Value = total_a10a["01"];
-                worksheet1.Cells["G54"].Value = total_a10a["02"];
-                worksheet1.Cells["I54"].Value = total_a10a["03"];
-                worksheet1.Cells["K54"].Value = total_a10a["04"];
-                worksheet1.Cells["O54"].Value = total_a10a["05"];
-
-                var Setir_a10a_c = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => A10a.Contains(row.Field<string>(1).Substring(0, 5)))
-                                    .ToList();
-                decimal total_a10a_c = Setir_a10a_c.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["C54"].Value = total_a10a_c;
-
-
-                //******************Setir A10b
-
-                var Setir_a10b_1 = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => A10b.Contains(row.Field<string>(1).Substring(0, 5)))
-                                    .ToList();
-                //var Setir_a10b_c_27013 = _dt_daily_report1.AsEnumerable()
-                //                    .Where(row => A10b_27013.Contains(row.Field<string>(1).Substring(0, 5)))
-                //                    .ToList();
-                decimal total_a10b_c = Setir_a10b_1.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                //var Setir_a10b_e_27012 = _dt_daily_report.AsEnumerable()
-                //                    .Where(row => A10b.Contains(row.Field<string>(1).Substring(0, 5)))
-                //                    .ToList();
-                var Setir_a10b = _dt_daily_report.AsEnumerable()
-                                    .Where(row => A10b.Contains(row.Field<string>(1).Substring(0, 5)))
-                                    .ToList();
-                decimal total_a10b_e = Setir_a10b.Sum(row => row.Field<decimal>(3))  / 1000;
-
-                worksheet1.Cells["C55"].Value = total_a10b_c;
-                worksheet1.Cells["E55"].Value = total_a10b_e;
-
-                //******************Setir A12
-
-                var Setir_a12_c_qisa = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => A12_qisa.Contains(row.Field<string>(1).Substring(0, 5)))
-                                    .ToList();
-                
-
-                var Setir_a12_c_uzun = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => A12_eht.Contains(row.Field<string>(1).Substring(0, 3)) && A12_eht_faizler.Contains(row.Field<string>(1).Substring(13, 2))
-                                    && (Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 2))) >= 25
-                                        || Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 3))) == 100))
-                                    .ToList();
-                decimal top1u = Setir_a12_c_uzun.Sum(row => row.Field<decimal>(3))/1000;
-                decimal top1q = Setir_a12_c_qisa.Sum(row => row.Field<decimal>(3))/1000;
-                decimal total_a12_c = (Setir_a12_c_qisa.Sum(row => row.Field<decimal>(3)) + Setir_a12_c_uzun.Sum(row => row.Field<decimal>(3))) / 1000; ;
-
-                
-
-
-                var Setir_a12_e_qisa = _dt_daily_report.AsEnumerable()
-                                    .Where(row => A12_qisa.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "00")
-                                    .ToList();
-                
-                var Setir_a12_e_uzun = _dt_daily_report.AsEnumerable()
-                                    .Where(row => A12_eht.Contains(row.Field<string>(1).Substring(0, 3)) && A12_eht_faizler.Contains(row.Field<string>(1).Substring(13, 2)) && row.Field<string>(2) == "00"
-                                    && (Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 2))) >= 25
-                                        || Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 3))) == 100))
-                                    .ToList();
-                decimal total_a12_e = (Setir_a12_e_qisa.Sum(row => row.Field<decimal>(3)) + Setir_a12_e_uzun.Sum(row => row.Field<decimal>(3))) / 1000;
-                
-                var Setir_a12_f_qisa = _dt_daily_report.AsEnumerable()
-                                    .Where(row => A12_qisa.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "01")
-                                    .ToList();
-                var Setir_a12_f_uzun = _dt_daily_report.AsEnumerable()
-                                    .Where(row => A12_eht.Contains(row.Field<string>(1).Substring(0, 3)) && A12_eht_faizler.Contains(row.Field<string>(1).Substring(13, 2)) && row.Field<string>(2) == "01"
-                                    && (Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 2))) >= 25
-                                        || Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 3))) == 100))
-                                    .ToList();
-                decimal total_a12_f = (Setir_a12_f_qisa.Sum(row => row.Field<decimal>(3)) + Setir_a12_f_uzun.Sum(row => row.Field<decimal>(3))) / 1000;
-
-                var Setir_a12_g_qisa = _dt_daily_report.AsEnumerable()
-                                    .Where(row => A12_qisa.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "02")
-                                    .ToList();
-                var Setir_a12_g_uzun = _dt_daily_report.AsEnumerable()
-                                    .Where(row => A12_eht.Contains(row.Field<string>(1).Substring(0, 3)) && A12_eht_faizler.Contains(row.Field<string>(1).Substring(13, 2)) && row.Field<string>(2) == "02"
-                                    && (Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 2))) >= 25
-                                        || Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 3))) == 100))
-                                    .ToList();
-                decimal total_a12_g = (Setir_a12_g_qisa.Sum(row => row.Field<decimal>(3)) + Setir_a12_g_uzun.Sum(row => row.Field<decimal>(3))) / 1000;
-
-                var Setir_a12_i_qisa = _dt_daily_report.AsEnumerable()
-                                    .Where(row => A12_qisa.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "03")
-                                    .ToList();
-                var Setir_a12_i_uzun = _dt_daily_report.AsEnumerable()
-                                    .Where(row => A12_eht.Contains(row.Field<string>(1).Substring(0, 3)) && A12_eht_faizler.Contains(row.Field<string>(1).Substring(13, 2)) && row.Field<string>(2) == "03"
-                                    && (Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 2))) >= 25
-                                        || Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 3))) == 100))
-                                    .ToList();
-                decimal total_a12_i = (Setir_a12_i_qisa.Sum(row => row.Field<decimal>(3)) + Setir_a12_i_uzun.Sum(row => row.Field<decimal>(3))) / 1000;
-
-                var Setir_a12_k_qisa = _dt_daily_report.AsEnumerable()
-                                    .Where(row => A12_qisa.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "04")
-                                    .ToList();
-                var Setir_a12_k_uzun = _dt_daily_report.AsEnumerable()
-                                    .Where(row => A12_eht.Contains(row.Field<string>(1).Substring(0, 3)) && A12_eht_faizler.Contains(row.Field<string>(1).Substring(13, 2)) && row.Field<string>(2) == "04"
-                                    && (Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 2))) >= 25
-                                        || Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 3))) == 100))
-                                    .ToList();
-                decimal total_a12_k = (Setir_a12_k_qisa.Sum(row => row.Field<decimal>(3)) + Setir_a12_k_uzun.Sum(row => row.Field<decimal>(3))) / 1000;
-
-                var Setir_a12_o_qisa = _dt_daily_report.AsEnumerable()
-                                    .Where(row => A12_qisa.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "05")
-                                    .ToList();
-                var Setir_a12_o_uzun = _dt_daily_report.AsEnumerable()
-                                    .Where(row => A12_eht.Contains(row.Field<string>(1).Substring(0, 3)) && A12_eht_faizler.Contains(row.Field<string>(1).Substring(13, 2)) && row.Field<string>(2) == "05"
-                                    && (Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 2))) >= 25
-                                        || Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 3))) == 100))
-                                    .ToList();
-                decimal total_a12_o = (Setir_a12_o_qisa.Sum(row => row.Field<decimal>(3)) + Setir_a12_o_uzun.Sum(row => row.Field<decimal>(3))) / 1000;
-
-                worksheet1.Cells["C57"].Value = total_a12_c;
-                worksheet1.Cells["E57"].Value = total_a12_e;
-                worksheet1.Cells["F57"].Value = total_a12_f;
-                worksheet1.Cells["G57"].Value = total_a12_g;
-                worksheet1.Cells["I57"].Value = total_a12_i;
-                worksheet1.Cells["K57"].Value = total_a12_k;
-                worksheet1.Cells["O57"].Value = total_a12_o;
-
-                //******************Setir A12a
-
-                var Setir_a12a_c = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => A12a.Contains(row.Field<string>(1).Substring(0, 5)))
-                                    .ToList();
-                decimal total_a12a_c = Setir_a12a_c.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_a12a_e = _dt_daily_report.AsEnumerable()
-                                    .Where(row => A12a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "00")
-                                    .ToList();
-                decimal total_a12a_e = Setir_a12a_e.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_a12a_f = _dt_daily_report.AsEnumerable()
-                                    .Where(row => A12a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "01")
-                                    .ToList();
-                decimal total_a12a_f = Setir_a12a_f.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_a12a_g = _dt_daily_report.AsEnumerable()
-                                    .Where(row => A12a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "02")
-                                    .ToList();
-                decimal total_a12a_g = Setir_a12a_g.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_a12a_i = _dt_daily_report.AsEnumerable()
-                                    .Where(row => A12a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "03")
-                                    .ToList();
-                decimal total_a12a_i = Setir_a12a_i.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_a12a_k = _dt_daily_report.AsEnumerable()
-                                    .Where(row => A12a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "04")
-                                    .ToList();
-                decimal total_a12a_k = Setir_a12a_k.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_a12a_o = _dt_daily_report.AsEnumerable()
-                                    .Where(row => A12a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "05")
-                                    .ToList();
-                decimal total_a12a_o = Setir_a12a_o.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                worksheet1.Cells["C58"].Value = total_a12a_c;
-                worksheet1.Cells["E58"].Value = total_a12a_e;
-                worksheet1.Cells["F58"].Value = total_a12a_f;
-                worksheet1.Cells["G58"].Value = total_a12a_g;
-                worksheet1.Cells["I58"].Value = total_a12a_i;
-                worksheet1.Cells["K58"].Value = total_a12a_k;
-                worksheet1.Cells["O58"].Value = total_a12a_o;
-
-                //******************Setir A12b
-                //A12b.Contains(row.Field<string>(1).Substring(0, 3)) && !A12b_istisna.Contains(row.Field<string>(1).Substring(13, 2)))
-
-                var total_a12b = new Dictionary<string, decimal>();
-                var types_a12b = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a12b)
-                {
-                    var Setir_a12b = _dt_daily_report.AsEnumerable()
-                                        .Where(row => A12b.Contains(row.Field<string>(1).Substring(0, 3)) && !A12b_istisna.Contains(row.Field<string>(1).Substring(13, 2))
-                                        && row.Field<string>(2) == type)
-                                        .ToList();
-                    total_a12b[type] = Setir_a12b.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E59"].Value = -total_a12b["00"];
-                worksheet1.Cells["F59"].Value = -total_a12b["01"];
-                worksheet1.Cells["G59"].Value = -total_a12b["02"];
-                worksheet1.Cells["I59"].Value = -total_a12b["03"];
-                worksheet1.Cells["K59"].Value = -total_a12b["04"];
-                worksheet1.Cells["O59"].Value = -total_a12b["05"];
-
-                var Setir_a12b_1 = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => A12b.Contains(row.Field<string>(1).Substring(0, 3)) && !A12b_istisna.Contains(row.Field<string>(1).Substring(13, 2)))
-                                    .ToList();
-                decimal total_a12b_1 = Setir_a12b_1.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["C59"].Value = -total_a12b_1;
-
-
-                DataTable filteredDataTable = _dt_daily_report1.Clone();
-                foreach (var row in Setir_a12_c_qisa)
-                {
-                    filteredDataTable.Rows.Add(row.ItemArray);
-                }
-
-                // DataGridView'e yeni DataTable'ı atayarak güncelle
-                dataGridView1.DataSource = filteredDataTable;
-
-                //******************Setir 12b
-                var total_a12c = new Dictionary<string, decimal>();
-                var types_a12c = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_a12c)
-                {
-                    var Setir_a12c = _dt_daily_report.AsEnumerable()
-                                        .Where(row => ((A12c.Contains(row.Field<string>(1).Substring(0, 3)) && !A12c_yanasma.Contains(row.Field<string>(1).Substring(13, 2)))|| A12c_uzun.Contains(row.Field<string>(1)))
-                                        && row.Field<string>(2) == type
-                                          &&
-                                        (Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 2))) >= 25
-                                        || Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 3))) == 100))
-                                        .ToList();
-                    total_a12c[type] = Setir_a12c.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                    
-                }
-                worksheet1.Cells["E60"].Value = -total_a12c["00"] + total_a12b["00"]; //- total_a3a["00"] - total_a6c["00"] - total_a8b["00"] - total_a12b["00"];
-                worksheet1.Cells["F60"].Value = -total_a12c["01"] + total_a12b["01"];// - total_a3a["01"] - total_a6c["01"] - total_a8b["01"] - total_a12b["01"];
-                worksheet1.Cells["G60"].Value = -total_a12c["02"] + total_a12b["02"];// - total_a3a["02"] - total_a6c["02"] - total_a8b["02"] - total_a12b["02"];
-                worksheet1.Cells["I60"].Value = -total_a12c["03"] + total_a12b["03"]; //- total_a3a["03"] - total_a6c["03"] - total_a8b["03"] - total_a12b["03"];
-                worksheet1.Cells["K60"].Value = -total_a12c["04"] + total_a12b["04"]; //- total_a3a["04"] - total_a6c["04"] - total_a8b["04"] - total_a12b["04"];
-                worksheet1.Cells["O60"].Value = -total_a12c["05"] + total_a12b["05"];// - total_a3a["05"] - total_a6c["05"] - total_a8b["05"] - total_a12b["05"];
-                var Setir_a12c_1 = _dt_daily_report1.AsEnumerable()
-                                        .Where(row => ((A12c.Contains(row.Field<string>(1).Substring(0, 3)) && !A12c_yanasma.Contains(row.Field<string>(1).Substring(13, 2))) || A12c_uzun.Contains(row.Field<string>(1)))
-                                        &&
-                                        (Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 2))) >= 25
-                                        || Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 3))) == 100))
-                                        .ToList();
-                decimal total_12c_1_c = Setir_a12c_1.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["c60"].Value = -total_12c_1_c + total_a12b_1;// - total_a12b_1; //- total_3a_1_c - total_a6c_c - total_a8b_c - total_a12b_1;
-                
-
-                //******************Setir B1a
-
-                var Setir_b1a_c = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => B1a.Contains(row.Field<string>(1).Substring(0, 5)))
-                                    .ToList();
-                decimal total_b1a_c = Setir_b1a_c.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b1a_e = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B1a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "00")
-                                    .ToList();
-                decimal total_b1a_e = Setir_b1a_e.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b1a_f = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B1a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "01")
-                                    .ToList();
-                decimal total_b1a_f = Setir_b1a_f.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b1a_g = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B1a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "02")
-                                    .ToList();
-                decimal total_b1a_g = Setir_b1a_g.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b1a_i = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B1a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "03")
-                                    .ToList();
-                decimal total_b1a_i = Setir_b1a_i.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b1a_k = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B1a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "04")
-                                    .ToList();
-                decimal total_b1a_k = Setir_b1a_k.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b1a_o = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B1a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "05")
-                                    .ToList();
-                decimal total_b1a_o = Setir_b1a_o.Sum(row => row.Field<decimal>(3)) / 1000;
-
-
-
-                worksheet1.Cells["C64"].Value = -total_b1a_c;
-                worksheet1.Cells["E64"].Value = -total_b1a_e;
-                worksheet1.Cells["F64"].Value = -total_b1a_f;
-                worksheet1.Cells["G64"].Value = -total_b1a_g;
-                worksheet1.Cells["I64"].Value = -total_b1a_i;
-                worksheet1.Cells["K64"].Value = -total_b1a_k;
-                worksheet1.Cells["O64"].Value = -total_b1a_o;
-
-                //******************Setir B1b
-
-                var Setir_b1b_c = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => B1b.Contains(row.Field<string>(1).Substring(0, 5)))
-                                    .ToList();
-                decimal total_b1b_c = Setir_b1b_c.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b1b_e = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B1b.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "00")
-                                    .ToList();
-                decimal total_b1b_e = Setir_b1b_e.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b1b_f = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B1b.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "01")
-                                    .ToList();
-                decimal total_b1b_f = Setir_b1b_f.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b1b_g = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B1b.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "02")
-                                    .ToList();
-                decimal total_b1b_g = Setir_b1b_g.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b1b_i = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B1b.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "03")
-                                    .ToList();
-                decimal total_b1b_i = Setir_b1b_i.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b1b_k = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B1b.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "04")
-                                    .ToList();
-                decimal total_b1b_k = Setir_b1b_k.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b1b_o = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B1b.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "05")
-                                    .ToList();
-                decimal total_b1b_o = Setir_b1b_o.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                worksheet1.Cells["C65"].Value = -total_b1b_c;
-                worksheet1.Cells["E65"].Value = -total_b1b_e;
-                worksheet1.Cells["F65"].Value = -total_b1b_f;
-                worksheet1.Cells["G65"].Value = -total_b1b_g;
-                worksheet1.Cells["I65"].Value = -total_b1b_i;
-                worksheet1.Cells["K65"].Value = -total_b1b_k;
-                worksheet1.Cells["O65"].Value = -total_b1b_o;
-
-                //******************Setir B1c
-
-                var Setir_b1c_c = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => B1c.Contains(row.Field<string>(1).Substring(0, 5)))
-                                    .ToList();
-                decimal total_b1c_c = Setir_b1c_c.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b1c_e = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B1c.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "00")
-                                    .ToList();
-                decimal total_b1c_e = Setir_b1c_e.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b1c_f = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B1c.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "01")
-                                    .ToList();
-                decimal total_b1c_f = Setir_b1c_f.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b1c_g = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B1c.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "02")
-                                    .ToList();
-                decimal total_b1c_g = Setir_b1c_g.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b1c_i = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B1c.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "03")
-                                    .ToList();
-                decimal total_b1c_i = Setir_b1c_i.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b1c_k = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B1c.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "04")
-                                    .ToList();
-                decimal total_b1c_k = Setir_b1c_k.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b1c_o = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B1c.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "05")
-                                    .ToList();
-                decimal total_b1c_o = Setir_b1c_o.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                worksheet1.Cells["C66"].Value = -total_b1c_c;
-                worksheet1.Cells["E66"].Value = -total_b1c_e;
-                worksheet1.Cells["F66"].Value = -total_b1c_f;
-                worksheet1.Cells["G66"].Value = -total_b1c_g;
-                worksheet1.Cells["I66"].Value = -total_b1c_i;
-                worksheet1.Cells["K66"].Value = -total_b1c_k;
-                worksheet1.Cells["O66"].Value = -total_b1c_o;
-
-                //******************Setir B2b
-
-                var Setir_b2b_c = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => B2b.Contains(row.Field<string>(1).Substring(0, 5)))
-                                    .ToList();
-                decimal total_b2b_c = Setir_b2b_c.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b2b_e = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B2b.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "00")
-                                    .ToList();
-                decimal total_b2b_e = Setir_b2b_e.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b2b_f = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B2b.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "01")
-                                    .ToList();
-                decimal total_b2b_f = Setir_b2b_f.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b2b_g = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B2b.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "02")
-                                    .ToList();
-                decimal total_b2b_g = Setir_b2b_g.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b2b_i = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B2b.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "03")
-                                    .ToList();
-                decimal total_b2b_i = Setir_b2b_i.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b2b_k = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B2b.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "04")
-                                    .ToList();
-                decimal total_b2b_k = Setir_b2b_k.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b2b_o = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B2b.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "05")
-                                    .ToList();
-                decimal total_b2b_o = Setir_b2b_o.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                worksheet1.Cells["C69"].Value = total_b2b_c;
-                worksheet1.Cells["E69"].Value = total_b2b_e;
-                worksheet1.Cells["F69"].Value = total_b2b_f;
-                worksheet1.Cells["G69"].Value = total_b2b_g;
-                worksheet1.Cells["I69"].Value = total_b2b_i;
-                worksheet1.Cells["K69"].Value = total_b2b_k;
-                worksheet1.Cells["O69"].Value = total_b2b_o;
-
-                //******************Setir B4a
-
-                var Setir_b4a_c = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => B4a.Contains(row.Field<string>(1).Substring(0, 5)))
-                                    .ToList();
-                decimal total_b4a_c = Setir_b4a_c.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b4a_e = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B4a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "00")
-                                    .ToList();
-                decimal total_b4a_e = Setir_b4a_e.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b4a_f = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B4a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "01")
-                                    .ToList();
-                decimal total_b4a_f = Setir_b4a_f.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b4a_g = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B4a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "02")
-                                    .ToList();
-                decimal total_b4a_g = Setir_b4a_g.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b4a_i = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B4a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "03")
-                                    .ToList();
-                decimal total_b4a_i = Setir_b4a_i.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b4a_k = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B4a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "04")
-                                    .ToList();
-                decimal total_b4a_k = Setir_b4a_k.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b4a_o = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B4a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "05")
-                                    .ToList();
-                decimal total_b4a_o = Setir_b4a_o.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                worksheet1.Cells["C72"].Value = -total_b4a_c;
-                worksheet1.Cells["E72"].Value = -total_b4a_e;
-                worksheet1.Cells["F72"].Value = -total_b4a_f;
-                worksheet1.Cells["G72"].Value = -total_b4a_g;
-                worksheet1.Cells["I72"].Value = -total_b4a_i;
-                worksheet1.Cells["K72"].Value = -total_b4a_k;
-                worksheet1.Cells["O72"].Value = -total_b4a_o;
-
-                //******************Setir B4b
-
-                var Setir_b4b_c = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => B4b.Contains(row.Field<string>(1).Substring(0, 5)))
-                                    .ToList();
-                decimal total_b4b_c = Setir_b4b_c.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b4b_e = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B4b.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "00")
-                                    .ToList();
-                decimal total_b4b_e = Setir_b4b_e.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b4b_f = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B4b.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "01")
-                                    .ToList();
-                decimal total_b4b_f = Setir_b4b_f.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b4b_g = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B4b.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "02")
-                                    .ToList();
-                decimal total_b4b_g = Setir_b4b_g.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b4b_i = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B4b.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "03")
-                                    .ToList();
-                decimal total_b4b_i = Setir_b4b_i.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b4b_k = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B4b.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "04")
-                                    .ToList();
-                decimal total_b4b_k = Setir_b4b_k.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b4b_o = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B4b.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "05")
-                                    .ToList();
-                decimal total_b4b_o = Setir_b4b_o.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                worksheet1.Cells["C73"].Value = -total_b4b_c;
-                worksheet1.Cells["E73"].Value = -total_b4b_e;
-                worksheet1.Cells["F73"].Value = -total_b4b_f;
-                worksheet1.Cells["G73"].Value = -total_b4b_g;
-                worksheet1.Cells["I73"].Value = -total_b4b_i;
-                worksheet1.Cells["K73"].Value = -total_b4b_k;
-                worksheet1.Cells["O73"].Value = -total_b4b_o;
-
-                //******************Setir B5a
-
-                var Setir_b5a_c = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => B5a.Contains(row.Field<string>(1).Substring(0, 5)))
-                                    .ToList();
-                decimal total_b5a_c = Setir_b5a_c.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b5a_e = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B5a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "00")
-                                    .ToList();
-                decimal total_b5a_e = Setir_b5a_e.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b5a_f = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B5a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "01")
-                                    .ToList();
-                decimal total_b5a_f = Setir_b5a_f.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b5a_g = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B5a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "02")
-                                    .ToList();
-                decimal total_b5a_g = Setir_b5a_g.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b5a_i = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B5a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "03")
-                                    .ToList();
-                decimal total_b5a_i = Setir_b5a_i.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b5a_k = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B5a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "04")
-                                    .ToList();
-                decimal total_b5a_k = Setir_b5a_k.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b5a_o = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B5a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "05")
-                                    .ToList();
-                decimal total_b5a_o = Setir_b5a_o.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                worksheet1.Cells["C75"].Value = -total_b5a_c;
-                worksheet1.Cells["E75"].Value = -total_b5a_e;
-                worksheet1.Cells["F75"].Value = -total_b5a_f;
-                worksheet1.Cells["G75"].Value = -total_b5a_g;
-                worksheet1.Cells["I75"].Value = -total_b5a_i;
-                worksheet1.Cells["K75"].Value = -total_b5a_k;
-                worksheet1.Cells["O75"].Value = -total_b5a_o;
-
-                //******************Setir B5a1
-
-                var Setir_b5a1_c = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => B5a.Contains(row.Field<string>(1).Substring(0, 5)))
-                                    .ToList();
-                decimal total_b5a1_c = Setir_b5a1_c.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b5a1_e = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B5a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "00")
-                                    .ToList();
-                decimal total_b5a1_e = Setir_b5a1_e.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b5a1_f = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B5a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "01")
-                                    .ToList();
-                decimal total_b5a1_f = Setir_b5a1_f.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b5a1_g = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B5a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "02")
-                                    .ToList();
-                decimal total_b5a1_g = Setir_b5a1_g.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b5a1_i = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B5a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "03")
-                                    .ToList();
-                decimal total_b5a1_i = Setir_b5a1_i.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b5a1_k = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B5a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "04")
-                                    .ToList();
-                decimal total_b5a1_k = Setir_b5a1_k.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b5a1_o = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B5a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "05")
-                                    .ToList();
-                decimal total_b5a1_o = Setir_b5a1_o.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                worksheet1.Cells["C76"].Value = -total_b5a1_c;
-                worksheet1.Cells["E76"].Value = -total_b5a1_e;
-                worksheet1.Cells["F76"].Value = -total_b5a1_f;
-                worksheet1.Cells["G76"].Value = -total_b5a1_g;
-                worksheet1.Cells["I76"].Value = -total_b5a1_i;
-                worksheet1.Cells["K76"].Value = -total_b5a1_k;
-                worksheet1.Cells["O76"].Value = -total_b5a1_o;
-
-                //******************Setir B8
-
-                var Setir_b8_c = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => B8.Contains(row.Field<string>(1).Substring(0, 5)))
-                                    .ToList();
-                decimal total_b8_c = Setir_b8_c.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b8_e = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B8.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "00")
-                                    .ToList();
-                decimal total_b8_e = Setir_b8_e.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b8_f = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B8.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "01")
-                                    .ToList();
-                decimal total_b8_f = Setir_b8_f.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b8_g = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B8.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "02")
-                                    .ToList();
-                decimal total_b8_g = Setir_b8_g.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b8_i = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B8.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "03")
-                                    .ToList();
-                decimal total_b8_i = Setir_b8_i.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b8_k = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B8.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "04")
-                                    .ToList();
-                decimal total_b8_k = Setir_b8_k.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b8_o = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B8.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "05")
-                                    .ToList();
-                decimal total_b8_o = Setir_b8_o.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                worksheet1.Cells["C85"].Value = total_b8_c;
-                worksheet1.Cells["E85"].Value = total_b8_e;
-                worksheet1.Cells["F85"].Value = total_b8_f;
-                worksheet1.Cells["G85"].Value = total_b8_g;
-                worksheet1.Cells["I85"].Value = total_b8_i;
-                worksheet1.Cells["K85"].Value = total_b8_k;
-                worksheet1.Cells["O85"].Value = total_b8_o;
-
-                //******************Setir B10
-
-                var Setir_b10_c = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => B10.Contains(row.Field<string>(1).Substring(0, 5)))
-                                    .ToList();
-                decimal total_b10_c = Setir_b10_c.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b10_e = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B10.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "00")
-                                    .ToList();
-                decimal total_b10_e = Setir_b10_e.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b10_f = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B10.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "01")
-                                    .ToList();
-                decimal total_b10_f = Setir_b10_f.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b10_g = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B10.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "02")
-                                    .ToList();
-                decimal total_b10_g = Setir_b10_g.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b10_i = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B10.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "03")
-                                    .ToList();
-                decimal total_b10_i = Setir_b10_i.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b10_k = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B10.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "04")
-                                    .ToList();
-                decimal total_b10_k = Setir_b10_k.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                var Setir_b10_o = _dt_daily_report.AsEnumerable()
-                                    .Where(row => B10.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "05")
-                                    .ToList();
-                decimal total_b10_o = Setir_b10_o.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                worksheet1.Cells["C88"].Value = -total_b10_c;
-                worksheet1.Cells["E88"].Value = -total_b10_e;
-                worksheet1.Cells["F88"].Value = -total_b10_f;
-                worksheet1.Cells["G88"].Value = -total_b10_g;
-                worksheet1.Cells["I88"].Value = -total_b10_i;
-                worksheet1.Cells["K88"].Value = -total_b10_k;
-                worksheet1.Cells["O88"].Value = -total_b10_o;
-
-                //******************Setir B10a
-                var total_b10a = new Dictionary<string, decimal>();
-                var types_b10a = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_b10a)
-                {
-                    var Setir_b10a = _dt_daily_report.AsEnumerable()
-                                        .Where(row => B10a.Contains(row.Field<string>(1).Substring(0, 5)) 
-                                        && row.Field<string>(2) == type)
-                                        .ToList();
-                    total_b10a[type] = Setir_b10a.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E89"].Value = total_b10a["00"];
-                worksheet1.Cells["F89"].Value = total_b10a["01"];
-                worksheet1.Cells["G89"].Value = total_b10a["02"];
-                worksheet1.Cells["I89"].Value = total_b10a["03"];
-                worksheet1.Cells["K89"].Value = total_b10a["04"];
-                worksheet1.Cells["O89"].Value = total_b10a["05"];
-
-                var Setir_b10a_1 = _dt_daily_report1.AsEnumerable()
-                                    .Where(row => B10a.Contains(row.Field<string>(1).Substring(0, 5)))
-                                    .ToList();
-                decimal total_b10a_1 = Setir_b10a_1.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["C89"].Value = total_b10a_1;
-
-                //******************Setir B12
-                var total_b12 = new Dictionary<string, decimal>();
-                var total_b12_eh = new Dictionary<string, decimal>();
-                var types_b12 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_b12)
-                {
-                    var Setir_b12 = _dt_daily_report.AsEnumerable()
-                                        .Where(row =>(B12.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "00"))
-                                        .ToList();
-                    total_b12[type] = Setir_b12.Sum(row => row.Field<decimal>(3)) / 1000;
-                    decimal cem= Setir_b12.Sum(row => row.Field<decimal>(3)) / 1000;
-                    var Setir_b12_eh = _dt_daily_report.AsEnumerable()
-                                        .Where(row => (B12.Contains(row.Field<string>(1).Substring(0, 5)) ||
-                                       (B12_eht.Contains(row.Field<string>(1).Substring(0, 3)) &&
-                                       Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 2))) < 25
-                                       && Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 3))) != 100)) && row.Field<string>(2) == type)
-                                        .ToList();
-                    total_b12_eh[type] = Setir_b12_eh.Sum(row => row.Field<decimal>(3)) / 1000;
-                    decimal cem1 = Setir_b12_eh.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-
-
-                worksheet1.Cells["E92"].Value = -total_b12_eh["00"];
-                worksheet1.Cells["F92"].Value = -total_b12_eh["01"];
-                worksheet1.Cells["G92"].Value = -total_b12_eh["02"];
-                worksheet1.Cells["I92"].Value = -total_b12_eh["03"];
-                worksheet1.Cells["K92"].Value = -total_b12_eh["04"];
-                worksheet1.Cells["O92"].Value = -total_b12_eh["05"];
-                var Setir_b12_1 = _dt_daily_report1.AsEnumerable()
-                                        .Where (row => (B12.Contains(row.Field<string>(1).Substring(0, 5)) ||
-                                        (B12_eht.Contains(row.Field<string>(1).Substring(0, 3)) &&
-                                        Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 2))) < 25
-                                        && Convert.ToInt32(row.Field<string>(1).Substring(Math.Max(0, row.Field<string>(1).Length - 3))) != 100)))
-                                        .ToList();
-                decimal total_b12_1 = Setir_b12_1.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["C92"].Value = -total_b12_1;
-
-                //******************Setir B12a
-                var total_b12a = new Dictionary<string, decimal>();
-                var types_b12a = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_b12a)
-                {
-                    var Setir_b12a = _dt_daily_report.AsEnumerable()
-                                        .Where(row => B12a.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == type)
-                                        .ToList();
-                    total_b12a[type] = Setir_b12a.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E93"].Value = -total_b12a["00"];
-                worksheet1.Cells["F93"].Value = -total_b12a["01"];
-                worksheet1.Cells["G93"].Value = -total_b12a["02"];
-                worksheet1.Cells["I93"].Value = -total_b12a["03"];
-                worksheet1.Cells["K93"].Value = -total_b12a["04"];
-                worksheet1.Cells["O93"].Value = -total_b12a["05"];
-                var Setir_b12a_1 = _dt_daily_report1.AsEnumerable()
-                                        .Where(row => B12a.Contains(row.Field<string>(1).Substring(0, 5)) )
-                                        .ToList();
-                decimal total_b12a_1 = Setir_b12a_1.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["C93"].Value = -total_b12a_1;
-                //******************Setir B12
-                var total_b13 = new Dictionary<string, decimal>();
-                var types_b13 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_b13)
-                {
-                    var Setir_b13 = _dt_daily_report.AsEnumerable()
-                                        .Where(row => B13.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == type)
-                                        .ToList();
-                    total_b13[type] = Setir_b13.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E94"].Value = -total_b13["00"];
-                worksheet1.Cells["F94"].Value = -total_b13["01"];
-                worksheet1.Cells["G94"].Value = -total_b13["02"];
-                worksheet1.Cells["I94"].Value = -total_b13["03"];
-                worksheet1.Cells["K94"].Value = -total_b13["04"];
-                worksheet1.Cells["O94"].Value = -total_b13["05"];
-                var Setir_b13_1 = _dt_daily_report1.AsEnumerable()
-                                        .Where(row => B13.Contains(row.Field<string>(1).Substring(0, 5)) )
-                                        .ToList();
-                decimal total_b13_1 = Setir_b13_1.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["C94"].Value = -total_b13_1;
-                //******************Setir BALANSARXASI ÖHDƏLİKLƏR 1
-                var total_bo1 = new Dictionary<string, decimal>();
-                var types_bo1 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_bo1)
-                {
-                    var Setir_bo1 = _dt_daily_report_bk.AsEnumerable()
-                                        .Where(row => row.Field<string>(1) == "99550" && row.Field<string>(3) == type)
-                                        .ToList();
-                    total_bo1[type] = Setir_bo1.Sum(row => row.Field<decimal>(6)) / 1000;
-                }
-                worksheet1.Cells["E99"].Value = total_bo1["00"];
-                worksheet1.Cells["F99"].Value = total_bo1["01"];
-                worksheet1.Cells["G99"].Value = total_bo1["02"];
-                worksheet1.Cells["I99"].Value = total_bo1["03"];
-                worksheet1.Cells["K99"].Value = total_bo1["04"];
-                worksheet1.Cells["O99"].Value = total_bo1["05"];
-                var Setir_1_bo1 = _dt_daily_report_bk1.AsEnumerable()
-                                    .Where(row => row.Field<string>(1) == "99550" )
-                                    .ToList();
-                decimal total_1_bo1 = Setir_1_bo1.Sum(row => row.Field<decimal>(6)) / 1000;
-                worksheet1.Cells["C99"].Value = total_1_bo1;
-                //******************Setir BALANSARXASI ÖHDƏLİKLƏR 2
-                var total_bo2 = new Dictionary<string, decimal>();
-                var types_bo2 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_bo2)
-                {
-                    var Setir_bo2 = _dt_daily_report_bk.AsEnumerable()
-                                        .Where(row => row.Field<string>(1) == "99530" && row.Field<string>(3) == type)
-                                        .ToList();
-                    total_bo2[type] = Setir_bo2.Sum(row => row.Field<decimal>(6)) / 1000;
-                }
-                worksheet1.Cells["E100"].Value = total_bo2["00"];
-                worksheet1.Cells["F100"].Value = total_bo2["01"];
-                worksheet1.Cells["G100"].Value = total_bo2["02"];
-                worksheet1.Cells["I100"].Value = total_bo2["03"];
-                worksheet1.Cells["K100"].Value = total_bo2["04"];
-                worksheet1.Cells["O100"].Value = total_bo2["05"];
-                var Setir_1_bo2 = _dt_daily_report_bk1.AsEnumerable()
-                                    .Where(row => row.Field<string>(1) == "99530")
-                                    .ToList();
-                decimal total_1_bo2 = Setir_1_bo2.Sum(row => row.Field<decimal>(6)) / 1000;
-                worksheet1.Cells["C100"].Value = total_1_bo2;
-                //******************Setir BALANSARXASI ÖHDƏLİKLƏR 3
-                var total_bo3 = new Dictionary<string, decimal>();
-                var types_bo3 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_bo3)
-                {
-                    var Setir_bo3 = _dt_daily_report_bk.AsEnumerable()
-                                        .Where(row => row.Field<string>(1) == "99531" && row.Field<string>(3) == type)
-                                        .ToList();
-                    total_bo3[type] = Setir_bo3.Sum(row => row.Field<decimal>(6)) / 1000;
-                }
-                worksheet1.Cells["E101"].Value = total_bo3["00"];
-                worksheet1.Cells["F101"].Value = total_bo3["01"];
-                worksheet1.Cells["G101"].Value = total_bo3["02"];
-                worksheet1.Cells["I101"].Value = total_bo3["03"];
-                worksheet1.Cells["K101"].Value = total_bo3["04"];
-                worksheet1.Cells["O101"].Value = total_bo3["05"];
-                var Setir_1_bo3 = _dt_daily_report_bk1.AsEnumerable()
-                                    .Where(row => row.Field<string>(1) == "99531")
-                                    .ToList();
-                decimal total_1_bo3 = Setir_1_bo3.Sum(row => row.Field<decimal>(6)) / 1000;
-                worksheet1.Cells["C101"].Value = total_1_bo3;
-
-                //******************Setir BALANSARXASI ÖHDƏLİKLƏR 7
-                var total_bo7 = new Dictionary<string, decimal>();
-                var types_bo7 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_bo7)
-                {
-                    var Setir_bo7 = _dt_daily_report_bk.AsEnumerable()
-                                        .Where(row => row.Field<string>(1) == "99531" && row.Field<string>(3) == type)
-                                        .ToList();
-                    total_bo7[type] = Setir_bo7.Sum(row => row.Field<decimal>(6)) / 1000;
-                }
-                worksheet1.Cells["E105"].Value = total_bo7["00"];
-                worksheet1.Cells["F105"].Value = total_bo7["01"];
-                worksheet1.Cells["G105"].Value = total_bo7["02"];
-                worksheet1.Cells["I105"].Value = total_bo7["03"];
-                worksheet1.Cells["K105"].Value = total_bo7["04"];
-                worksheet1.Cells["O105"].Value = total_bo7["05"];
-                var Setir_1_bo7 = _dt_daily_report_bk1.AsEnumerable()
-                                    .Where(row => row.Field<string>(1) == "99531")
-                                    .ToList();
-                decimal total_1_bo7 = Setir_1_bo7.Sum(row => row.Field<decimal>(6)) / 1000;
-                worksheet1.Cells["C105"].Value = total_1_bo7;
-
-                //******************Setir Risklər barədə məlumatlar 1a
-                var total_risk_1a = new Dictionary<string, decimal>();
-                var types_risk_1a = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_risk_1a)
-                {
-                    var Setir_risk_1a = _dt_qali_gunler.AsEnumerable()
-                                        .Where(row => row.Field<string>(0) == "bugun" && 
-                                        (row.Field<string>(1) == "huquqi" || row.Field<string>(1) == "sahibkar") 
-                                        && row.Field<string>(4) == "vk" && row.Field<string>(6) == type)
-                                        .ToList();
-                    total_risk_1a[type] = Setir_risk_1a.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E118"].Value = total_risk_1a["00"];
-                worksheet1.Cells["F118"].Value = total_risk_1a["01"];
-                worksheet1.Cells["G118"].Value = total_risk_1a["02"];
-                worksheet1.Cells["I118"].Value = total_risk_1a["03"];
-                worksheet1.Cells["K118"].Value = total_risk_1a["04"];
-                worksheet1.Cells["O118"].Value = total_risk_1a["05"];
-                var Setir_1_risk_1a = _dt_qali_gunler.AsEnumerable()
-                                    .Where(row => row.Field<string>(0) == "dunen" &&
-                                        (row.Field<string>(1) == "huquqi" || row.Field<string>(1) == "sahibkar")
-                                        && row.Field<string>(4) == "vk" )
-                                        .ToList();
-                decimal total_1_risk_1a = Setir_1_risk_1a.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                worksheet1.Cells["C118"].Value = total_1_risk_1a;
-
-                //******************Setir Risklər barədə məlumatlar 1b
-                var total_risk_1b = new Dictionary<string, decimal>();
-                var types_risk_1b = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_risk_1b)
-                {
-                    var Setir_risk_1b = _dt_qali_gunler.AsEnumerable()
-                                        .Where(row => row.Field<string>(0) == "bugun" &&
-                                        row.Field<string>(1) == "fiziki" 
-                                        && row.Field<string>(4) == "vk" && row.Field<string>(6) == type)
-                                        .ToList();
-                    total_risk_1b[type] = Setir_risk_1b.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E119"].Value = total_risk_1b["00"];
-                worksheet1.Cells["F119"].Value = total_risk_1b["01"];
-                worksheet1.Cells["G119"].Value = total_risk_1b["02"];
-                worksheet1.Cells["I119"].Value = total_risk_1b["03"];
-                worksheet1.Cells["K119"].Value = total_risk_1b["04"];
-                worksheet1.Cells["O119"].Value = total_risk_1b["05"];
-                var Setir_1_risk_1b = _dt_qali_gunler.AsEnumerable()
-                                    .Where(row => row.Field<string>(0) == "dunen" &&
-                                        row.Field<string>(1) == "fiziki"
-                                        && row.Field<string>(4) == "vk")
-                                        .ToList();
-                decimal total_1_risk_1b = Setir_1_risk_1b.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                worksheet1.Cells["C119"].Value = total_1_risk_1b;
-
-                //******************Setir Risklər barədə məlumatlar 2a
-                var total_risk_2a = new Dictionary<string, decimal>();
-                var types_risk_2a = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_risk_2a)
-                {
-                    var Setir_risk_2a = _dt_qali_gunler.AsEnumerable()
-                                        .Where(row => row.Field<string>(0) == "bugun" &&
-                                        (row.Field<string>(1) == "huquqi" || row.Field<string>(1) == "sahibkar")
-                                        && row.Field<decimal>(2) > 90 && row.Field<string>(6) == type)
-                                        .ToList();
-                    total_risk_2a[type] = Setir_risk_2a.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E122"].Value = total_risk_2a["00"];
-                worksheet1.Cells["F122"].Value = total_risk_2a["01"];
-                worksheet1.Cells["G122"].Value = total_risk_2a["02"];
-                worksheet1.Cells["I122"].Value = total_risk_2a["03"];
-                worksheet1.Cells["K122"].Value = total_risk_2a["04"];
-                worksheet1.Cells["O122"].Value = total_risk_2a["05"];
-                var Setir_1_risk_2a = _dt_qali_gunler.AsEnumerable()
-                                    .Where(row => row.Field<string>(0) == "dunen" &&
-                                        (row.Field<string>(1) == "huquqi" || row.Field<string>(1) == "sahibkar")
-                                        && row.Field<decimal>(2) > 90)
-                                        .ToList();
-                decimal total_1_risk_2a = Setir_1_risk_2a.Sum(row => row.Field<decimal>(3)) / 1000;
-
-                worksheet1.Cells["C122"].Value = total_1_risk_2a;
-
-                //******************Setir Risklər barədə məlumatlar 2b
-                var total_risk_2b = new Dictionary<string, decimal>();
-                var types_risk_2b = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_risk_2b)
-                {
-                    var Setir_risk_2b = _dt_qali_gunler.AsEnumerable()
-                                        .Where(row => row.Field<string>(0) == "bugun" &&
-                                        row.Field<string>(1) == "fiziki" 
-                                        && row.Field<decimal>(2) > 90 && row.Field<string>(6) == type)
-                                        .ToList();
-                    total_risk_2b[type] = Setir_risk_2b.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E123"].Value = total_risk_2b["00"];
-                worksheet1.Cells["F123"].Value = total_risk_2b["01"];
-                worksheet1.Cells["G123"].Value = total_risk_2b["02"];
-                worksheet1.Cells["I123"].Value = total_risk_2b["03"];
-                worksheet1.Cells["K123"].Value = total_risk_2b["04"];
-                worksheet1.Cells["O123"].Value = total_risk_2b["05"];
-                var Setir_1_risk_2b = _dt_qali_gunler.AsEnumerable()
-                                    .Where(row => row.Field<string>(0) == "dunen" &&
-                                        row.Field<string>(1) == "fiziki"
-                                        && row.Field<decimal>(2) > 90)
-                                        .ToList();
-                decimal total_1_risk_2b = Setir_1_risk_2b.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["C123"].Value = total_1_risk_2b;
-
-                //******************Setir Risklər barədə məlumatlar 3a
-                var total_risk_3a = new Dictionary<string, decimal>();
-                var types_risk_3a = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_risk_3a)
-                {
-                    var Setir_risk_3a = _dt_qali_gunler.AsEnumerable()
-                                        .Where(row => row.Field<string>(0) == "bugun" &&
-                                        (row.Field<string>(1) == "huquqi" || row.Field<string>(1) == "sahibkar")
-                                        && row.Field<string>(5) == "rest"
-                                        && row.Field<decimal>(2) > 90 && row.Field<string>(6) == type)
-                                        .ToList();
-                    total_risk_3a[type] = Setir_risk_3a.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E126"].Value = total_risk_3a["00"];
-                worksheet1.Cells["F126"].Value = total_risk_3a["01"];
-                worksheet1.Cells["F126"].Value = total_risk_3a["02"];
-                worksheet1.Cells["G126"].Value = total_risk_3a["03"];
-                worksheet1.Cells["K126"].Value = total_risk_3a["04"];
-                worksheet1.Cells["O126"].Value = total_risk_3a["05"];
-                var Setir_1_risk_3a = _dt_qali_gunler.AsEnumerable()
-                                    .Where(row => row.Field<string>(0) == "dunen" &&
-                                        (row.Field<string>(1) == "huquqi" || row.Field<string>(1) == "sahibkar")
-                                        && row.Field<string>(5) == "rest"
-                                        && row.Field<decimal>(2) > 90)
-                                        .ToList();
-                decimal total_1_risk_3a = Setir_1_risk_3a.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["C126"].Value = total_1_risk_3a;
-
-                //******************Setir Risklər barədə məlumatlar 3b
-                var total_risk_3b = new Dictionary<string, decimal>();
-                var types_risk_3b = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_risk_3b)
-                {
-                    var Setir_risk_3b = _dt_qali_gunler.AsEnumerable()
-                                        .Where(row => row.Field<string>(0) == "bugun" &&
-                                        row.Field<string>(1) == "fiziki"
-                                        && row.Field<string>(5) == "rest"
-                                        && row.Field<decimal>(2) > 90 && row.Field<string>(6) == type)
-                                        .ToList();
-                    total_risk_3b[type] = Setir_risk_3b.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E127"].Value = total_risk_3b["00"];
-                worksheet1.Cells["F127"].Value = total_risk_3b["01"];
-                worksheet1.Cells["G127"].Value = total_risk_3b["02"];
-                worksheet1.Cells["I127"].Value = total_risk_3b["03"];
-                worksheet1.Cells["K127"].Value = total_risk_3b["04"];
-                worksheet1.Cells["O127"].Value = total_risk_3b["05"];
-                var Setir_1_risk_3b = _dt_qali_gunler.AsEnumerable()
-                                    .Where(row => row.Field<string>(0) == "dunen" &&
-                                        row.Field<string>(1) == "fiziki"
-                                        && row.Field<string>(5) == "rest"
-                                        && row.Field<decimal>(2) > 90)
-                                        .ToList();
-                decimal total_1_risk_3b = Setir_1_risk_3b.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["C127"].Value = total_1_risk_3b;
-
-                //******************Setir BALANSARXASI ÖHDƏLİKLƏR 4
-                var total_bo4 = new Dictionary<string, decimal>();
-                var types_bo4 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_bo4)
-                {
-                    var Setir_bo4 = _dt_daily_report_bk.AsEnumerable()
-                                        .Where(row => row.Field<string>(1) == "99300" && row.Field<string>(3) == type)
-                                        .ToList();
-                    total_bo4[type] = Setir_bo4.Sum(row => row.Field<decimal>(6)) / 1000;
-                }
-                worksheet1.Cells["E129"].Value = total_bo4["00"];
-                worksheet1.Cells["F129"].Value = total_bo4["01"];
-                worksheet1.Cells["G129"].Value = total_bo4["02"];
-                worksheet1.Cells["I129"].Value = total_bo4["03"];
-                worksheet1.Cells["K129"].Value = total_bo4["04"];
-                worksheet1.Cells["O129"].Value = total_bo4["05"];
-
-                var Setir_1_bo4 = _dt_daily_report_bk1.AsEnumerable()
-                                    .Where(row => row.Field<string>(1) == "99300")
-                                    .ToList();
-                decimal total_1_bo4 = Setir_1_bo4.Sum(row => row.Field<decimal>(6)) / 1000;
-                worksheet1.Cells["C129"].Value = total_1_bo4;
-
-
-                //******************Setir Likvildik riskləri  1
-                var total_lr1 = new Dictionary<string, decimal>();
-                var types_lr1 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_lr1)
-                {
-                    var Setir_lr1 = _dt_daily_report.AsEnumerable()
-                                        .Where(row => likvid_risk_1.Contains(row.Field<string>(1).Substring(0, 5))
-                              && row.Field<string>(2) == type)
-                                        .ToList();
-                    //total_lr1[type] = Setir_lr1.Sum(row => row.Field<decimal>(3)) / 1000;
-                    total_lr1[type] = Setir_lr1.Sum(row =>
-                    {
-                        string substringValue = row.Field<string>(1).Substring(0, 5);
-
-                        // Eğer substringValue "15020" veya "15025" ise, meblağı %25 azalt
-                        decimal discountFactor = (substringValue == "15020" || substringValue == "15025") ? 0.75m : 1.0m;
-
-                        return row.Field<decimal>(3) * discountFactor / 1000;
-                    });
-                }
-                worksheet1.Cells["E134"].Value = total_lr1["00"];
-                worksheet1.Cells["F134"].Value = total_lr1["01"];
-                worksheet1.Cells["G134"].Value = total_lr1["02"];
-                worksheet1.Cells["I134"].Value = total_lr1["03"];
-                worksheet1.Cells["K134"].Value = total_lr1["04"];
-                worksheet1.Cells["O134"].Value = total_lr1["05"];
-
-                var sh_67_00 = _dt_daily_report1.AsEnumerable()
-                .Where(row => likvid_risk_1.Contains(row.Field<string>(1).Substring(0, 5)))
-                    .ToList();
-
-                decimal total_67_d0 = sh_67_00.Sum(row =>
-                {
-                    string substringValue = row.Field<string>(1).Substring(0, 5);
-
-                    // Eğer substringValue "15020" veya "15025" ise, meblağı %25 azalt
-                    decimal discountFactor = (substringValue == "15020" || substringValue == "15025") ? 0.75m : 1.0m;
-
-                    return row.Field<decimal>(3) * discountFactor / 1000;
-                });
-                worksheet1.Cells["C134"].Value = total_67_d0;
-
-                var total_lr2 = new Dictionary<string, decimal>();
-                var types_lr2 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_lr2)
-                {
-                    var Setir_lr2 = _dt_daily_report.AsEnumerable()
-                                        .Where(row =>
-                    (row.Field<string>(1).Substring(0, 1) == "3" || row.Field<string>(1).Substring(0, 1) == "4")
-                    && row.Field<string>(2).Substring(0, 2) == type
-                    && (!likvid_risk_2.Contains(row.Field<string>(1).Substring(0, 5))) && !likvid_risk_2.Contains(row.Field<string>(1).Substring(0, 3))
-                )
-                .ToList();
-                    total_bo4[type] = Setir_lr2.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E135"].Value = -total_bo4["00"];
-                worksheet1.Cells["F135"].Value = -total_bo4["01"];
-                worksheet1.Cells["G135"].Value = -total_bo4["02"];
-                worksheet1.Cells["I135"].Value = -total_bo4["03"];
-                worksheet1.Cells["K135"].Value = -total_bo4["04"];
-                worksheet1.Cells["O135"].Value = -total_bo4["05"];
-
-                var Setir_lr2_1 = _dt_daily_report1.AsEnumerable()
-                                        .Where(row =>
-                    (row.Field<string>(1).Substring(0, 1) == "3" || row.Field<string>(1).Substring(0, 1) == "4")
-                    
-                    && (!likvid_risk_2.Contains(row.Field<string>(1).Substring(0, 5))) && !likvid_risk_2.Contains(row.Field<string>(1).Substring(0, 3))
-                )
-                .ToList();
-                decimal total_lr2_1 = Setir_lr2_1.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["C135"].Value = -total_lr2_1;
-
-                
-
-                var total_lr4 = new Dictionary<string, decimal>();
-                var types_lr4 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_lr4)
-                {
-                    var Setir_lr4 = _dt_daily_report.AsEnumerable()
-                                        .Where(row =>
-                    likvid_risk_4.Contains(row.Field<string>(1).Substring(0, 2)) && !likvid_risk_4_istisna.Contains(row.Field<string>(1))
-                    && row.Field<string>(2).Substring(0, 2) == type)
-                .ToList();
-                    total_lr4[type] = Setir_lr4.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E137"].Value = total_lr4["00"];
-                worksheet1.Cells["F137"].Value = total_lr4["01"];
-                worksheet1.Cells["G137"].Value = total_lr4["02"];
-                worksheet1.Cells["I137"].Value = total_lr4["03"];
-                worksheet1.Cells["K137"].Value = total_lr4["04"];
-                worksheet1.Cells["O137"].Value = total_lr4["05"];
-
-                var Setir_lr2_4 = _dt_daily_report1.AsEnumerable()
-                                        .Where(row =>
-                    likvid_risk_4.Contains(row.Field<string>(1).Substring(0, 2)) && !likvid_risk_4_istisna.Contains(row.Field<string>(1)))
-                .ToList();
-                decimal total_lr2_4 = Setir_lr2_4.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["C137"].Value = total_lr2_4;
-
-                var total_lr5 = new Dictionary<string, decimal>();
-                var types_lr5 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_lr5)
-                {
-                    var Setir_lr5 = _dt_daily_report.AsEnumerable()
-                                        .Where(row =>
-                    (likvid_risk_5.Contains(row.Field<string>(1).Substring(0, 2)) || likvid_risk_5.Contains(row.Field<string>(1).Substring(0, 5)))
-                    && row.Field<string>(2).Substring(0, 2) == type)
-                .ToList();
-                    total_lr5[type] = Setir_lr5.Sum(row => row.Field<decimal>(3)) / 1000;
-                }
-                worksheet1.Cells["E138"].Value = -(total_lr5["00"]+ total_bo2["00"]);
-                worksheet1.Cells["F138"].Value = -(total_lr5["01"]+ total_bo2["01"]);
-                worksheet1.Cells["G138"].Value = -(total_lr5["02"]+ total_bo2["02"]);
-                worksheet1.Cells["I138"].Value = -(total_lr5["03"]+ total_bo2["03"]);
-                worksheet1.Cells["K138"].Value = -(total_lr5["04"]+ total_bo2["04"]);
-                worksheet1.Cells["O138"].Value = -(total_lr5["05"]+ total_bo2["05"]);
-
-                var Setir_lr2_5 = _dt_daily_report1.AsEnumerable()
-                                        .Where(row =>
-                    (likvid_risk_5.Contains(row.Field<string>(1).Substring(0, 2)) || likvid_risk_5.Contains(row.Field<string>(1).Substring(0, 5))))
-                .ToList();
-                decimal total_lr2_5 = Setir_lr2_5.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["C138"].Value = -(total_lr2_5+ total_1_bo2);
-                decimal t1 = total_lr2_5;
-                decimal t2 = total_1_bo2;
-                //Setir 136
-                if (total_lr2_5 != 0)
-                {
-                    worksheet1.Cells["C136"].Value = -total_lr2_4 / total_lr2_5;
-                }
-                else
-                {
-                    worksheet1.Cells["C136"].Value = 0; // veya başka bir değer
-                }
-
-                if (total_lr5["00"] != 0)
-                {
-                    worksheet1.Cells["E136"].Value = -total_lr4["00"] / total_lr5["00"];
-                }
-                else
-                {
-                    worksheet1.Cells["E136"].Value = 0; // veya başka bir değer
-                }
-                if (total_lr5["01"] != 0)
-                {
-                    worksheet1.Cells["F136"].Value = -total_lr4["01"] / total_lr5["01"];
-                }
-                else
-                {
-                    worksheet1.Cells["F136"].Value = 0; // veya başka bir değer
-                }
-                if (total_lr5["02"] != 0)
-                {
-                    worksheet1.Cells["G136"].Value = -total_lr4["02"] / total_lr5["02"];
-                }
-                else
-                {
-                    worksheet1.Cells["G136"].Value = 0; // veya başka bir değer
-                }
-                if (total_lr5["03"] != 0)
-                {
-                    worksheet1.Cells["I136"].Value = -total_lr4["03"] / total_lr5["03"];
-                }
-                else
-                {
-                    worksheet1.Cells["I136"].Value = 0; // veya başka bir değer
-                }
-                if (total_lr5["04"] != 0)
-                {
-                    worksheet1.Cells["K136"].Value = -total_lr4["04"] / total_lr5["04"];
-                }
-                else
-                {
-                    worksheet1.Cells["K136"].Value = 0; // veya başka bir değer
-                }
-                if (total_lr5["05"] != 0)
-                {
-                    worksheet1.Cells["O136"].Value = -total_lr4["05"] / total_lr5["05"];
-                }
-                else
-                {
-                    worksheet1.Cells["O136"].Value = 0; // veya başka bir değer
-                }
-
-                //IV Hissə – Balans maddələri üzrə dəyişikliklərə dair əlavə məlumatlar*******************
-
-                var total_IV_hisse_1 = new Dictionary<string, decimal>();
-                var types_IV_hisse_1 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_IV_hisse_1)
-                {
-                    var Setir_IV_hisse_1 = _dt_medaxil.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "bugun" && row.Field<string>(1) == "fiziki")
-                    && row.Field<string>(3).Substring(0, 2) == type)
-                .ToList();
-                    
-                    total_IV_hisse_1[type] = Setir_IV_hisse_1.Sum(row => row.Field<decimal>(2)) / 1000;                  
-                }
-                worksheet1.Cells["E144"].Value = total_IV_hisse_1["00"];
-                worksheet1.Cells["F144"].Value = total_IV_hisse_1["01"];
-                worksheet1.Cells["G144"].Value = total_IV_hisse_1["02"];
-                worksheet1.Cells["I144"].Value = total_IV_hisse_1["03"];
-                worksheet1.Cells["K144"].Value = total_IV_hisse_1["04"];
-                worksheet1.Cells["O144"].Value = total_IV_hisse_1["05"];
-
-                var Setir_IV_hisse_1_1 = _dt_medaxil.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "dunen" && row.Field<string>(1) == "fiziki")
-                    )
-                .ToList();
-                decimal total_IV_hisse_1_1 = Setir_IV_hisse_1_1.Sum(row => row.Field<decimal>(2)) / 1000;
-                worksheet1.Cells["c144"].Value = total_IV_hisse_1_1;
-
-                var total_IV_hisse_3 = new Dictionary<string, decimal>();
-                var types_IV_hisse_3 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_lr2)
-                {
-                    var Setir_IV_hisse_3 = _dt_mexaric.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "bugun" && row.Field<string>(1) == "fiziki")
-                    && row.Field<string>(3).Substring(0, 2) == type)
-                .ToList();
-                    total_IV_hisse_3[type] = Setir_IV_hisse_3.Sum(row => row.Field<decimal>(2)) / 1000;
-                }
-                worksheet1.Cells["E146"].Value = total_IV_hisse_3["00"];
-                worksheet1.Cells["F146"].Value = total_IV_hisse_3["01"];
-                worksheet1.Cells["G146"].Value = total_IV_hisse_3["02"];
-                worksheet1.Cells["I146"].Value = total_IV_hisse_3["03"];
-                worksheet1.Cells["K146"].Value = total_IV_hisse_3["04"];
-                worksheet1.Cells["O146"].Value = total_IV_hisse_3["05"];
-
-                var Setir_IV_hisse_1_3 = _dt_mexaric.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "dunen" && row.Field<string>(1) == "fiziki")
-                    )
-                .ToList();
-                decimal total_IV_hisse_1_3 = Setir_IV_hisse_1_3.Sum(row => row.Field<decimal>(2)) / 1000;
-                worksheet1.Cells["c146"].Value = total_IV_hisse_1_3;
-
-                var total_IV_hisse_5 = new Dictionary<string, decimal>();
-                decimal sayH = 0;
-                var types_IV_hisse_5 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_IV_hisse_5)
-                {
-                    var Setir_IV_hisse_5 = _dt_medaxil.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "bugun" && row.Field<string>(1) == "huquqi")
-                    && row.Field<string>(3).Substring(0, 2) == type)
-                .ToList();
-                    total_IV_hisse_5[type] = Setir_IV_hisse_5.Sum(row => row.Field<decimal>(2)) / 1000;
-                    sayH = Setir_IV_hisse_5.Sum(row => row.Field<decimal>(4));
-                }
-                worksheet1.Cells["E148"].Value = total_IV_hisse_5["00"];
-                worksheet1.Cells["F148"].Value = total_IV_hisse_5["01"];
-                worksheet1.Cells["G148"].Value = total_IV_hisse_5["02"];
-                worksheet1.Cells["I148"].Value = total_IV_hisse_5["03"];
-                worksheet1.Cells["K148"].Value = total_IV_hisse_5["04"];
-                worksheet1.Cells["O148"].Value = total_IV_hisse_5["05"];
-
-                worksheet3.Cells["C29"].Value = total_IV_hisse_5;
-                worksheet3.Cells["C29"].Value = total_IV_hisse_5;
-                worksheet3.Cells["D30"].Value = sayH;
-                worksheet3.Cells["D30"].Value = sayH;
-
-                var Setir_IV_hisse_1_5 = _dt_medaxil.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "dunen" && row.Field<string>(1) == "huquqi")
-                    )
-                .ToList();
-                decimal total_IV_hisse_1_5 = Setir_IV_hisse_1_5.Sum(row => row.Field<decimal>(2)) / 1000;
-                worksheet1.Cells["C148"].Value = total_IV_hisse_1_5;
-
-                var total_IV_hisse_7 = new Dictionary<string, decimal>();
-                var types_IV_hisse_7 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_IV_hisse_7)
-                {
-                    var Setir_IV_hisse_7 = _dt_mexaric.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "bugun" && row.Field<string>(1) == "huquqi")
-                    && row.Field<string>(3).Substring(0, 2) == type)
-                .ToList();
-                    total_IV_hisse_7[type] = Setir_IV_hisse_7.Sum(row => row.Field<decimal>(2)) / 1000;
-                }
-                worksheet1.Cells["E150"].Value = total_IV_hisse_7["00"];
-                worksheet1.Cells["F150"].Value = total_IV_hisse_7["01"];
-                worksheet1.Cells["G150"].Value = total_IV_hisse_7["02"];
-                worksheet1.Cells["I150"].Value = total_IV_hisse_7["03"];
-                worksheet1.Cells["K150"].Value = total_IV_hisse_7["04"];
-                worksheet1.Cells["O150"].Value = total_IV_hisse_7["05"];
-
-                var Setir_IV_hisse_1_7 = _dt_mexaric.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "dunen" && row.Field<string>(1) == "huquqi")
-                    )
-                .ToList();
-                decimal total_IV_hisse_1_7 = Setir_IV_hisse_1_7.Sum(row => row.Field<decimal>(2)) / 1000;
-                worksheet1.Cells["C150"].Value = total_IV_hisse_1_7;
-
-                var total_IV_hisse_9 = new Dictionary<string, decimal>();
-                decimal sayS = 0;
-                var types_IV_hisse_9 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_IV_hisse_9)
-                {
-                    var Setir_IV_hisse_9 = _dt_medaxil.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "bugun" && row.Field<string>(1) == "sahibkar")
-                    && row.Field<string>(3).Substring(0, 2) == type)
-                .ToList();
-                    total_IV_hisse_9[type] = Setir_IV_hisse_9.Sum(row => row.Field<decimal>(2)) / 1000;
-                    sayS = Setir_IV_hisse_9.Sum(row => row.Field<decimal>(4));
-                }
-                worksheet1.Cells["E152"].Value = total_IV_hisse_9["00"];
-                worksheet1.Cells["F152"].Value = total_IV_hisse_9["01"];
-                worksheet1.Cells["G152"].Value = total_IV_hisse_9["02"];
-                worksheet1.Cells["I152"].Value = total_IV_hisse_9["03"];
-                worksheet1.Cells["K152"].Value = total_IV_hisse_9["04"];
-                worksheet1.Cells["O152"].Value = total_IV_hisse_9["05"];
-
-                worksheet3.Cells["C34"].Value = total_IV_hisse_9;
-                worksheet3.Cells["C34"].Value = total_IV_hisse_9;
-                worksheet3.Cells["D35"].Value = sayS;
-                worksheet3.Cells["D35"].Value = sayS;
-
-                var Setir_IV_hisse_1_9 = _dt_medaxil.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "dunen" && row.Field<string>(1) == "sahibkar")
-                    )
-                .ToList();
-                decimal total_IV_hisse_1_9 = Setir_IV_hisse_1_9.Sum(row => row.Field<decimal>(2)) / 1000;
-                worksheet1.Cells["C152"].Value = total_IV_hisse_1_9;
-
-                var total_IV_hisse_10 = new Dictionary<string, decimal>();
-                var types_IV_hisse_10 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_IV_hisse_9)
-                {
-                    var Setir_IV_hisse_10 = _dt_mexaric.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "bugun" && row.Field<string>(1) == "sahibkar")
-                    && row.Field<string>(3).Substring(0, 2) == type)
-                .ToList();
-                    total_IV_hisse_10[type] = Setir_IV_hisse_10.Sum(row => row.Field<decimal>(2)) / 1000;
-                }
-                worksheet1.Cells["E153"].Value = total_IV_hisse_10["00"];
-                worksheet1.Cells["F153"].Value = total_IV_hisse_10["01"];
-                worksheet1.Cells["G153"].Value = total_IV_hisse_10["02"];
-                worksheet1.Cells["I153"].Value = total_IV_hisse_10["03"];
-                worksheet1.Cells["K153"].Value = total_IV_hisse_10["04"];
-                worksheet1.Cells["O153"].Value = total_IV_hisse_10["05"];
-
-                var Setir_IV_hisse_1_10 = _dt_mexaric.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "dunen" && row.Field<string>(1) == "sahibkar")
-                    )
-                .ToList();
-                decimal total_IV_hisse_1_10 = Setir_IV_hisse_1_10.Sum(row => row.Field<decimal>(2)) / 1000;
-                worksheet1.Cells["C153"].Value = total_IV_hisse_1_10;
-
-
-                var total_IV_hisse_11a = new Dictionary<string, decimal>();
-                var types_IV_hisse_11a = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_IV_hisse_11a)
-                {
-                    var Setir_IV_hisse_11a = _dt_verilmis.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "bugun" && row.Field<string>(1) == "sahibkar")
-                    && row.Field<string>(3).Substring(0, 2) == type && row.Field<string>(3)== "bos")
-                .ToList();
-                    total_IV_hisse_11a[type] = Setir_IV_hisse_11a.Sum(row => row.Field<decimal>(2)) / 1000;
-                }
-                worksheet1.Cells["E155"].Value = total_IV_hisse_11a["00"];
-                worksheet1.Cells["F155"].Value = total_IV_hisse_11a["01"];
-                worksheet1.Cells["G155"].Value = total_IV_hisse_11a["02"];
-                worksheet1.Cells["I155"].Value = total_IV_hisse_11a["03"];
-                worksheet1.Cells["K155"].Value = total_IV_hisse_11a["04"];
-                worksheet1.Cells["O155"].Value = total_IV_hisse_11a["05"];
-
-                var Setir_IV_hisse_1_11a = _dt_verilmis.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "dunen" && row.Field<string>(1) == "sahibkar" && row.Field<string>(3) == "bos")
-                    )
-                .ToList();
-                decimal total_IV_hisse_1_11a = Setir_IV_hisse_1_11a.Sum(row => row.Field<decimal>(2)) / 1000;
-                worksheet1.Cells["C155"].Value = total_IV_hisse_1_11a;
-
-
-                var total_IV_hisse_11b = new Dictionary<string, decimal>();
-                var types_IV_hisse_11b = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_IV_hisse_11b)
-                {
-                    var Setir_IV_hisse_11b = _dt_verilmis.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "bugun" && row.Field<string>(1) == "fiziki")
-                    && row.Field<string>(3).Substring(0, 2) == type && row.Field<string>(3) == "bos")
-                .ToList();
-                    total_IV_hisse_11b[type] = Setir_IV_hisse_11b.Sum(row => row.Field<decimal>(2)) / 1000;
-                }
-                worksheet1.Cells["E156"].Value = total_IV_hisse_11b["00"];
-                worksheet1.Cells["F156"].Value = total_IV_hisse_11b["01"];
-                worksheet1.Cells["G156"].Value = total_IV_hisse_11b["02"];
-                worksheet1.Cells["I156"].Value = total_IV_hisse_11b["03"];
-                worksheet1.Cells["K156"].Value = total_IV_hisse_11b["04"];
-                worksheet1.Cells["O156"].Value = total_IV_hisse_11b["05"];
-
-                var Setir_IV_hisse_1_11b = _dt_verilmis.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "dunen" && row.Field<string>(1) == "sahibkar" && row.Field<string>(3) == "bos")
-                    )
-                .ToList();
-                decimal total_IV_hisse_1_11b = Setir_IV_hisse_1_11b.Sum(row => row.Field<decimal>(2)) / 1000;
-                worksheet1.Cells["C156"].Value = total_IV_hisse_1_11b;
-
-
-                var total_IV_hisse_12a = new Dictionary<string, decimal>();
-                var types_IV_hisse_12a = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_IV_hisse_12a)
-                {
-                    var Setir_IV_hisse_12a = _dt_odenisler.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "bugun" && row.Field<string>(3) == "sahibkar")
-                    && row.Field<string>(4).Substring(0, 2) == type && row.Field<string>(5) == "bos")
-                .ToList();
-                    total_IV_hisse_12a[type] = Setir_IV_hisse_12a.Sum(row => row.Field<decimal>(2)) / 1000;
-                }
-                worksheet1.Cells["E159"].Value = total_IV_hisse_12a["00"];
-                worksheet1.Cells["F159"].Value = total_IV_hisse_12a["01"];
-                worksheet1.Cells["G159"].Value = total_IV_hisse_12a["02"];
-                worksheet1.Cells["I159"].Value = total_IV_hisse_12a["03"];
-                worksheet1.Cells["K159"].Value = total_IV_hisse_12a["04"];
-                worksheet1.Cells["O159"].Value = total_IV_hisse_12a["05"];
-
-                var Setir_IV_hisse_1_12a = _dt_odenisler.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "dunen" && row.Field<string>(3) == "sahibkar" && row.Field<string>(5) == "bos")
-                    )
-                .ToList();
-                decimal total_IV_hisse_1_12a = Setir_IV_hisse_1_12a.Sum(row => row.Field<decimal>(2)) / 1000;
-                worksheet1.Cells["C159"].Value = total_IV_hisse_1_12a;
-
-
-                var total_IV_hisse_12b = new Dictionary<string, decimal>();
-                var types_IV_hisse_12b = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_IV_hisse_12b)
-                {
-                    var Setir_IV_hisse_12b = _dt_odenisler.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "bugun" && row.Field<string>(3) == "fiziki")
-                    && row.Field<string>(4).Substring(0, 2) == type && row.Field<string>(5) == "bos")
-                .ToList();
-                    total_IV_hisse_12b[type] = Setir_IV_hisse_12b.Sum(row => row.Field<decimal>(2)) / 1000;
-                }
-                worksheet1.Cells["E160"].Value = total_IV_hisse_12b["00"];
-                worksheet1.Cells["F160"].Value = total_IV_hisse_12b["01"];
-                worksheet1.Cells["G160"].Value = total_IV_hisse_12b["02"];
-                worksheet1.Cells["I160"].Value = total_IV_hisse_12b["03"];
-                worksheet1.Cells["K160"].Value = total_IV_hisse_12b["04"];
-                worksheet1.Cells["O160"].Value = total_IV_hisse_12b["05"];
-
-                var Setir_IV_hisse_1_12b = _dt_odenisler.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "dunen" && row.Field<string>(3) == "fiziki" && row.Field<string>(5) == "bos")
-                    )
-                .ToList();
-                decimal total_IV_hisse_1_12b = Setir_IV_hisse_1_12b.Sum(row => row.Field<decimal>(2)) / 1000;
-                worksheet1.Cells["C160"].Value = total_IV_hisse_1_12b;
-
-                worksheet1.Cells["C139"].Value = Math.Round(Convert.ToDecimal(lcrcemd) * 100, 2);
-                worksheet1.Cells["D139"].Value = Math.Round(Convert.ToDecimal(lcrcem) * 100, 2);
-                worksheet1.Cells["E139"].Value = Math.Round(Convert.ToDecimal(lcrazn) * 100, 2); 
-                worksheet1.Cells["F139"].Value = Math.Round(Convert.ToDecimal(lcrval) * 100, 2);
-                //worksheet1.Cells["D137"].Value = Math.Round(Convert.ToDecimal(lcr4), 2);
-                //worksheet1.Cells["D138"].Value = Math.Round(Convert.ToDecimal(lcr5), 2);
-
-                //Daily_Credit_Deposit*******************
-
-                var total_Setir_DM1_depo = _dt_medaxil.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "bugun" && row.Field<string>(1) == "fiziki")
-                    )
-                .ToList();
-                decimal total_IV_hisse_1_1_depo = total_Setir_DM1_depo.Sum(row => row.Field<decimal>(2)) / 1000;
-                decimal say_DM1_depo = total_Setir_DM1_depo.Sum(row => row.Field<decimal>(4));
-
-
-                worksheet3.Cells["C24"].Value = total_IV_hisse_1_1_depo;
-                worksheet3.Cells["C25"].Value = total_IV_hisse_1_1_depo;
-                worksheet3.Cells["D24"].Value = say_DM1_depo;
-                worksheet3.Cells["D25"].Value = say_DM1_depo;
-
-                var Setir_DM2_depo = _dt_medaxil.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "bugun" && row.Field<string>(1) == "huquqi")
-                    )
-                .ToList();
-                decimal total_Setir_DM2_depo = Setir_DM2_depo.Sum(row => row.Field<decimal>(2)) / 1000;
-                decimal say_DM2_depo = Setir_DM2_depo.Sum(row => row.Field<decimal>(4));
-
-                worksheet3.Cells["C29"].Value = total_Setir_DM2_depo;
-                worksheet3.Cells["C30"].Value = total_Setir_DM2_depo;
-                worksheet3.Cells["D29"].Value = say_DM2_depo;
-                worksheet3.Cells["D30"].Value = say_DM2_depo;
-
-                var Setir_DM3_1_depo = _dt_medaxil.AsEnumerable()
-                                        .Where(row => (row.Field<string>(0) == "bugun" && row.Field<string>(1) == "sahibkar")
-                    )
-                .ToList();
-                decimal total_Setir_DM3_1_depo = Setir_DM3_1_depo.Sum(row => row.Field<decimal>(2)) / 1000;
-                decimal say_DM3_1_depo = Setir_DM3_1_depo.Sum(row => row.Field<decimal>(4));
-
-                worksheet3.Cells["C34"].Value = total_Setir_DM3_1_depo;
-                worksheet3.Cells["C35"].Value = total_Setir_DM3_1_depo;
-                worksheet3.Cells["D34"].Value = say_DM3_1_depo;
-                worksheet3.Cells["D35"].Value = say_DM3_1_depo;
-
-                worksheet1.Cells["A3"].Value = "Bank Melli İran Bakı filialı";
-                worksheet1.Cells["A2"].Value = "Tarix:" + txtdtbugun.Text;
-
-
-                filePath = System.IO.Path.Combine(dosyayolu, fileName);
-                package.SaveAs(new FileInfo(filePath)); // Excel dosyasını kaydet
-                System.Diagnostics.Process.Start(filePath);
-            }
-        }
         private void Excel_daily_comment_Yeni_son()
         {
 
@@ -2861,7 +546,7 @@ namespace BMI.Muhasibat
                    "WHEN r.predprinimatel = 1  THEN 'sahibkar' " +
                    "WHEN r.fizik = 1  THEN 'fiziki' " +
                    "ELSE 'unknown' END,substr(d.kredit, 6, 2)";
-            string ver_kr_lar = "select case when m.date_oper=to_date('"+txtdtdunen.Text+"','dd/mm/yyyy') then 'dunen' else 'bugun' end tar, " +
+            string ver_kr_lar = "select case when m.date_oper=to_date('" + txtdtdunen.Text + "','dd/mm/yyyy') then 'dunen' else 'bugun' end tar, " +
                         "  case when  " +
                         " (m.tipkredita = 1 or m.tipkredita = 3) and m.index_otrasli!='01902'  then 'biznes'  " +
                         "  when m.tipkredita = 2 and m.index_otrasli!='01902' then 'fiziki' " +
@@ -2869,9 +554,47 @@ namespace BMI.Muhasibat
                         "  end tip, sum((m.summa * ROUND(odb.func_get_kurval(substr(m.licschkre, 6, 2), m.date_oper), 6)) + (m.summa_19 * ROUND(odb.func_get_kurval(substr(m.licschkre, 6, 2), m.date_oper), 6)))  qal,  " +
                         "  substr(m.licschkre, 6, 2) val  " +
                         "  from arh_licschkre m  " +
-                        "  where m.date_oper between to_date('"+txtdtdunen.Text+"', 'dd-mm-yyyy') and to_date('"+txtdtbugun.Text+"','dd-mm-yyyy') and m.date_close is null  " +
-                        "  group by case when m.date_oper = to_date('"+txtdtdunen.Text+"', 'dd/mm/yyyy') then 'dunen' else 'bugun' end,  " +
+                        "  where m.date_oper between to_date('" + txtdtdunen.Text + "', 'dd-mm-yyyy') and to_date('" + txtdtbugun.Text + "','dd-mm-yyyy') and m.date_close is null  " +
+                        "  group by case when m.date_oper = to_date('" + txtdtdunen.Text + "', 'dd/mm/yyyy') then 'dunen' else 'bugun' end,  " +
                         "  m.tipkredita,substr(m.licschkre, 6, 2),m.index_otrasli";
+
+            string Prognoz = @"
+SELECT 
+    ar.licschkre hes,
+    SUBSTR(ar.licschkre, 6, 2) val,
+    ar.subschkre sub,
+    odb.tar_ferq360(x.date_oper, NVL(x.lastoverduedate, x.date_oper)) gec_gun,
+    ar.tipkredita tip,
+    (
+        SELECT ROUND(
+            SUM(dd.summa_v_nacval) / 
+            NULLIF(MONTHS_BETWEEN(
+                TO_DATE(:hesabat_tar, 'DD-MM-YYYY'),
+                TO_DATE(:six_months_ago, 'DD-MM-YYYY')
+            ), 0), 2
+        )
+        FROM arh_dd dd 
+        WHERE SUBSTR(dd.debet, 1, 1) IN ('3','4') 
+          AND dd.kredit IN (ar.licschkre, ar.licschpkre, ar.licsch_19, ar.licschppkre)
+          AND dd.date_oper BETWEEN TO_DATE(:six_months_ago, 'DD-MM-YYYY') 
+                               AND TO_DATE(:hesabat_tar, 'DD-MM-YYYY')
+    ) odenis,
+    (
+        SELECT g.summa_pog_kre + g.summa_pog_pro 
+        FROM graphpogkre g
+        WHERE g.subschkre = ar.subschkre 
+          AND g.licschkre = ar.licschkre
+          AND TO_CHAR(g.date_pog, 'MM-YYYY') = TO_CHAR(
+              ADD_MONTHS(TO_DATE(:hesabat_tar, 'DD-MM-YYYY'), 1), 'MM-YYYY'
+          )
+    ) ayliq
+FROM arh_licschkre ar, view_nacpogprokre_all x
+WHERE 
+    (ar.date_close IS NULL OR ar.date_close > TO_DATE(:hesabat_tar, 'DD-MM-YYYY'))
+    AND ar.date_oper = TO_DATE(:hesabat_tar, 'DD-MM-YYYY')
+    AND x.licschpkre = ar.licschpkre 
+    AND x.subschkre = ar.subschkre 
+    AND x.date_oper = ar.date_oper";
 
             DataTable _dt_daily_report = new DataTable();
             DataTable _dt_daily_report_bk = new DataTable();
@@ -2887,6 +610,8 @@ namespace BMI.Muhasibat
             DataTable _dt_medaxil = new DataTable();
             DataTable _dt_mexaric = new DataTable();
             DataTable _dt_verilmis = new DataTable();
+            DataTable _dt_proqnoz = new DataTable();
+
 
             using (OracleConnection connection = new OracleConnection(connectionString))
             {
@@ -2971,14 +696,31 @@ namespace BMI.Muhasibat
                     OracleDataAdapter adapter = new OracleDataAdapter(command);
                     adapter.Fill(_dt_verilmis);
                 }
+                using (OracleCommand command = new OracleCommand(Prognoz, connection))
+                {
+                    DateTime hesabatTarix = DateTime.ParseExact(txtdtbugun.Text.Trim(), "dd-MM-yyyy", null);
+
+                    // 6 ay geri al
+                    DateTime altıAyEvvelTarix = hesabatTarix.AddMonths(-6);
+                    // Tarixləri textbox-lardan oxu
+                    string hesabatTar = txtdtbugun.Text.Trim();      // Məs: "31-03-2025"
+                    string altıAyEvvel = altıAyEvvelTarix.ToString("dd-MM-yyyy");     // Məs: "30-09-2024"
+
+                    // Parametrləri əlavə et
+                    command.Parameters.Add("hesabat_tar", OracleDbType.Varchar2).Value = hesabatTar;
+                    command.Parameters.Add("six_months_ago", OracleDbType.Varchar2).Value = altıAyEvvel;
+
+                    OracleDataAdapter adapter = new OracleDataAdapter(command);
+                    adapter.Fill(_dt_proqnoz);
+                }
                 connection.Close();
-            }
-            string dosyayolu = @"C:\BMI_\huqui_sorgu";
+            }//Daily_report_comments_Yeni_.xlsm
+            string dosyayolu = System.IO.Path.Combine(qovluqyolu, aletler.sorgular, "Yaradilmis exceller");
             string textBoxText = txtdtbugun.Text; // TextBox'tan alınan metni sakla
-            string yeniMetin = textBoxText.Replace("-", ""); ;
+            string yeniMetin = textBoxText.Replace("-", "");
             string baseFileName = "CUR.v02.1124d" + yeniMetin; // Temel dosya adı
             string fileName = baseFileName + ".xlsm";
-            string templateFilePath = @"C:\BMI_\Daily_report_comments_Yeni_.xlsm";
+            string templateFilePath = System.IO.Path.Combine(qovluqyolu, "Fayllar", "Muhasibat", "Exceller", "Daily_report_comments_Yeni_.xlsm");
             string filePath = System.IO.Path.Combine(dosyayolu, fileName);
 
             if (File.Exists(System.IO.Path.Combine(dosyayolu, fileName)))
@@ -4654,33 +2396,48 @@ namespace BMI.Muhasibat
                 decimal total_1_bo4 = Setir_1_bo4.Sum(row => row.Field<decimal>(6)) / 1000;
                 worksheet1.Cells["C130"].Value = total_1_bo4;
 
-
-                //******************Setir Likvildik riskləri  1
                 var total_lr1 = new Dictionary<string, decimal>();
                 var types_lr1 = new string[] { "00", "01", "02", "03", "04", "05" };
+
                 foreach (var type in types_lr1)
                 {
                     var Setir_lr1 = _dt_daily_report.AsEnumerable()
-                                        .Where(row => likvid_risk_1.Contains(row.Field<string>(1).Substring(0, 5))
-                              && row.Field<string>(2) == type)
-                                        .ToList();
-                    //total_lr1[type] = Setir_lr1.Sum(row => row.Field<decimal>(3)) / 1000;
-                    total_lr1[type] = Setir_lr1.Sum(row =>
+                        .Where(row =>
+                            likvid_risk_1.Contains(row.Field<string>(1).Substring(0, 5)) && !likvid_risk_1_istisna.Contains(row.Field<string>(1)) &&
+                            row.Field<string>(2) == type
+                        )
+                        .ToList();
+
+                    decimal toplam = Setir_lr1.Sum(row =>
                     {
                         string substringValue = row.Field<string>(1).Substring(0, 5);
-
-                        // Eğer substringValue "15020" veya "15025" ise, meblağı %25 azalt
                         decimal discountFactor = (substringValue == "15020" || substringValue == "15025") ? 0.75m : 1.0m;
 
                         return row.Field<decimal>(3) * discountFactor / 1000;
                     });
+
+                    total_lr1[type] = toplam;
+
+                    // Uyğun hesabların siyahısı (ilk 5 simvol)
+                    //var hesablar = Setir_lr1
+                    //    .Select(row => row.Field<string>(1).Substring(0, 5))
+                    //    .Distinct()
+                    //    .ToList();
+
+                    //string hesablarText = string.Join(", ", hesablar);
+
+                    //dtResult.Rows.Add(type, toplam, hesablarText);
                 }
+
+                // DataGridView-ə yerləşdir
+                //dataGridView1.DataSource = dtResult;
                 worksheet1.Cells["E135"].Value = total_lr1["00"];
                 worksheet1.Cells["F135"].Value = total_lr1["01"];
                 worksheet1.Cells["G135"].Value = total_lr1["02"];
                 worksheet1.Cells["I135"].Value = total_lr1["03"];
                 worksheet1.Cells["K135"].Value = total_lr1["04"];
                 worksheet1.Cells["O135"].Value = total_lr1["05"];
+
 
                 var sh_67_00 = _dt_daily_report1.AsEnumerable()
                 .Where(row => likvid_risk_1.Contains(row.Field<string>(1).Substring(0, 5)))
@@ -4727,43 +2484,96 @@ namespace BMI.Muhasibat
                 decimal total_lr2_1 = Setir_lr2_1.Sum(row => row.Field<decimal>(3)) / 1000;
                 worksheet1.Cells["C136"].Value = -total_lr2_1;
 
+                // setir 138 dunen
+                var Setir_c138_AZN = _dt_daily_report1.AsEnumerable()
+                                    .Where(row => ani_likvidlik_emsali_AZN.Contains(row.Field<string>(1).Substring(0, 5))
+                                    && !ani_likvidlik_emsali_AZN_istisna.Contains(row.Field<string>(1)))
+                                    .ToList();
+                decimal total_c138_AZN = Setir_c138_AZN.Sum(row => row.Field<decimal>(3)) / 1000;
 
+                var Setir_c138_USD = _dt_daily_report1.AsEnumerable()
+                                    .Where(row => ani_likvidlik_emsali_USD.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "01"
+                                    && !ani_likvidlik_emsali_USD_istisna.Contains(row.Field<string>(1)))
+                                    .ToList();
+                decimal total_c138_USD = Setir_c138_USD.Sum(row => row.Field<decimal>(3)) / 1000;
 
-                var total_lr4 = new Dictionary<string, decimal>();
-                var types_lr4 = new string[] { "00", "01", "02", "03", "04", "05" };
-                foreach (var type in types_lr4)
-                {
-                    var Setir_lr4 = _dt_daily_report.AsEnumerable()
-                                        .Where(row =>
-                    (likvid_risk_4_elave.Contains(row.Field<string>(1).Substring(0, 5)) || likvid_risk_4.Contains(row.Field<string>(1).Substring(0, 2))) && !likvid_risk_4_istisna.Contains(row.Field<string>(1))
-                    && row.Field<string>(2).Substring(0, 2) == type)
-                .ToList();
-                    //total_lr4[type] = Setir_lr4.Sum(row => row.Field<decimal>(3)) / 1000;
-                    total_lr4[type] = Setir_lr4.Sum(row =>
-                    {
-                        // İlk 5 simvol "15025"-ə bərabərdirsə, dəyəri 25% azaldırıq
-                        if (row.Field<string>(1).Substring(0, 5) == "15025")
-                        {
-                            return row.Field<decimal>(3) * 0.75m; // 25% azaldılmış məbləğ
-                        }
-                        else
-                        {
-                            return row.Field<decimal>(3); // Qalan şərtlərdə məbləğ olduğu kimi
-                        }
-                    }) / 1000;
-                }
-               
-                worksheet1.Cells["E138"].Value = total_lr4["00"];
-                worksheet1.Cells["F138"].Value = total_lr4["01"];
-                worksheet1.Cells["G138"].Value = total_lr4["02"];
-                worksheet1.Cells["I138"].Value = total_lr4["03"];
-                worksheet1.Cells["K138"].Value = total_lr4["04"];
-                worksheet1.Cells["O138"].Value = total_lr4["05"];
+                var Setir_c138_EUR = _dt_daily_report1.AsEnumerable()
+                                    .Where(row => ani_likvidlik_emsali_EUR.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "02"
+                                    && !ani_likvidlik_emsali_EUR_istisna.Contains(row.Field<string>(1)))
+                                    .ToList();
+                decimal total_c138_EUR = Setir_c138_EUR.Sum(row => row.Field<decimal>(3)) / 1000;
+
+                decimal total_c_138 = total_c138_AZN + total_c138_USD + total_c138_EUR;
+
+                // setir E138
+                // Yeni DataTable yaradılır
+                DataTable dtResult = new DataTable();
+                dtResult.Columns.Add("Currency", typeof(string));
+                dtResult.Columns.Add("Total", typeof(decimal));
+                dtResult.Columns.Add("Accounts", typeof(string));
+
+                // AZN üçün
+
+                var Setir_e138_AZN = _dt_daily_report.AsEnumerable()
+                    .Where(row =>
+                        ani_likvidlik_emsali_AZN.Contains(row.Field<string>(1).Substring(0, 5)) &&
+                        !ani_likvidlik_emsali_AZN_istisna.Contains(row.Field<string>(1)))
+                    .ToList();
+
+                decimal total_e138_AZN = Setir_e138_AZN.Sum(row => row.Field<decimal>(3)) / 1000;
+
+                var hesablar_AZN = Setir_e138_AZN
+                    .Select(row => row.Field<string>(1).Substring(0, 5))
+                    .Distinct()
+                    .ToList();
+
+                dtResult.Rows.Add("AZN", total_e138_AZN, string.Join(", ", hesablar_AZN));
+
+                // USD üçün
+                var Setir_f138_USD = _dt_daily_report.AsEnumerable()
+                    .Where(row =>
+                        ani_likvidlik_emsali_USD.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "01" &&
+                        !ani_likvidlik_emsali_USD_istisna.Contains(row.Field<string>(1)))
+                    .ToList();
+
+                decimal total_f138_USD = Setir_f138_USD.Sum(row => row.Field<decimal>(3)) / 1000;
+
+                var hesablar_USD = Setir_f138_USD
+                    .Select(row => row.Field<string>(1).Substring(0, 5))
+                    .Distinct()
+                    .ToList();
+
+                dtResult.Rows.Add("USD", total_f138_USD, string.Join(", ", hesablar_USD));
+
+                // EUR üçün
+                var Setir_g138_EUR = _dt_daily_report.AsEnumerable()
+                    .Where(row =>
+                        ani_likvidlik_emsali_EUR.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "02" &&
+                        !ani_likvidlik_emsali_EUR_istisna.Contains(row.Field<string>(1)))
+                    .ToList();
+
+                decimal total_g138_EUR = Setir_g138_EUR.Sum(row => row.Field<decimal>(3)) / 1000;
+
+                var hesablar_EUR = Setir_g138_EUR
+                    .Select(row => row.Field<string>(1).Substring(0, 5))
+                    .Distinct()
+                    .ToList();
+
+                dtResult.Rows.Add("EUR", total_g138_EUR, string.Join(", ", hesablar_EUR));
+
+                // DataGridView-ə bağlayırıq
+                dataGridView1.DataSource = dtResult;
+
+                // Eyni zamanda Excel-ə yazırıq
+                worksheet1.Cells["C138"].Value = total_c_138;
+                worksheet1.Cells["E138"].Value = total_e138_AZN;
+                worksheet1.Cells["F138"].Value = total_f138_USD;
+                worksheet1.Cells["G138"].Value = total_g138_EUR;
 
                 var Setir_lr2_4 = _dt_daily_report1.AsEnumerable()
                                         .Where(row =>
-                    (likvid_risk_4_elave.Contains(row.Field<string>(1).Substring(0, 5)) 
-                    || likvid_risk_4.Contains(row.Field<string>(1).Substring(0, 2))) 
+                    (likvid_risk_4_elave.Contains(row.Field<string>(1).Substring(0, 5))
+                    || likvid_risk_4.Contains(row.Field<string>(1).Substring(0, 2)))
                     && !likvid_risk_4_istisna.Contains(row.Field<string>(1))).ToList();
 
                 decimal total_lr2_4 = Setir_lr2_4.Sum(row =>
@@ -4778,7 +2588,350 @@ namespace BMI.Muhasibat
                         return row.Field<decimal>(3); // Qalan şərtlərdə məbləğ olduğu kimi
                     }
                 }) / 1000;
-                worksheet1.Cells["C138"].Value = total_lr2_4;
+
+                // 38, 39, 40 kodlu risklər üçün 139 setr ucun
+                #region Proqnoz ucun Elave hasablamada istifade oluunub
+
+                // Valyutalar siyahısı: kod və ad
+                var valyutalar = new Dictionary<string, string>
+                    {
+                        { "00", "AZN" },
+                        { "01", "USD" },
+                        { "02", "EUR" },
+                        { "03", "RUB" },
+                        { "04", "IRN" },
+                        { "05", "DIR" }
+                    };
+
+                // Ayrı-ayrı decimal dəyişənlər (bütün valyutalar üçün əvvəlcədən təyin olunur)
+                decimal total_proqnoz_90_kicik_AZN = 0, total_proqnoz_90_boyuk_AZN = 0, total_AZN = 0;
+                decimal total_proqnoz_90_kicik_USD = 0, total_proqnoz_90_boyuk_USD = 0, total_USD = 0;
+                decimal total_proqnoz_90_kicik_EUR = 0, total_proqnoz_90_boyuk_EUR = 0, total_EUR = 0;
+                decimal total_proqnoz_90_kicik_RUB = 0, total_proqnoz_90_boyuk_RUB = 0, total_RUB = 0;
+                decimal total_proqnoz_90_kicik_IRN = 0, total_proqnoz_90_boyuk_IRN = 0, total_IRN = 0;
+                decimal total_proqnoz_90_kicik_DIR = 0, total_proqnoz_90_boyuk_DIR = 0, total_DIR = 0;
+
+                foreach (var val in valyutalar)
+                {
+                    string code = val.Key;
+                    string name = val.Value;
+
+                    // <= 90 gün gecikmə
+                    var kicik_rows = _dt_proqnoz.AsEnumerable()
+                        .Where(row => row.Field<string>(1) == code && row.Field<decimal>(3) <= 90)
+                        .Where(row => row.Field<decimal?>(6) != null)
+                        .ToList();
+
+                    decimal total_kicik = kicik_rows.Sum(row => row.Field<decimal>(6)) / 1000;
+
+                    // > 90 gün gecikmə
+                    var boyuk_rows = _dt_proqnoz.AsEnumerable()
+                        .Where(row => row.Field<string>(1) == code && row.Field<decimal>(3) > 90)
+                        .Where(row => row.Field<decimal?>(5) != null)
+                        .ToList();
+
+                    decimal total_boyuk = boyuk_rows.Sum(row => row.Field<decimal>(5)) / 1000;
+
+                    // Valyutanın ümumi toplamı
+                    decimal total_valyuta = total_kicik + total_boyuk;
+
+                    // Dəyərləri dəyişənlərə yaz
+                    switch (name)
+                    {
+                        case "AZN":
+                            total_proqnoz_90_kicik_AZN = total_kicik;
+                            total_proqnoz_90_boyuk_AZN = total_boyuk;
+                            total_AZN = total_valyuta * 0.50m;
+                            break;
+                        case "USD":
+                            total_proqnoz_90_kicik_USD = total_kicik;
+                            total_proqnoz_90_boyuk_USD = total_boyuk;
+                            total_USD = total_valyuta * 0.50m;
+                            break;
+                        case "EUR":
+                            total_proqnoz_90_kicik_EUR = total_kicik;
+                            total_proqnoz_90_boyuk_EUR = total_boyuk;
+                            total_EUR = total_valyuta * 0.50m;
+                            break;
+                        case "RUB":
+                            total_proqnoz_90_kicik_RUB = total_kicik;
+                            total_proqnoz_90_boyuk_RUB = total_boyuk;
+                            total_RUB = total_valyuta * 0.50m;
+                            break;
+                        case "IRN":
+                            total_proqnoz_90_kicik_IRN = total_kicik;
+                            total_proqnoz_90_boyuk_IRN = total_boyuk;
+                            total_IRN = total_valyuta * 0.50m;
+                            break;
+                        case "DIR":
+                            total_proqnoz_90_kicik_DIR = total_kicik;
+                            total_proqnoz_90_boyuk_DIR = total_boyuk;
+                            total_DIR = total_valyuta * 0.50m;
+                            break;
+                    }
+                }
+
+
+                //------------------------
+                var Setir_139_15770_tapir = _dt_daily_report.AsEnumerable()
+                    .Where(row =>
+                        row.Field<string>(1).Substring(0, 5) == "15770")
+                    .ToList();
+
+                decimal total_139_15770_tapir = Setir_139_15770_tapir.Sum(row => row.Field<decimal>(3)) / 1000;
+
+                var Setir_139_15770_tapir_dunen = _dt_daily_report1.AsEnumerable()
+                    .Where(row =>
+                        row.Field<string>(1).Substring(0, 5) == "15770")
+                    .ToList();
+
+                decimal total_139_15770_tapir_dunen = Setir_139_15770_tapir_dunen.Sum(row => row.Field<decimal>(3)) / 1000;
+                #endregion
+
+                var total_e139_35938_AZN = HesablaFaizliTotal(GetFilteredRows(_dt_daily_report, likvid_risk_5_35938, 5, "00"), faizAraliqlari_AZN);
+                var total_f139_35938_USD = HesablaFaizliTotal(GetFilteredRows(_dt_daily_report, likvid_risk_5_35938, 5, "01"), faizAraliqlari_USD);
+                var total_g139_35938_EUR = HesablaFaizliTotal(GetFilteredRows(_dt_daily_report, likvid_risk_5_35938, 5, "02"), faizAraliqlari_EUR);
+
+                var total_c139_38_39_40_AZN = HesablaFaizliTotal(
+                    GetFilteredRows(_dt_daily_report1, likvid_risk_5_38_39_40, 2, "00"),
+                    faizAraliqlari_AZN) + total_e139_35938_AZN;
+
+                var total_c139_38_39_40_USD = HesablaFaizliTotal(
+                    GetFilteredRows(_dt_daily_report1, likvid_risk_5_38_39_40, 2, "01"),
+                    faizAraliqlari_USD) + total_f139_35938_USD;
+
+                var total_c139_38_39_40_EUR = HesablaFaizliTotal(
+                    GetFilteredRows(_dt_daily_report1, likvid_risk_5_38_39_40, 2, "02"),
+                    faizAraliqlari_EUR) + total_g139_35938_EUR;
+
+
+
+                // 35020-35025 aralığı – sadə cəmləmə (faizsiz)
+                var total_c139_35020_35025_USD = GetFilteredRows(_dt_daily_report1, likvid_risk_5_35020_35025, 5, "01")
+                    .Sum(row =>
+                    {
+                        decimal mebleg = row.Field<decimal>(3);
+                        string kod = row.Field<string>(1).Substring(0, 5);
+                        decimal faktor = (kod == "49025") ? 0.10m : 1.0m;
+                        return mebleg * faktor;
+                    }) / 1000;
+
+                var total_c139_35020_35025_EUR = GetFilteredRows(_dt_daily_report1, likvid_risk_5_35020_35025, 5, "02")
+                    .Sum(row =>
+                    {
+                        decimal mebleg = row.Field<decimal>(3);
+                        string kod = row.Field<string>(1).Substring(0, 5);
+                        decimal faktor = (kod == "49025") ? 0.10m : 1.0m;
+                        return mebleg * faktor;
+                    }) / 1000;
+
+                // 41 kodlu risklər üçün – sabit faiz tətbiqi
+                var total_c139_41_AZN = HesablaSabitFaizliTotal(
+                    GetFilteredRows(_dt_daily_report1, likvid_risk_5_41, 2, "00"), 0.25m);
+
+                var total_c139_41_USD = HesablaSabitFaizliTotal(
+                    GetFilteredRows(_dt_daily_report1, likvid_risk_5_41, 2, "01"), 0.22m);
+
+                var total_c139_41_EUR = HesablaSabitFaizliTotal(
+                    GetFilteredRows(_dt_daily_report1, likvid_risk_5_41, 2, "02"), 0.22m);
+
+                //worksheet1.Cells["C139"].Value = Math.Abs(total_c139_38_39_40_AZN + total_c139_38_39_40_USD + total_c139_38_39_40_EUR
+                //    + total_c139_35020_35025_USD + total_c139_35020_35025_EUR
+                //    + total_c139_41_AZN + total_c139_41_USD + total_c139_41_EUR);
+
+                //E,F,G 139
+                // 38, 39, 40 kodlu risklər üçün
+                var total_e139_38_39_40_AZN = HesablaFaizliTotal(
+                    GetFilteredRows(_dt_daily_report, likvid_risk_5_38_39_40, 2, "00"),
+                    faizAraliqlari_AZN);
+
+                var total_f139_38_39_40_USD = HesablaFaizliTotal(
+                    GetFilteredRows(_dt_daily_report, likvid_risk_5_38_39_40, 2, "01"),
+                    faizAraliqlari_USD);
+
+                var total_g139_38_39_40_EUR = HesablaFaizliTotal(
+                    GetFilteredRows(_dt_daily_report, likvid_risk_5_38_39_40, 2, "02"),
+                    faizAraliqlari_EUR);
+
+                // 35020-35025 aralığı – sadə cəmləmə (faizsiz)
+                var total_f139_35020_35025_USD = GetFilteredRows(_dt_daily_report, likvid_risk_5_35020_35025, 5, "01")
+                    .Sum(row =>
+                    {
+                        decimal mebleg = row.Field<decimal>(3);
+                        string kod = row.Field<string>(1).Substring(0, 5);
+                        decimal faktor = (kod == "49025") ? 0.10m : 1.0m;
+                        return mebleg * faktor;
+                    }) / 1000;
+
+                var total_g139_35020_35025_EUR = GetFilteredRows(_dt_daily_report, likvid_risk_5_35020_35025, 5, "02")
+                    .Sum(row =>
+                    {
+                        decimal mebleg = row.Field<decimal>(3);
+                        string kod = row.Field<string>(1).Substring(0, 5);
+                        decimal faktor = (kod == "49025") ? 0.10m : 1.0m;
+                        return mebleg * faktor;
+                    }) / 1000;
+
+                // 41 kodlu risklər üçün – sabit faiz tətbiqi
+                var total_e139_41_AZN = HesablaSabitFaizliTotal(
+                    GetFilteredRows(_dt_daily_report, likvid_risk_5_41, 2, "00"), 0.25m);
+
+                var total_f139_41_USD = HesablaSabitFaizliTotal(
+                    GetFilteredRows(_dt_daily_report, likvid_risk_5_41, 2, "01"), 0.22m);
+
+                var total_g139_41_EUR = HesablaSabitFaizliTotal(
+                    GetFilteredRows(_dt_daily_report, likvid_risk_5_41, 2, "02"), 0.22m);
+
+                decimal c139_dunen_Cem = Math.Abs(total_c139_38_39_40_AZN + total_c139_38_39_40_USD + total_c139_38_39_40_EUR
+                    + total_c139_35020_35025_USD + total_c139_35020_35025_EUR
+                    + total_c139_41_AZN + total_c139_41_USD + total_c139_41_EUR);
+
+                decimal e139_AZN = Math.Abs(total_e139_38_39_40_AZN + total_e139_41_AZN);
+                decimal e139_USD = Math.Abs(total_f139_38_39_40_USD + total_f139_35020_35025_USD + total_f139_41_USD);
+                decimal e139_EUR = Math.Abs(total_g139_38_39_40_EUR + total_g139_35020_35025_EUR + total_g139_41_EUR);
+
+                decimal d139_Cem = e139_AZN + e139_USD + e139_EUR;
+
+                decimal c139_Proqnoz_val_Cem = total_AZN + total_USD + total_EUR + total_IRN + total_RUB + total_DIR;
+                decimal minresult_dunen_Cem = Math.Min(total_139_15770_tapir_dunen + c139_Proqnoz_val_Cem, c139_dunen_Cem * 0.75m);
+
+                decimal minresult_all_val = Math.Min(total_139_15770_tapir + c139_Proqnoz_val_Cem, d139_Cem * 0.75m);// c139_Proqnoz_val_Cem eyni olmagi dunenki gune ayrica proqnoz vermirmeir bir gun oldugu ucun
+                decimal minresult_AZN = Math.Min(total_139_15770_tapir + total_AZN, e139_AZN * 0.75m);
+                decimal minresult_USD = Math.Min(total_USD, e139_USD * 0.75m);
+                decimal minresult_EUR = Math.Min(total_EUR, e139_EUR * 0.75m);
+
+                //c139_dunen_Cem - minresult_dunen_Cem;
+                worksheet1.Cells["C139"].Value = c139_dunen_Cem - minresult_dunen_Cem;
+                worksheet1.Cells["D139"].Value = d139_Cem - minresult_all_val;
+                worksheet1.Cells["E139"].Value = e139_AZN - minresult_AZN;
+                worksheet1.Cells["F139"].Value = e139_USD - minresult_USD;
+                worksheet1.Cells["G139"].Value = e139_EUR - minresult_EUR;
+                #region datagride atmaq ucun
+                DataTable dtDetail = new DataTable();
+                dtDetail.Columns.Add("Qrup", typeof(string));
+                dtDetail.Columns.Add("Valyuta", typeof(string));
+                dtDetail.Columns.Add("Hesab", typeof(string));
+                dtDetail.Columns.Add("Məbləğ", typeof(decimal));
+                dtDetail.Columns.Add("Faizlə", typeof(decimal));
+
+                void AddRowsToDetailTable(DataTable table, string qrup, string valyuta, List<DataRow> rows, Func<decimal, decimal> faizFunc)
+                {
+                    foreach (var row in rows)
+                    {
+                        string hesab = row.Field<string>(1);
+                        decimal mebleg = row.Field<decimal>(3);
+                        decimal faizli = faizFunc(mebleg);
+
+                        table.Rows.Add(qrup, valyuta, hesab, mebleg, faizli / 1000);
+                    }
+                }
+                // AZN – 38-39-40
+                var rows_38_AZN = GetFilteredRows(_dt_daily_report1, likvid_risk_5_38_39_40, 2, "00");
+                AddRowsToDetailTable(dtDetail, "38-39-40", "AZN", rows_38_AZN, mebleg => mebleg * GetFaiz(faizAraliqlari_AZN, mebleg));
+
+                // USD – 38-39-40
+                var rows_38_USD = GetFilteredRows(_dt_daily_report1, likvid_risk_5_38_39_40, 2, "01");
+                AddRowsToDetailTable(dtDetail, "38-39-40", "USD", rows_38_USD, mebleg => mebleg * GetFaiz(faizAraliqlari_USD, mebleg));
+
+                // EUR – 38-39-40
+                var rows_38_EUR = GetFilteredRows(_dt_daily_report1, likvid_risk_5_38_39_40, 2, "02");
+                AddRowsToDetailTable(dtDetail, "38-39-40", "EUR", rows_38_EUR, mebleg => mebleg * GetFaiz(faizAraliqlari_EUR, mebleg));
+
+                // USD – 35020-35025 (faizsiz)
+                var rows_35020_USD = GetFilteredRows(_dt_daily_report1, likvid_risk_5_35020_35025, 5, "01");
+                AddRowsToDetailTable(dtDetail, "35020-35025", "USD", rows_35020_USD, mebleg => mebleg);
+
+                // EUR – 35020-35025 (faizsiz)
+                var rows_35020_EUR = GetFilteredRows(_dt_daily_report1, likvid_risk_5_35020_35025, 5, "02");
+                AddRowsToDetailTable(dtDetail, "35020-35025", "EUR", rows_35020_EUR, mebleg => mebleg);
+
+                // 41 – AZN (0.25)
+                var rows_41_AZN = GetFilteredRows(_dt_daily_report1, likvid_risk_5_41, 2, "00");
+                AddRowsToDetailTable(dtDetail, "41", "AZN", rows_41_AZN, mebleg => mebleg * 0.25m);
+
+                // 41 – USD (0.22)
+                var rows_41_USD = GetFilteredRows(_dt_daily_report1, likvid_risk_5_41, 2, "01");
+                AddRowsToDetailTable(dtDetail, "41", "USD", rows_41_USD, mebleg => mebleg * 0.22m);
+
+                // 41 – EUR (0.22)
+                var rows_41_EUR = GetFilteredRows(_dt_daily_report1, likvid_risk_5_41, 2, "02");
+                AddRowsToDetailTable(dtDetail, "41", "EUR", rows_41_EUR, mebleg => mebleg * 0.22m);
+                dataGridView1.DataSource = dtDetail;
+                #endregion
+
+                ////setr c139 dunen
+                //var Setir_c139_38_39_40_AZN = _dt_daily_report1.AsEnumerable()
+                //    .Where(row => (likvid_risk_5_38_39_40.Contains(row.Field<string>(1).Substring(0, 2))) &&
+                //                  row.Field<string>(2) == "00" )
+                //    .ToList();
+
+                //decimal total_c139_38_39_40_AZN = Setir_c139_38_39_40_AZN.Sum(row =>
+                //{
+                //    decimal mebleg = row.Field<decimal>(3);
+                //    decimal faiz = GetFaiz(faizAraliqlari_AZN, mebleg);          // uyğun faizi tap
+                //    decimal faizliMebleg = mebleg * faiz;    // faizi tətbiq et
+                //    return faizliMebleg / 1000;              // minə böl
+                //});
+
+                //var Setir_c139_38_39_40_USD = _dt_daily_report1.AsEnumerable()
+                //    .Where(row => (likvid_risk_5_38_39_40.Contains(row.Field<string>(1).Substring(0, 2))) &&
+                //                  row.Field<string>(2) == "01")
+                //    .ToList();
+
+                //decimal total_c139_38_39_40_USD = Setir_c139_38_39_40_USD.Sum(row =>
+                //{
+                //    decimal mebleg = row.Field<decimal>(3);
+                //    decimal faiz = GetFaiz(faizAraliqlari_USD, mebleg);          // uyğun faizi tap
+                //    decimal faizliMebleg = mebleg * faiz;    // faizi tətbiq et
+                //    return faizliMebleg / 1000;              // minə böl
+                //});
+
+                //var Setir_c139_38_39_40_EUR = _dt_daily_report1.AsEnumerable()
+                //    .Where(row => (likvid_risk_5_38_39_40.Contains(row.Field<string>(1).Substring(0, 2))) &&
+                //                  row.Field<string>(2) == "02")
+                //    .ToList();
+
+                //decimal total_c139_38_39_40_EUR = Setir_c139_38_39_40_EUR.Sum(row =>
+                //{
+                //    decimal mebleg = row.Field<decimal>(3);
+                //    decimal faiz = GetFaiz(faizAraliqlari_EUR, mebleg);          // uyğun faizi tap
+                //    decimal faizliMebleg = mebleg * faiz;    // faizi tətbiq et
+                //    return faizliMebleg / 1000;              // minə böl
+                //});
+                ////USD 35020-35025
+                //var Setir_c139_35020_35025_USD = _dt_daily_report1.AsEnumerable()
+                //                    .Where(row => likvid_risk_5_35020_35025.Contains(row.Field<string>(1).Substring(0, 5))
+                //                    && row.Field<string>(2) == "01")
+                //                    .ToList();
+                //decimal total_c139_35020_35025_USD = Setir_c139_35020_35025_USD.Sum(row => row.Field<decimal>(3)) / 1000;
+
+                ////EUR 35020-35025
+                //var Setir_c139_35020_35025_EUR = _dt_daily_report1.AsEnumerable()
+                //                    .Where(row => likvid_risk_5_35020_35025.Contains(row.Field<string>(1).Substring(0, 5))
+                //                    && row.Field<string>(2) == "02")
+                //                    .ToList();
+                //decimal total_c139_35020_35025_EUR = Setir_c139_35020_35025_EUR.Sum(row => row.Field<decimal>(3)) / 1000;
+
+                ////AZN 41
+                //var Setir_c139_41_AZN = _dt_daily_report1.AsEnumerable()
+                //                    .Where(row => likvid_risk_5_41.Contains(row.Field<string>(1).Substring(0, 2))
+                //                    && row.Field<string>(2) == "00")
+                //                    .ToList();
+                //decimal total_c139_41_AZN = Setir_c139_41_AZN.Sum(row => row.Field<decimal>(3))*0.25m / 1000;
+
+                ////USD 41
+                //var Setir_c139_41_USD = _dt_daily_report1.AsEnumerable()
+                //                    .Where(row => likvid_risk_5_41.Contains(row.Field<string>(1).Substring(0, 2))
+                //                    && row.Field<string>(2) == "01")
+                //                    .ToList();
+                //decimal total_c139_41_USD = Setir_c139_41_USD.Sum(row => row.Field<decimal>(3)) * 0.22m / 1000;
+
+                ////EUR 41
+                //var Setir_c139_41_EUR = _dt_daily_report1.AsEnumerable()
+                //                    .Where(row => likvid_risk_5_41.Contains(row.Field<string>(1).Substring(0, 2))
+                //                    && row.Field<string>(2) == "02")
+                //                    .ToList();
+                //decimal total_c139_41_EUR = Setir_c139_41_EUR.Sum(row => row.Field<decimal>(3)) * 0.22m / 1000;
 
                 var total_lr5 = new Dictionary<string, decimal>();
                 var types_lr5 = new string[] { "00", "01", "02", "03", "04", "05" };
@@ -4791,34 +2944,34 @@ namespace BMI.Muhasibat
                 .ToList();
                     total_lr5[type] = Setir_lr5.Sum(row => row.Field<decimal>(3)) / 1000;
                 }
-                worksheet1.Cells["E139"].Value = -(total_lr5["00"] + total_bo2["00"]);
-                worksheet1.Cells["F139"].Value = -(total_lr5["01"] + total_bo2["01"]);
-                worksheet1.Cells["G139"].Value = -(total_lr5["02"] + total_bo2["02"]);
-                worksheet1.Cells["I139"].Value = -(total_lr5["03"] + total_bo2["03"]);
-                worksheet1.Cells["K139"].Value = -(total_lr5["04"] + total_bo2["04"]);
-                worksheet1.Cells["O139"].Value = -(total_lr5["05"] + total_bo2["05"]);
+                //worksheet1.Cells["E139"].Value = -(total_lr5["00"] + total_bo2["00"]);
+                //worksheet1.Cells["F139"].Value = -(total_lr5["01"] + total_bo2["01"]);
+                //worksheet1.Cells["G139"].Value = -(total_lr5["02"] + total_bo2["02"]);
+                //worksheet1.Cells["I139"].Value = -(total_lr5["03"] + total_bo2["03"]);
+                //worksheet1.Cells["K139"].Value = -(total_lr5["04"] + total_bo2["04"]);
+                //worksheet1.Cells["O139"].Value = -(total_lr5["05"] + total_bo2["05"]);
 
                 var Setir_lr2_5 = _dt_daily_report1.AsEnumerable()
                                         .Where(row =>
                     (likvid_risk_5.Contains(row.Field<string>(1).Substring(0, 2)) || likvid_risk_5.Contains(row.Field<string>(1).Substring(0, 5))))
                 .ToList();
                 decimal total_lr2_5 = Setir_lr2_5.Sum(row => row.Field<decimal>(3)) / 1000;
-                worksheet1.Cells["C139"].Value = -(total_lr2_5 + total_1_bo2);
+                //worksheet1.Cells["C139"].Value = -(total_lr2_5 + total_1_bo2);
                 decimal t1 = total_lr2_5;
                 decimal t2 = total_1_bo2;
-                //Setir 136
-                if (total_lr2_5 != 0)
-                {
-                    worksheet1.Cells["C137"].Value = -total_lr2_4 / total_lr2_5;
-                }
-                else
-                {
-                    worksheet1.Cells["C137"].Value = 0; // veya başka bir değer
-                }
+                //Setir C137 Sonrada dustur elave edildiyi ucun gizledildi
+                //if (total_lr2_5 != 0)
+                //{
+                //    worksheet1.Cells["C137"].Value = -total_lr2_4 / total_lr2_5;
+                //}
+                //else
+                //{
+                //    worksheet1.Cells["C137"].Value = 0; // veya başka bir değer
+                //}
 
                 if (total_lr5["00"] != 0)
                 {
-                    worksheet1.Cells["E137"].Value = -total_lr4["00"] / total_lr5["00"];
+                    worksheet1.Cells["E137"].Value = -total_e138_AZN / total_lr5["00"];
                 }
                 else
                 {
@@ -4826,7 +2979,7 @@ namespace BMI.Muhasibat
                 }
                 if (total_lr5["01"] != 0)
                 {
-                    worksheet1.Cells["F137"].Value = -total_lr4["01"] / total_lr5["01"];
+                    worksheet1.Cells["F137"].Value = -total_f138_USD / total_lr5["01"];
                 }
                 else
                 {
@@ -4834,36 +2987,36 @@ namespace BMI.Muhasibat
                 }
                 if (total_lr5["02"] != 0)
                 {
-                    worksheet1.Cells["G137"].Value = -total_lr4["02"] / total_lr5["02"];
+                    worksheet1.Cells["G137"].Value = -total_g138_EUR / total_lr5["02"];
                 }
                 else
                 {
                     worksheet1.Cells["G137"].Value = 0; // veya başka bir değer
                 }
-                if (total_lr5["03"] != 0)
-                {
-                    worksheet1.Cells["I137"].Value = -total_lr4["03"] / total_lr5["03"];
-                }
-                else
-                {
-                    worksheet1.Cells["I137"].Value = 0; // veya başka bir değer
-                }
-                if (total_lr5["04"] != 0)
-                {
-                    worksheet1.Cells["K137"].Value = -total_lr4["04"] / total_lr5["04"];
-                }
-                else
-                {
-                    worksheet1.Cells["K137"].Value = 0; // veya başka bir değer
-                }
-                if (total_lr5["05"] != 0)
-                {
-                    worksheet1.Cells["O137"].Value = -total_lr4["05"] / total_lr5["05"];
-                }
-                else
-                {
-                    worksheet1.Cells["O137"].Value = 0; // veya başka bir değer
-                }
+                //if (total_lr5["03"] != 0)
+                //{
+                //    worksheet1.Cells["I137"].Value = -total_lr4["03"] / total_lr5["03"];
+                //}
+                //else
+                //{
+                //    worksheet1.Cells["I137"].Value = 0; // veya başka bir değer
+                //}
+                //if (total_lr5["04"] != 0)
+                //{
+                //    worksheet1.Cells["K137"].Value = -total_lr4["04"] / total_lr5["04"];
+                //}
+                //else
+                //{
+                //    worksheet1.Cells["K137"].Value = 0; // veya başka bir değer
+                //}
+                //if (total_lr5["05"] != 0)
+                //{
+                //    worksheet1.Cells["O137"].Value = -total_lr4["05"] / total_lr5["05"];
+                //}
+                //else
+                //{
+                //    worksheet1.Cells["O137"].Value = 0; // veya başka bir değer
+                //}
 
                 //IV Hissə – Balans maddələri üzrə dəyişikliklərə dair əlavə məlumatlar*******************
 
@@ -5126,10 +3279,10 @@ namespace BMI.Muhasibat
                 decimal total_IV_hisse_1_12b = Setir_IV_hisse_1_12b.Sum(row => row.Field<decimal>(2)) / 1000;
                 worksheet1.Cells["C161"].Value = total_IV_hisse_1_12b;
 
-                worksheet1.Cells["C140"].Value = Math.Round(Convert.ToDecimal(lcrcemd) * 100, 2);
-                worksheet1.Cells["D140"].Value = Math.Round(Convert.ToDecimal(lcrcem) * 100, 2);
-                worksheet1.Cells["E140"].Value = Math.Round(Convert.ToDecimal(lcrazn) * 100, 2);
-                worksheet1.Cells["F140"].Value = Math.Round(Convert.ToDecimal(lcrval) * 100, 2);
+                //worksheet1.Cells["C140"].Value = Math.Round(Convert.ToDecimal(lcrcemd) * 100, 2);
+                //worksheet1.Cells["D140"].Value = Math.Round(Convert.ToDecimal(lcrcem) * 100, 2);
+                //worksheet1.Cells["E140"].Value = Math.Round(Convert.ToDecimal(lcrazn) * 100, 2);
+                //worksheet1.Cells["F140"].Value = Math.Round(Convert.ToDecimal(lcrval) * 100, 2);
                 //worksheet1.Cells["D140"].Value = Math.Round(Convert.ToDecimal(lcr4), 2);
                 //worksheet1.Cells["D140"].Value = Math.Round(Convert.ToDecimal(lcr5), 2);
 
@@ -5174,7 +3327,7 @@ namespace BMI.Muhasibat
 
                 worksheet1.Cells["A4"].Value = "Bank Melli İran Bakı filialı";
                 worksheet1.Cells["A3"].Value = "Tarix:" + txtdtbugun.Text;
-                #endregion
+
 
                 filePath = System.IO.Path.Combine(dosyayolu, fileName);
                 package.SaveAs(new FileInfo(filePath)); // Excel dosyasını kaydet
@@ -5349,9 +3502,11 @@ namespace BMI.Muhasibat
                 ExcelWorksheet L4 = package.Workbook.Worksheets["L4"];
 
                 string[] L2_c15 = { "100" };
-                string[] L2_c16 = { "110" };
-                string[] L2_c16_ist = { "11010000010000200000", "11020020010000200000" };
-                string[] L2_c17 = { "14010", "14014", "14030", "14034" };
+                string[] L2_c16 = { "11010", "11110", "11710" };
+                string[] L2_d16 = { "11020" };
+                string[] L2_c16_ist = { "11010000010000200000" };
+                string[] L2_d16_ist = { "11020020010000200000" };
+                string[] L2_c17 = { "14010", "14012", "14014", "14030", "14032", "14034" };
                 string[] L2_f16 = { "11010000040000200000" };
 
                 string[] L3A_c21 = { "410", "419" };
@@ -5374,15 +3529,15 @@ namespace BMI.Muhasibat
                 decimal total_sh_L2_d15 = sh_L2_d15.Sum(row => row.Field<decimal>(3)) / 1000;
 
                 var sh_L2_c16 = dt_L2.AsEnumerable()
-                    .Where(row => L2_c16.Contains(row.Field<string>(1).Substring(0, 3)) && row.Field<string>(2) == "00"
+                    .Where(row => L2_c16.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "00"
                      && !L2_c16_ist.Contains(row.Field<string>(1)))
                     .ToList();
                 decimal total_sh_L2_c16 = sh_L2_c16.Sum(row => row.Field<decimal>(3)) / 1000;
 
 
                 var sh_L2_d16 = dt_L2.AsEnumerable()
-                .Where(row => L2_c16.Contains(row.Field<string>(1).Substring(0, 3)) && row.Field<string>(2) != "00"
-                 && !L2_c16_ist.Contains(row.Field<string>(1)))
+                .Where(row => L2_d16.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) != "00"
+                 && !L2_d16_ist.Contains(row.Field<string>(1)))
                 .ToList();
                 decimal total_sh_L2_d16 = sh_L2_d16.Sum(row => row.Field<decimal>(3)) / 1000;
 
@@ -5786,7 +3941,7 @@ namespace BMI.Muhasibat
 
                 object formula_A6 = L4.Cells["D7"].Formula;
                 L4.Calculate();
-                lcrcem = L4.Cells["C6"].Value.ToString();
+                lcrcem = L4.Cells["C7"].Value.ToString();
                 lcrazn = L4.Cells["D6"].Value.ToString();
                 lcrval = L4.Cells["E6"].Value.ToString();
                 lcr4 = L4.Cells["C7"].Value.ToString();
@@ -5801,7 +3956,6 @@ namespace BMI.Muhasibat
         }
         #endregion
 
-
         private void txtdtdunen_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
@@ -5814,12 +3968,12 @@ namespace BMI.Muhasibat
 
         private void txtdtbugun_KeyDown(object sender, KeyEventArgs e)
         {
-                if (e.KeyCode == Keys.Enter)
-                {
-                    // Enter tuşuna basıldığında ikinci TextBox'a odaklan
-                    txtdtdunen.Focus();
-                    e.SuppressKeyPress = true; // Enter tuşunun varsayılan işlevini engelle
-                }
+            if (e.KeyCode == Keys.Enter)
+            {
+                // Enter tuşuna basıldığında ikinci TextBox'a odaklan
+                txtdtdunen.Focus();
+                e.SuppressKeyPress = true; // Enter tuşunun varsayılan işlevini engelle
+            }
         }
 
         private void txtdtdunen_TextChanged(object sender, EventArgs e)
@@ -5860,7 +4014,7 @@ namespace BMI.Muhasibat
 
             #region sql_kodlar
 
-            
+
             string LCR = "SELECT ar.date_oper AS tarix, ar.licsch AS hesab, " +
                "SUBSTR(ar.licsch, 6, 2) AS valyuta, " +
                "ar.saldo_ish_nacval AS qaliq " +
@@ -6005,7 +4159,7 @@ namespace BMI.Muhasibat
             {
                 #region excel_kodlar
 
-                
+
                 ExcelWorksheet wsL1 = package.Workbook.Worksheets["L1"];
                 ExcelWorksheet wsL2 = package.Workbook.Worksheets["L2"];
                 ExcelWorksheet wsL3_A = package.Workbook.Worksheets["L3 (A)"];
@@ -6013,9 +4167,11 @@ namespace BMI.Muhasibat
                 ExcelWorksheet L4 = package.Workbook.Worksheets["L4"];
 
                 string[] L2_c15 = { "100" };
-                string[] L2_c16 = { "110" };
-                string[] L2_c16_ist = { "11010000010000200000", "11020020010000200000" };
-                string[] L2_c17 = { "14010", "14014", "14030", "14034" };
+                string[] L2_c16 = { "11010", "11110", "11710" };
+                string[] L2_d16 = { "11020" };
+                string[] L2_c16_ist = { "11010000010000200000" };
+                string[] L2_d16_ist = { "11020020010000200000" };
+                string[] L2_c17 = { "14010", "14012", "14014", "14030", "14032", "14034" };
                 string[] L2_f16 = { "11010000040000200000" };
 
                 string[] L3A_c21 = { "410", "419" };
@@ -6038,15 +4194,15 @@ namespace BMI.Muhasibat
                 decimal total_sh_L2_d15 = sh_L2_d15.Sum(row => row.Field<decimal>(3)) / 1000;
 
                 var sh_L2_c16 = dt_L2.AsEnumerable()
-                    .Where(row => L2_c16.Contains(row.Field<string>(1).Substring(0, 3)) && row.Field<string>(2) == "00"
+                    .Where(row => L2_c16.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "00"
                      && !L2_c16_ist.Contains(row.Field<string>(1)))
                     .ToList();
                 decimal total_sh_L2_c16 = sh_L2_c16.Sum(row => row.Field<decimal>(3)) / 1000;
 
 
                 var sh_L2_d16 = dt_L2.AsEnumerable()
-                .Where(row => L2_c16.Contains(row.Field<string>(1).Substring(0, 3)) && row.Field<string>(2) != "00"
-                 && !L2_c16_ist.Contains(row.Field<string>(1)))
+                .Where(row => L2_d16.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) != "00"
+                 && !L2_d16_ist.Contains(row.Field<string>(1)))
                 .ToList();
                 decimal total_sh_L2_d16 = sh_L2_d16.Sum(row => row.Field<decimal>(3)) / 1000;
 
@@ -6059,7 +4215,7 @@ namespace BMI.Muhasibat
                                     .Where(row => L2_f16.Contains(row.Field<string>(1)) && row.Field<string>(2) == "00")
                                     .ToList();
                 decimal total_sh_L2_f16 = sh_L2_f16.Sum(row => row.Field<decimal>(3)) / 1000;
-                
+
                 //L3A
 
                 var sh_L3A_c21 = dt_L2.AsEnumerable()
@@ -6450,7 +4606,7 @@ namespace BMI.Muhasibat
 
                 object formula_A6 = L4.Cells["C6"].Formula;
                 L4.Calculate();
-                lcrcemd = L4.Cells["C6"].Value.ToString();
+                lcrcemd = L4.Cells["C7"].Value.ToString();
 
                 button1.Text = "Sorğu";
 
@@ -6469,9 +4625,8 @@ namespace BMI.Muhasibat
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            button1.Text = "Hazırlanır...";
-            excel();
-            excel_dunen();
+            //excel();
+            //excel_dunen();
             Excel_daily_comment_Yeni_son();
         }
 

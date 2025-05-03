@@ -68,7 +68,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(5, 6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(329, 219);
+            this.panel1.Size = new System.Drawing.Size(329, 165);
             this.panel1.TabIndex = 0;
             // 
             // txtad
@@ -223,7 +223,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(560, 167);
             this.dataGridView1.TabIndex = 9;
-            this.dataGridView1.Visible = false;
             // 
             // dataGridView2
             // 
@@ -232,7 +231,6 @@
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(560, 152);
             this.dataGridView2.TabIndex = 10;
-            this.dataGridView2.Visible = false;
             // 
             // progressBar1
             // 
@@ -246,7 +244,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(339, 231);
+            this.ClientSize = new System.Drawing.Size(1274, 501);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.dataGridView2);

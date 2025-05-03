@@ -11,6 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using OfficeOpenXml;
+using BMI.Muhasibat;
 
 namespace BMI
 {
@@ -21,6 +22,10 @@ namespace BMI
             InitializeComponent();
             this.Icon = Aletler.DefaultIcon;
         }
+        Aletler aletler = new Aletler();
+        string qovluqyolu = Aletler.Layiheanaqovluq();
+        cl_yanasmalar cl = new cl_yanasmalar();
+
         public OracleCommand Orcom;
         public OracleDataAdapter Orda;
         public OracleDataReader Ordr;
@@ -587,29 +592,64 @@ namespace BMI
             //}
             //finally { }
         }
+        //private void imza_huquqi_vaxti_biten()
+        //{
+        //    try
+        //    {
+        //        DataTable Ordt = new DataTable();
+        //        Ordt.Clear();
+        //        OracleConnection Orcon = new OracleConnection("DATA SOURCE=BMI;USER ID=FOXPRO;Password=pass");
+        //        Orcon.Open();
+        //        Orcom = new OracleCommand("select t.regnom,t.SOYADI,T.ADI,T.ATA_ADI,T.FIN,T.VETENDASHLIGI,' ' DIGER,substr(T.IMZA_BITME,0,10), ROWNUM AS SIRA_NO from odb.imza_huquqi_olan_shexsler t " +
+        //        "where t.imza_bitme BETWEEN TO_DATE('"+textBox2.Text+"', 'dd/mm/yyyy') AND TO_DATE('"+textBox3.Text+"', 'dd/mm/yyyy')", Orcon);
+        //        Orda = new OracleDataAdapter(Orcom);
+
+        //        Orda.Fill(Ordt);
+        //        dataGridView3.DataSource = Ordt;
+        //        Orcon.Close();
+        //    }
+        //    catch (Exception)
+        //    {
+        //        // MessageBox.Show("Xəta baş verdi", "Xəta", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //        button1.Text = "Sorğu";
+        //    }
+        //    finally { }
+        //}
         private void imza_huquqi_vaxti_biten()
         {
             try
             {
                 DataTable Ordt = new DataTable();
                 Ordt.Clear();
-                OracleConnection Orcon = new OracleConnection("DATA SOURCE=BMI;USER ID=FOXPRO;Password=pass");
-                Orcon.Open();
-                Orcom = new OracleCommand("select t.regnom,t.SOYADI,T.ADI,T.ATA_ADI,T.FIN,T.VETENDASHLIGI,' ' DIGER,substr(T.IMZA_BITME,0,10), ROWNUM AS SIRA_NO from odb.imza_huquqi_olan_shexsler t " +
-                "where t.imza_bitme BETWEEN TO_DATE('"+textBox2.Text+"', 'dd/mm/yyyy') AND TO_DATE('"+textBox3.Text+"', 'dd/mm/yyyy')", Orcon);
-                Orda = new OracleDataAdapter(Orcom);
+                using (OracleConnection Orcon = new OracleConnection(cl.con))
+                {
+                    Orcon.Open();
 
-                Orda.Fill(Ordt);
-                dataGridView3.DataSource = Ordt;
-                Orcon.Close();
+                    string query = @"SELECT t.regnom, t.soyadi, t.adi, t.ata_adi, t.fin, t.vetendasHligi, 
+                                    ' ' AS diger, 
+                                    SUBSTR(t.imza_bitme, 0, 10) AS imza_bitme, 
+                                    ROWNUM AS sira_no 
+                             FROM odb.imza_huquqi_olan_shexsler t 
+                             WHERE t.imza_bitme 
+                             BETWEEN TO_DATE(:girisTarix, 'dd/mm/yyyy') AND TO_DATE(:cixisTarix, 'dd/mm/yyyy')";
+
+                    using (OracleCommand Orcom = new OracleCommand(query, Orcon))
+                    {
+                        Orcom.Parameters.Add(new OracleParameter("girisTarix", textBox2.Text));
+                        Orcom.Parameters.Add(new OracleParameter("cixisTarix", textBox3.Text));
+
+                        OracleDataAdapter Orda = new OracleDataAdapter(Orcom);
+                        Orda.Fill(Ordt);
+                        dataGridView3.DataSource = Ordt;
+                    }
+                }
             }
             catch (Exception)
             {
-                // MessageBox.Show("Xəta baş verdi", "Xəta", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 button1.Text = "Sorğu";
             }
-            finally { }
         }
+
         private void imza_huquqi_vaxti_yeni()
         {
             try

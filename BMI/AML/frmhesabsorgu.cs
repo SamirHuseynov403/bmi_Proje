@@ -14,9 +14,8 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using OfficeOpenXml;
-using DevExpress.ClipboardSource.SpreadsheetML;
 using System.Windows.Controls;
+using BMI.Muhasibat;
 
 
 namespace BMI
@@ -27,6 +26,10 @@ namespace BMI
         {
             InitializeComponent();
         }
+        Aletler aletler = new Aletler();
+        string qovluqyolu = Aletler.Layiheanaqovluq();
+        cl_yanasmalar cl = new cl_yanasmalar();
+
         public OracleCommand Orcom;
         public OracleDataAdapter Orda;
         public OracleDataReader Ordr;
@@ -75,7 +78,7 @@ namespace BMI
                 {
                     valkod = "BƏƏ";
                 }
-                
+
                 int columnNo = 38;
                 int columnNo1 = 39;
                 int columnNo20 = 21;
@@ -83,33 +86,36 @@ namespace BMI
                 int columnNo21 = 21;
                 int columnNoCARI = 20;
                 string hesad = dataGridView2.Rows[0].Cells[0].Value.ToString();
-                string desktopFolder = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-                desktopFolder = Path.Combine(desktopFolder, "AML cixaris");
-                string baseFileName = $"{txtad.Text} - {valkod} - {adelave}  "; // Temel dosya adı
-                string fileName = baseFileName + ".xlsx";
-                string templateFilePath = @"C:\BMI_\AML_Hesab.xlsx";
-                if (File.Exists(Path.Combine(desktopFolder, fileName)))
+
+                cl.dosyayolu = System.IO.Path.Combine(qovluqyolu, aletler.sorgular, "Yaradilmis exceller");
+                cl.fileName = "AML cixaris" + ".xlsx";
+                cl.templateFilePath = System.IO.Path.Combine(qovluqyolu, "Fayllar", "AML", "Exceller", "AML_Hesab.xlsx");
+                cl.filePath = System.IO.Path.Combine(cl.dosyayolu, cl.fileName);
+                cl.baseFileName = hesad;
+
+                if (File.Exists(System.IO.Path.Combine(cl.dosyayolu, cl.fileName)))
                 {
                     int fileCounter = 1;
-                    while (File.Exists(Path.Combine(desktopFolder, $"{baseFileName} - {fileCounter}.xlsx")))
+                    while (File.Exists(System.IO.Path.Combine(cl.dosyayolu, $"{cl.baseFileName} - {fileCounter}.xlsx")))
                     {
                         fileCounter++;
                     }
-                    fileName = $"{baseFileName} - {fileCounter}.xlsx";
+                    cl.fileName = $"{cl.baseFileName} - {fileCounter}.xlsx";
                 }
                 if (dataGridView1.RowCount > 0)
                 {
-                    FileInfo templateFile = new FileInfo(templateFilePath);
+                    FileInfo templateFile = new FileInfo(cl.templateFilePath);
                     using (ExcelPackage package = new ExcelPackage(templateFile))
                     {
                         ExcelWorksheet worksheet = package.Workbook.Worksheets.First();
                         worksheet.Name = "Hesab çıxarışı";
 
-                        int startRow = 13;
-                        worksheet.Cells[7, 4].Value = textBox2.Text;//baslama tarixi
-                        worksheet.Cells[7, 5].Value = textBox3.Text;//bitme tarixi
-                        worksheet.Cells[8, 4].Value = dataGridView2.Rows[0].Cells[1].Value;//saldo baslama
-                        worksheet.Cells[8, 5].Value = dataGridView2.Rows[0].Cells[2].Value;//saldo bitme
+                        int startRow = 12;
+                        worksheet.Cells[5, 4].Value = textBox2.Text;//baslama tarixi
+                        worksheet.Cells[5, 5].Value = textBox3.Text;//bitme tarixi
+                        worksheet.Cells[6, 4].Value = dataGridView2.Rows[0].Cells[1].Value;//saldo baslama
+                        worksheet.Cells[6, 5].Value = dataGridView2.Rows[0].Cells[2].Value;//saldo bitme
+                        worksheet.Cells[7, 5].Value=textBox1.Text;
 
                         int excelColumnCount = 37;
                         for (int i = 0; i < dataGridView1.Rows.Count; i++)
@@ -123,163 +129,170 @@ namespace BMI
 
                             for (int j = 0; j < excelColumnCount; j++)
                             {
-                                worksheet.Cells[startRow + i, j + 1].Value = dataGridView1.Rows[i].Cells[j].Value;
-                            if (dataGridView1.Rows[i].Cells[columnNo1 - 1].Value != null)
-                            {
-                                
-                                object cellValue21 = dataGridView1.Rows[i].Cells[columnNo1 - 1].Value;
-                                object cellValue9 = dataGridView1.Rows[i].Cells[columnNo - 1].Value;
-                                object cellValue20 = dataGridView1.Rows[i].Cells[columnNo20 - 1].Value;
-                                object cellValue9_ = dataGridView1.Rows[i].Cells[8].Value;
-                                object cellValue21_ = dataGridView1.Rows[i].Cells[columnNo21 - 1].Value;
-                                object cellValueCARI = dataGridView1.Rows[i].Cells[columnNo20 - 1].Value;
-                                object cellValuedebCARI = dataGridView1.Rows[i].Cells[columnNo9 - 2].Value;
-                                string ilkbes9 = cellValue9.ToString().Substring(0, 5);
-                                string ilkbes21 = cellValue21.ToString().Substring(0, 5);
-                                
-                                    if (cellValue21 != null && cellValue21.ToString() == "25010000000000300000")
+                                object cellValue = dataGridView1.Rows[i].Cells[j].Value;
+
+                                if ((j == 0 || j == 1) && DateTime.TryParse(cellValue?.ToString(), out DateTime parsedDate))
                                 {
-                                    //gridmuracietler.SetRowCellValue(i, gridmuracietler.Columns[3], "ATM");
-                                    dataGridView1.Rows[i].Cells[3].Value = "ATM";
+                                    worksheet.Cells[startRow + i, j + 1].Value = parsedDate.ToString("yyyy.MM.dd");
                                 }
-                                     if (cellValue9_ != null && cellValue9_.ToString() == "25052000040000300000")
+                                else
+                                {
+                                    worksheet.Cells[startRow + i, j + 1].Value = cellValue;
+                                }
+                                if (dataGridView1.Rows[i].Cells[columnNo1 - 1].Value != null)
+                                {
+
+                                    object cellValue21 = dataGridView1.Rows[i].Cells[columnNo1 - 1].Value;
+                                    object cellValue9 = dataGridView1.Rows[i].Cells[columnNo - 1].Value;
+                                    object cellValue20 = dataGridView1.Rows[i].Cells[columnNo20 - 1].Value;
+                                    object cellValue9_ = dataGridView1.Rows[i].Cells[8].Value;
+                                    object cellValue21_ = dataGridView1.Rows[i].Cells[columnNo21 - 1].Value;
+                                    object cellValueCARI = dataGridView1.Rows[i].Cells[columnNo20 - 1].Value;
+                                    object cellValuedebCARI = dataGridView1.Rows[i].Cells[columnNo9 - 2].Value;
+                                    string ilkbes9 = cellValue9.ToString().Substring(0, 5);
+                                    string ilkbes21 = cellValue21.ToString().Substring(0, 5);
+
+                                    if (cellValue21 != null && cellValue21.ToString() == "25010000000000300000")
+                                    {
+                                        //gridmuracietler.SetRowCellValue(i, gridmuracietler.Columns[3], "ATM");
+                                        dataGridView1.Rows[i].Cells[3].Value = "ATM";
+                                    }
+                                    if (cellValue9_ != null && cellValue9_.ToString() == "25052000040000300000")
                                     {
                                         dataGridView1.Rows[i].Cells[4].Value = "İŞÇİLƏRƏ AVANS MÜKAFAT";
                                     }
-                                     if (cellValue9_ != null && cellValue9_.ToString() == "25019000000000300006")
+                                    if (cellValue9_ != null && cellValue9_.ToString() == "25019000000000300006")
                                     {
                                         dataGridView1.Rows[i].Cells[4].Value = "E-MANAT İLƏ ƏMƏLİYYATLAR";
                                         dataGridView1.Rows[i].Cells[11].Value = "AZE";
                                     }
-                                     if (cellValue9 != null && cellValue9.ToString() == "11010000020000200000" || cellValue21 != null && cellValue21.ToString() == "11010000020000200000")
-                                {
-                                    dataGridView1.Rows[i].Cells[3].Value = "AZP";
-                                }
-                                 if (cellValue9 != null && cellValue9.ToString() == "11010000030000200000" || cellValue21 != null && cellValue21.ToString() == "11010000030000200000")
-                                {
-                                    dataGridView1.Rows[i].Cells[3].Value = "XON";
-                                }
-                                 if (cellValue9 != null && cellValue9.ToString() == "11010000050000200000" || cellValue21 != null && cellValue21.ToString() == "11010000050000200000")
-                                {
-                                    dataGridView1.Rows[i].Cells[3].Value = "AOS";
-                                }
-                                 if (ilkbes9 == "35025" || ilkbes21 == "35025")
-                                {
-                                    dataGridView1.Rows[i].Cells[3].Value = "SFT";
-                                }
-                                 if (ilkbes9 == "35020" || ilkbes21 == "35020")
-                                {
-                                    dataGridView1.Rows[i].Cells[3].Value = "SFT";
-                                }
-                                 if (ilkbes9 == "15025" || ilkbes21 == "15025")
-                                {
-                                    dataGridView1.Rows[i].Cells[3].Value = "SFT";
-                                }
-                                 if (ilkbes9 == "15020" || ilkbes21 == "15020")
-                                {
-                                    dataGridView1.Rows[i].Cells[3].Value = "SFT";
-                                }
-                                 if (ilkbes9 == "10010" || ilkbes21 == "10010")
-                                {
-                                    dataGridView1.Rows[i].Cells[3].Value = "CAS";
-                                }
-                                 if (ilkbes9 == "10020" || ilkbes21 == "10020")
-                                {
-                                    dataGridView1.Rows[i].Cells[3].Value = "CAS";
-                                }
-                                 if (ilkbes9 == "25019")
-                                {
-                                    dataGridView1.Rows[i].Cells[3].Value = "PTR";
-                                }
-                                 if (cellValue21 != null && cellValue9.ToString() == "25010000000000300000" || cellValue21 != null && cellValue21.ToString() == "25020010000000300002" || cellValue21 != null && cellValue21.ToString() == "25020020000000300002")
-                                {
-                                    dataGridView1.Rows[i].Cells[3].Value = "POS";
-                                }
-                                     if (cellValue21_ != null && yoxla21_<1)
+                                    if (cellValue9 != null && cellValue9.ToString() == "11010000020000200000" || cellValue21 != null && cellValue21.ToString() == "11010000020000200000")
                                     {
-                                            string hesabAdi = string.Empty; // Boş bir string yaradırıq
-                                            string fin = string.Empty;
-                                            string voen = string.Empty;
-
-                                            // DataTable-dən "cellValue21_" ilə eyni hesab adını əldə etmək
-                                            foreach (DataRow row in Hes_adlari.Rows)
-                                            {
-                                                // 1-ci sütuna görə müqayisə edirik
-                                                if (cellValue21_.ToString()== row[0].ToString())
-                                                {
-                                                    hesabAdi = row[1].ToString();
-                                                    fin = row[2].ToString();
-                                                    voen = row[3].ToString();
-                                                    yoxla21_ = yoxla21_ + 1;
-                                                    break; // Hesab tapılınca loop-dan çıxırıq
-                                                }
-                                            }
-                                            if (!string.IsNullOrEmpty(hesabAdi))
-                                            {
-                                                dataGridView1.Rows[i].Cells[16].Value = hesabAdi; // Hesab adını dataGridView-ə yazırıq
-                                                dataGridView1.Rows[i].Cells[18].Value = fin;
-                                                dataGridView1.Rows[i].Cells[17].Value = voen;
-                                            }
+                                        dataGridView1.Rows[i].Cells[3].Value = "AZP";
                                     }
-                                     if (cellValue9_ != null && yoxla9_<1)
+                                    if (cellValue9 != null && cellValue9.ToString() == "11010000030000200000" || cellValue21 != null && cellValue21.ToString() == "11010000030000200000")
                                     {
-                                            string hesabAdi = string.Empty; // Boş bir string yaradırıq
+                                        dataGridView1.Rows[i].Cells[3].Value = "XON";
+                                    }
+                                    if (cellValue9 != null && cellValue9.ToString() == "11010000050000200000" || cellValue21 != null && cellValue21.ToString() == "11010000050000200000")
+                                    {
+                                        dataGridView1.Rows[i].Cells[3].Value = "AOS";
+                                    }
+                                    if (ilkbes9 == "35025" || ilkbes21 == "35025")
+                                    {
+                                        dataGridView1.Rows[i].Cells[3].Value = "SFT";
+                                    }
+                                    if (ilkbes9 == "35020" || ilkbes21 == "35020")
+                                    {
+                                        dataGridView1.Rows[i].Cells[3].Value = "SFT";
+                                    }
+                                    if (ilkbes9 == "15025" || ilkbes21 == "15025")
+                                    {
+                                        dataGridView1.Rows[i].Cells[3].Value = "SFT";
+                                    }
+                                    if (ilkbes9 == "15020" || ilkbes21 == "15020")
+                                    {
+                                        dataGridView1.Rows[i].Cells[3].Value = "SFT";
+                                    }
+                                    if (ilkbes9 == "10010" || ilkbes21 == "10010")
+                                    {
+                                        dataGridView1.Rows[i].Cells[3].Value = "CAS";
+                                    }
+                                    if (ilkbes9 == "10020" || ilkbes21 == "10020")
+                                    {
+                                        dataGridView1.Rows[i].Cells[3].Value = "CAS";
+                                    }
+                                    if (ilkbes9 == "25019")
+                                    {
+                                        dataGridView1.Rows[i].Cells[3].Value = "PTR";
+                                    }
+                                    if (cellValue21 != null && cellValue9.ToString() == "25010000000000300000" || cellValue21 != null && cellValue21.ToString() == "25020010000000300002" || cellValue21 != null && cellValue21.ToString() == "25020020000000300002")
+                                    {
+                                        dataGridView1.Rows[i].Cells[3].Value = "POS";
+                                    }
+                                    if (cellValue21_ != null && yoxla21_ < 1)
+                                    {
+                                        string hesabAdi = string.Empty; // Boş bir string yaradırıq
+                                        string fin = string.Empty;
+                                        string voen = string.Empty;
 
-                                            // DataTable-dən "cellValue9_" ilə eyni hesab adını əldə etmək
-                                            foreach (DataRow row in Hes_adlari.Rows)
+                                        // DataTable-dən "cellValue21_" ilə eyni hesab adını əldə etmək
+                                        foreach (DataRow row in Hes_adlari.Rows)
+                                        {
+                                            // 1-ci sütuna görə müqayisə edirik
+                                            if (cellValue21_.ToString() == row[0].ToString())
                                             {
-                                                // 1-ci sütuna görə müqayisə edirik
-                                                if (cellValue9_.ToString() == row[0].ToString())
-                                                {
-                                                    hesabAdi = row[1].ToString();
+                                                hesabAdi = row[1].ToString();
+                                                fin = row[2].ToString();
+                                                voen = row[3].ToString();
+                                                yoxla21_ = yoxla21_ + 1;
+                                                break; // Hesab tapılınca loop-dan çıxırıq
+                                            }
+                                        }
+                                        if (!string.IsNullOrEmpty(hesabAdi))
+                                        {
+                                            dataGridView1.Rows[i].Cells[16].Value = hesabAdi; // Hesab adını dataGridView-ə yazırıq
+                                            dataGridView1.Rows[i].Cells[18].Value = fin;
+                                            dataGridView1.Rows[i].Cells[17].Value = voen;
+                                        }
+                                    }
+                                    if (cellValue9_ != null && yoxla9_ < 1)
+                                    {
+                                        string hesabAdi = string.Empty; // Boş bir string yaradırıq
+
+                                        // DataTable-dən "cellValue9_" ilə eyni hesab adını əldə etmək
+                                        foreach (DataRow row in Hes_adlari.Rows)
+                                        {
+                                            // 1-ci sütuna görə müqayisə edirik
+                                            if (cellValue9_.ToString() == row[0].ToString())
+                                            {
+                                                hesabAdi = row[1].ToString();
                                                 yoxla9_ = yoxla9_ + 1;
                                                 break; // Hesab tapılınca loop-dan çıxırıq
-                                                }
                                             }
+                                        }
 
-                                            if (!string.IsNullOrEmpty(hesabAdi))
+                                        if (!string.IsNullOrEmpty(hesabAdi))
+                                        {
+                                            dataGridView1.Rows[i].Cells[4].Value = hesabAdi; // Hesab adını dataGridView-ə yazırıq
+                                        }
+                                    }
+
+                                    if (cellValue21_ != null && cellValue21_.ToString().Length >= 2)
+                                    {
+                                        string firstTwoCharacters = cellValue21_.ToString().Substring(0, 2);
+
+                                        if (firstTwoCharacters == "40" || firstTwoCharacters == "41" || firstTwoCharacters == "38" || firstTwoCharacters == "39")
+                                        {
+                                            if (cellValueCARI.ToString() != "P/k")
                                             {
-                                                dataGridView1.Rows[i].Cells[4].Value = hesabAdi; // Hesab adını dataGridView-ə yazırıq
+                                                dataGridView1.Rows[i].Cells[19].Value = "Cari";
                                             }
-                                    }
-
-                                if (cellValue21_ != null && cellValue21_.ToString().Length >= 2)
-                                {
-                                    string firstTwoCharacters = cellValue21_.ToString().Substring(0, 2);
-
-                                    if (firstTwoCharacters == "40" || firstTwoCharacters == "41" || firstTwoCharacters == "38" || firstTwoCharacters == "39")
-                                    {
-                                        if (cellValueCARI.ToString() != "P/k")
-                                        {
-                                            dataGridView1.Rows[i].Cells[19].Value = "Cari";
                                         }
                                     }
-                                }
-                                if (cellValue9_ != null && cellValue9_.ToString().Length >= 2)
-                                {
-                                    string firstTwoCharacters = cellValue9_.ToString().Substring(0, 2);
-
-                                    if (firstTwoCharacters == "40" || firstTwoCharacters == "41" || firstTwoCharacters == "38" || firstTwoCharacters == "39")
+                                    if (cellValue9_ != null && cellValue9_.ToString().Length >= 2)
                                     {
-                                        if (cellValueCARI.ToString() != "P/k")
+                                        string firstTwoCharacters = cellValue9_.ToString().Substring(0, 2);
+
+                                        if (firstTwoCharacters == "40" || firstTwoCharacters == "41" || firstTwoCharacters == "38" || firstTwoCharacters == "39")
                                         {
-                                            dataGridView1.Rows[i].Cells[19].Value = "Cari";
+                                            if (cellValueCARI.ToString() != "P/k")
+                                            {
+                                                dataGridView1.Rows[i].Cells[19].Value = "Cari";
+                                            }
                                         }
                                     }
+                                    //if (cellValue9_ != null && (cellValue9_.ToString().Substring(0, 2) == "40" || cellValue9_.ToString().Substring(0, 2) == "41" || cellValue9_.ToString().Substring(0, 2) == "38" || cellValue9_.ToString().Substring(0, 2) == "39") && cellValuedebCARI.ToString() != "P/k")
+                                    //{
+                                    //    //string test = cellValue9_.ToString().Substring(0, 2);
+                                    //    dataGridView1.Rows[i].Cells[7].Value = "Cari";
+                                    //}
                                 }
-                                //if (cellValue9_ != null && (cellValue9_.ToString().Substring(0, 2) == "40" || cellValue9_.ToString().Substring(0, 2) == "41" || cellValue9_.ToString().Substring(0, 2) == "38" || cellValue9_.ToString().Substring(0, 2) == "39") && cellValuedebCARI.ToString() != "P/k")
-                                //{
-                                //    //string test = cellValue9_.ToString().Substring(0, 2);
-                                //    dataGridView1.Rows[i].Cells[7].Value = "Cari";
-                                //}
                             }
                         }
-                        }
-                        string filePath = Path.Combine(desktopFolder, fileName);
-                        button1.Text = "Sorğu";
-                        package.SaveAs(new FileInfo(filePath)); // Excel dosyasını kaydet
-                        //MessageBox.Show("Excel dosyası başarıyla oluşturuldu ve kaydedildi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        System.Diagnostics.Process.Start(filePath);
+                        cl.filePath = System.IO.Path.Combine(cl.dosyayolu, cl.fileName);
+                        package.SaveAs(new FileInfo(cl.filePath)); // Excel dosyasını kaydet
+                        System.Diagnostics.Process.Start(cl.filePath);
                     }
                 }
             }
@@ -302,13 +315,13 @@ namespace BMI
 
                         // Diğer kodlar burada devam eder
                         hesabad_qaliq();
-                        
+
 
                         if (radioButton1.Checked == true)
                         {
                             axtar();
                             hesabad_qaliq();
-                            if (dataGridView1.RowCount == 0 || dataGridView2.RowCount <=1)
+                            if (dataGridView1.RowCount == 0 || dataGridView2.RowCount <= 1)
                             {
                                 button1.Text = "Sorğu";
                                 MessageBox.Show("Nəticə yoxdur və ya hesab daxil etdiyiniz giriş tarixindən sonra açılıb.", "Məlumat", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -331,7 +344,7 @@ namespace BMI
 
                                 this.Invoke((MethodInvoker)delegate
                                 {
-                                    
+
                                 });
                             }
                             else
@@ -655,8 +668,8 @@ namespace BMI
                 Ordt.Clear();
                 OracleConnection Orcon = new OracleConnection("DATA SOURCE=BMI;USER ID=FOXPRO;Password=pass");
                 Orcon.Open();
-                Orcom = new OracleCommand("select  t.licsch,t.name_licsch,r.pincode from odb.licsch t,odb.regnom r "+
-                " where substr(t.licsch, 11, 5) = substr(r.regnom, 2.5) and t.date_close_licsch is null "+
+                Orcom = new OracleCommand("select  t.licsch,t.name_licsch,r.pincode from odb.licsch t,odb.regnom r " +
+                " where substr(t.licsch, 11, 5) = substr(r.regnom, 2.5) and t.date_close_licsch is null " +
                 " order by t.licsch", Orcon);
                 Orda = new OracleDataAdapter(Orcom);
                 Orda.Fill(Ordt);
@@ -862,7 +875,7 @@ namespace BMI
                     //textBox2.Clear(); // Hatalı girişi temizle
                 }
             }
-            
+
         }
         private void textBox3_TextChanged(object sender, EventArgs e)
         {

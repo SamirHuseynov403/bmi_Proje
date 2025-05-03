@@ -708,3 +708,6 @@ C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.csproj.Up2Date
 C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.exe
 C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.pdb
 C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.AML.frm_Benefisiar_hesabat.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Sorgular.Kredit.frm_kredit_portfeli_aylar_uzre_qaliqalr.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.PID.Hesabatlar.frmVintaj.resources
+C:\Users\mehemmed\Desktop\axirinci bmi\BMI_\BMI\obj\Debug\BMI.Sorgular.Kredit.frmSonBesİlVerilmisKreditler.resources

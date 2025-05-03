@@ -63,6 +63,16 @@ namespace BMI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1477521928_10_icon_icons_com_74620 {
+            get {
+                object obj = ResourceManager.GetObject("1477521928_10_icon-icons.com_74620", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _1486504346_cancel_close_delete_exit_remove_x_81304 {
             get {
                 object obj = ResourceManager.GetObject("1486504346-cancel-close-delete-exit-remove-x_81304", resourceCulture);

@@ -61,7 +61,6 @@ namespace BMI.Muhasibat
             }
         }
         
-       
         private void excel()
         {
             
@@ -124,6 +123,46 @@ namespace BMI.Muhasibat
                           "((substr(ar.debet, 0, 1) in (3, 4) and ar.kredit in (l.licschkre, l.licschpkre, l.licsch_19, l.licschppkre))) " +
                            "group by substr(ar.kredit, 10, 6),ar.ssk) asz where substr(n.licschpkre, 10, 6) = asz.qeyd(+)and n.sk = asz.ssk(+)";
             #endregion
+            #region Proqnoz en son deyiiklik
+            string Prognoz = @"
+SELECT 
+    ar.licschkre hes,
+    SUBSTR(ar.licschkre, 6, 2) val,
+    ar.subschkre sub,
+    odb.tar_ferq360(x.date_oper, NVL(x.lastoverduedate, x.date_oper)) gec_gun,
+    ar.tipkredita tip,
+    (
+        SELECT ROUND(
+            SUM(dd.summa_v_nacval) / 
+            NULLIF(MONTHS_BETWEEN(
+                TO_DATE(:hesabat_tar, 'DD-MM-YYYY'),
+                TO_DATE(:six_months_ago, 'DD-MM-YYYY')
+            ), 0), 2
+        )
+        FROM arh_dd dd 
+        WHERE SUBSTR(dd.debet, 1, 1) IN ('3','4') 
+          AND dd.kredit IN (ar.licschkre, ar.licschpkre, ar.licsch_19, ar.licschppkre)
+          AND dd.date_oper BETWEEN TO_DATE(:six_months_ago, 'DD-MM-YYYY') 
+                               AND TO_DATE(:hesabat_tar, 'DD-MM-YYYY')
+    ) odenis,
+    (
+        SELECT g.summa_pog_kre + g.summa_pog_pro 
+        FROM graphpogkre g
+        WHERE g.subschkre = ar.subschkre 
+          AND g.licschkre = ar.licschkre
+          AND TO_CHAR(g.date_pog, 'MM-YYYY') = TO_CHAR(
+              ADD_MONTHS(TO_DATE(:hesabat_tar, 'DD-MM-YYYY'), 1), 'MM-YYYY'
+          )
+    ) ayliq
+FROM arh_licschkre ar, view_nacpogprokre_all x
+WHERE 
+    (ar.date_close IS NULL OR ar.date_close > TO_DATE(:hesabat_tar, 'DD-MM-YYYY'))
+    AND ar.date_oper = TO_DATE(:hesabat_tar, 'DD-MM-YYYY')
+    AND x.licschpkre = ar.licschpkre 
+    AND x.subschkre = ar.subschkre 
+    AND x.date_oper = ar.date_oper";
+
+            #endregion
             string daily_report_bk_xett = "select distinct t.date_oper tarix,t.vbs,t.licsch,substr(t.licsch,6,2),t.ssls,t.ostatok_ish, "+
                 "t.ostatok_ish* ROUND(odb.func_get_kurval(substr(t.licsch,6,2),t.date_oper),6) ekv, "+
                 "ROUND(odb.func_get_kurval(substr(t.licsch, 6, 2), t.date_oper), 6)  kurs ,ar.date_planclose," +
@@ -135,7 +174,7 @@ namespace BMI.Muhasibat
 
             string likvid = "select l.licsch,substr(l.licsch,6,2),round(sum(l.saldo_ish_nacval/1000),2) from odb.arh_saldo_ls l " +
                    "where l.date_oper=TO_DATE('" + txt_hesabat_tarixi.Text + "', 'dd/mm/yyyy') " +
-                   " and substr(l.licsch,1,5) in ('15770','11710') " +
+                   " and substr(l.licsch,1,5) in ('15770') " +
                    " group by l.licsch";
 
             string qiymetli_kag = "select substr(t.licsch_cb,0,5)hes,substr(t.licsch_cb,6,2) val,t.subsch_cb,t.summa_cb," +
@@ -162,26 +201,38 @@ namespace BMI.Muhasibat
                     OracleDataAdapter adapter = new OracleDataAdapter(command);
                     adapter.Fill(dt_L2);
                 }
-                using (OracleCommand command = new OracleCommand(Proqnoz, connection))
+                using (OracleCommand command = new OracleCommand(Prognoz, connection))
                 {
-                    //connection.Open();
+                    // Tarixləri textbox-lardan oxu
+                    string hesabatTar = txt_hesabat_tarixi.Text.Trim();      // Məs: "31-03-2025"
+                    string altıAyEvvel = txt_sonaltiay.Text.Trim();      // Məs: "30-09-2024"
+
+                    // Parametrləri əlavə et
+                    command.Parameters.Add("hesabat_tar", OracleDbType.Varchar2).Value = hesabatTar;
+                    command.Parameters.Add("six_months_ago", OracleDbType.Varchar2).Value = altıAyEvvel;
+
                     OracleDataAdapter adapter = new OracleDataAdapter(command);
                     adapter.Fill(dt_proqnoz);
-                    foreach (DataRow row in dt_proqnoz.Rows)
-                    {
-                        double meb = Convert.ToDouble(row[7]);
-                        double faizOranı = Convert.ToDouble(row[8]);
-                        int vadeMüddeti = Convert.ToInt32(row[9]) / 30;
-
-                        double aylıkÖdeme = Math.Round(CalculateMonthlyPayment(meb, vadeMüddeti, faizOranı), 2);
-                        row[10] = aylıkÖdeme;
-                    }
-
-
-
-                    
-
                 }
+
+                //using (OracleCommand command = new OracleCommand(Proqnoz, connection))
+                //{
+                //    //connection.Open();
+                //    OracleDataAdapter adapter = new OracleDataAdapter(command);
+                //    adapter.Fill(dt_proqnoz);
+
+
+                //    //foreach (DataRow row in dt_proqnoz.Rows)  SONRADAN DATATABLEYE AYLIQ ATMAQ UCUN
+                //    //{
+                //    //    double meb = Convert.ToDouble(row[7]);
+                //    //    double faizOranı = Convert.ToDouble(row[8]);
+                //    //    int vadeMüddeti = Convert.ToInt32(row[9]) / 30;
+
+                //    //    double aylıkÖdeme = Math.Round(CalculateMonthlyPayment(meb, vadeMüddeti, faizOranı), 2);
+                //    //    row[10] = aylıkÖdeme;
+                //    //}
+
+                //}
                 using (OracleCommand command = new OracleCommand(daily_report_bk_xett, connection))
                 {
                     dt_xett.Clear();
@@ -246,8 +297,10 @@ namespace BMI.Muhasibat
                 ExcelWorksheet wsL3_B = package.Workbook.Worksheets["L3 (B)"];
 
                 string[] L2_c15 = { "100" };
-                string[] L2_c16 = { "110" };
-                string[] L2_c16_ist = { "11010000010000200000", "11020020010000200000" };
+                string[] L2_c16 = { "11010","11110", "11710" };
+                string[] L2_d16 = { "11020" };
+                string[] L2_c16_ist = { "11010000010000200000"};
+                string[] L2_d16_ist = { "11020020010000200000" };
                 string[] L2_c17 = { "14010", "14012", "14014", "14030", "14032", "14034" };
                 string[] L2_f16 = { "11010000040000200000" };
 
@@ -271,15 +324,15 @@ namespace BMI.Muhasibat
                 decimal total_sh_L2_d15 = sh_L2_d15.Sum(row => row.Field<decimal>(3)) / 1000;
 
                 var sh_L2_c16 = dt_L2.AsEnumerable()
-                    .Where(row => L2_c16.Contains(row.Field<string>(1).Substring(0, 3)) && row.Field<string>(2) == "00"
+                    .Where(row => L2_c16.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) == "00"
                      && !L2_c16_ist.Contains(row.Field<string>(1)))
                     .ToList();
                 decimal total_sh_L2_c16 = sh_L2_c16.Sum(row => row.Field<decimal>(3)) / 1000;
 
 
                 var sh_L2_d16 = dt_L2.AsEnumerable()
-                .Where(row => L2_c16.Contains(row.Field<string>(1).Substring(0, 3)) && row.Field<string>(2) != "00"
-                 && !L2_c16_ist.Contains(row.Field<string>(1)))
+                .Where(row => L2_d16.Contains(row.Field<string>(1).Substring(0, 5)) && row.Field<string>(2) != "00"
+                 && !L2_d16_ist.Contains(row.Field<string>(1)))
                 .ToList();
                 decimal total_sh_L2_d16 = sh_L2_d16.Sum(row => row.Field<decimal>(3)) / 1000;
 
@@ -407,39 +460,41 @@ namespace BMI.Muhasibat
                 //L3 B PROQNOZ
 
                 var sh_L3B_c19 = dt_proqnoz.AsEnumerable()
-                      .Where(row => row.Field<decimal>(6) <= 90 && row.Field<string>(1) == "00")
+                      .Where(row => row.Field<decimal>(3) <= 90 && row.Field<string>(1) == "00")
                       .ToList();
 
-                decimal total_sh_L3B_c19 = sh_L3B_c19.Sum(row => Convert.ToDecimal(row.Field<string>(10))) / 1000;
+                decimal total_sh_L3B_c19 = sh_L3B_c19
+                    .Where(row => row.Field<decimal?>(6) != null)
+                .Sum(row => row.Field<decimal>(6)) / 1000;
 
                 var sh_L3B_c19_90_cox = dt_proqnoz.AsEnumerable()
-                      .Where(row => row.Field<decimal>(6) > 90 && row.Field<string>(1) == "00")
+                      .Where(row => row.Field<decimal>(3) > 90 && row.Field<string>(1) == "00")
                       .ToList();
 
                 //double total_sh_L3B_c19_90_cox = sh_L3B_c19.Sum(row => Convert.ToDouble(row.Field<string>(11))) / 1000;
                 decimal total_sh_L3B_c19_90_cox = sh_L3B_c19_90_cox                         //sh_L3B_c19_90 bunu deyisidm
-                .Where(row => row.Field<decimal?>(11) != null)
-                .Sum(row => row.Field<decimal>(11)) / 1000;
+                .Where(row => row.Field<decimal?>(5) != null)
+                .Sum(row => row.Field<decimal>(5)) / 1000;
 
 
                 var sh_L3B_d19 = dt_proqnoz.AsEnumerable()
-                      .Where(row => row.Field<decimal>(6) <= 90 && row.Field<string>(1) != "00")
+                      .Where(row => row.Field<decimal>(3) <= 90 && row.Field<string>(1) != "00")
                       .ToList();
 
-                decimal total_sh_L3B_d19 = sh_L3B_d19.Sum(row => Convert.ToDecimal(row.Field<string>(10))) / 1000;
+                decimal total_sh_L3B_d19 = sh_L3B_d19.Sum(row => Convert.ToDecimal(row.Field<string>(6))) / 1000;
 
                 var sh_L3B_d19_90_cox = dt_proqnoz.AsEnumerable()
-                      .Where(row => row.Field<decimal>(6) > 90 && row.Field<string>(1) != "00")
+                      .Where(row => row.Field<decimal>(3) > 90 && row.Field<string>(1) != "00")
                       .ToList();
 
                 //double total_sh_L3B_d19_90_cox = sh_L3B_d19.Sum(row => Convert.ToDouble(row.Field<string>(11))) / 1000;
 
                 decimal total_sh_L3B_d19_90_cox = sh_L3B_d19
-                .Where(row => row.Field<decimal?>(11) != null)
-                .Sum(row => row.Field<decimal>(11)) / 1000;
+                .Where(row => row.Field<decimal?>(5) != null)
+                .Sum(row => row.Field<decimal>(5)) / 1000;
 
                 DataTable filteredDataTableproqnoz = dt_proqnoz.Clone(); // İlk tablonun şemasını kopyala
-                foreach (var row in sh_L3B_c19)
+                foreach (var row in sh_L3B_d19)
                 {
                     filteredDataTableproqnoz.Rows.Add(row.ItemArray);
                 }
@@ -627,8 +682,8 @@ namespace BMI.Muhasibat
 
                 wsL2.Cells[17, 3].Value = total_sh_L2_c17;
 
-                wsL3_A.Cells[21, 3].Value = -total_sh_L3A_c21;
-                wsL3_A.Cells[21, 4].Value = -total_sh_L3A_d21;
+                wsL3_A.Cells[20, 3].Value = -total_sh_L3A_c21;
+                wsL3_A.Cells[20, 4].Value = -total_sh_L3A_d21;
 
                 wsL3_A.Cells[24, 3].Value = -total_sh_L3A_f24;
                 wsL3_A.Cells[24, 4].Value = -total_sh_L3A_f24;

@@ -452,19 +452,21 @@ namespace BMI.Esas
         //}
         public void LoadDataToGrid(DataGridView grid, int userCode)
         {
-            try
+            try//:userCode
             {
                 // SQL sorğusu
                 string query = @"
                    SELECT distinct t.id AS ID,t.e_adi AS Element_Adı, t.f_adi AS Form_Adı, 
-                   CASE 
-                   WHEN i.derece >= t.derece THEN 'true'
-                   ELSE 'false'
-                   END AS İcazə 
-                    FROM (SELECT e.element_adi e_adi,e.form_adi f_adi,e.id id,
-                    case when e.id=x.form_id and x.icaze=1 then 1 else e.derece end derece
-                    FROM bmi_elementler e,bmi_xususi_icazeler x where e.id=x.form_id(+))t, bmi_istifadeciler i 
-                    WHERE i.i_kod  =  :userCode";
+                    CASE 
+                    WHEN i.derece >= t.derece THEN 'true'
+                    ELSE 'false'
+                    END AS İcazə 
+                     FROM (SELECT e.element_adi e_adi,e.form_adi f_adi,e.id id,
+                     case when e.id=x.form_id and x.icaze=1 then 1 else e.derece end derece
+                     FROM bmi_elementler e
+                    LEFT JOIN bmi_xususi_icazeler x 
+                         ON e.id = x.form_id AND x.istifadeci_id =:userCode )t, bmi_istifadeciler i 
+                     WHERE i.i_kod  =  :userCode";
 
                 // Oracle bağlantısı
                 using (OracleConnection connection = new OracleConnection(cl.con_odb))

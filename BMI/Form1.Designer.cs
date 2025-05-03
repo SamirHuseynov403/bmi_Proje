@@ -74,16 +74,22 @@
             this.gündəlikLimitiKeçmişMüştərilərToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hesablarınRiskQruplariÜzrəYenilənməSorğusuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.başİdarəAylıqHesabatSaySorğusuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hesabatlarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.benefisiarMülkiyyətçiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.benefisiarMülkiyyətçiToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.mühasibatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.verilmişKrArasıMəlumatlarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.kataloqToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.kreditPortfeliToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.kreditPortfeliIşSektorÜzrəToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.verilmişödənilmişVəHesablanmışFaizlərToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.kreditPortfeliQalıqlarÜzrəToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ödənişlərVəFərqliSilinmələrToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.kreditiBağlıOlubBkMəbləğiQalanlarVəYaUyğunsuzOlanlarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kreditPortfeliToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.kreditPortfeliQalıqlarÜzrəToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kreditPortfeliIşSektorÜzrəToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.aylarÜzrəMüqayisəliToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sonBeşIlÜzrəVerilmişKreditlərToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.kreditToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.aktivCariHesabMəlumatıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.banklarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -92,6 +98,8 @@
             this.pİDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.iddiaƏrizəsiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sMSSiyahıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hesabatlarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.vintajToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ümumiSorğularToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.balansdaQeydiyyatNoSorğuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ödənişlərVəFərqliSilinmələrToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -126,9 +134,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.tlsplblAdi = new System.Windows.Forms.Label();
             this.panelesas = new System.Windows.Forms.Panel();
-            this.hesabatlarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.benefisiarMülkiyyətçiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.benefisiarMülkiyyətçiToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -511,6 +516,30 @@
             this.başİdarəAylıqHesabatSaySorğusuToolStripMenuItem.Text = "Baş İdarə aylıq hesabat əməliyyat sayı sorğusu";
             this.başİdarəAylıqHesabatSaySorğusuToolStripMenuItem.Click += new System.EventHandler(this.başİdarəAylıqHesabatSaySorğusuToolStripMenuItem_Click);
             // 
+            // hesabatlarToolStripMenuItem1
+            // 
+            this.hesabatlarToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.benefisiarMülkiyyətçiToolStripMenuItem});
+            this.hesabatlarToolStripMenuItem1.Name = "hesabatlarToolStripMenuItem1";
+            this.hesabatlarToolStripMenuItem1.Size = new System.Drawing.Size(336, 22);
+            this.hesabatlarToolStripMenuItem1.Text = "Hesabatlar";
+            // 
+            // benefisiarMülkiyyətçiToolStripMenuItem
+            // 
+            this.benefisiarMülkiyyətçiToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.benefisiarMülkiyyətçiToolStripMenuItem1});
+            this.benefisiarMülkiyyətçiToolStripMenuItem.Name = "benefisiarMülkiyyətçiToolStripMenuItem";
+            this.benefisiarMülkiyyətçiToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
+            this.benefisiarMülkiyyətçiToolStripMenuItem.Text = "Rüblük";
+            this.benefisiarMülkiyyətçiToolStripMenuItem.Click += new System.EventHandler(this.benefisiarMülkiyyətçiToolStripMenuItem_Click);
+            // 
+            // benefisiarMülkiyyətçiToolStripMenuItem1
+            // 
+            this.benefisiarMülkiyyətçiToolStripMenuItem1.Name = "benefisiarMülkiyyətçiToolStripMenuItem1";
+            this.benefisiarMülkiyyətçiToolStripMenuItem1.Size = new System.Drawing.Size(197, 22);
+            this.benefisiarMülkiyyətçiToolStripMenuItem1.Text = "Benefisiar mülkiyyətçi";
+            this.benefisiarMülkiyyətçiToolStripMenuItem1.Click += new System.EventHandler(this.benefisiarMülkiyyətçiToolStripMenuItem1_Click);
+            // 
             // mühasibatToolStripMenuItem
             // 
             this.mühasibatToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -528,15 +557,12 @@
             // 
             this.verilmişKrArasıMəlumatlarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.kataloqToolStripMenuItem1,
-            this.kreditPortfeliToolStripMenuItem,
-            this.toolStripMenuItem2,
-            this.kreditPortfeliIşSektorÜzrəToolStripMenuItem,
             this.verilmişödənilmişVəHesablanmışFaizlərToolStripMenuItem,
-            this.kreditPortfeliQalıqlarÜzrəToolStripMenuItem,
             this.ödənişlərVəFərqliSilinmələrToolStripMenuItem1,
-            this.kreditiBağlıOlubBkMəbləğiQalanlarVəYaUyğunsuzOlanlarToolStripMenuItem});
+            this.kreditiBağlıOlubBkMəbləğiQalanlarVəYaUyğunsuzOlanlarToolStripMenuItem,
+            this.kreditPortfeliToolStripMenuItem1});
             this.verilmişKrArasıMəlumatlarToolStripMenuItem.Name = "verilmişKrArasıMəlumatlarToolStripMenuItem";
-            this.verilmişKrArasıMəlumatlarToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.verilmişKrArasıMəlumatlarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.verilmişKrArasıMəlumatlarToolStripMenuItem.Text = "Kredit";
             this.verilmişKrArasıMəlumatlarToolStripMenuItem.Click += new System.EventHandler(this.verilmişKrArasıMəlumatlarToolStripMenuItem_Click);
             // 
@@ -547,40 +573,12 @@
             this.kataloqToolStripMenuItem1.Text = "Əlavə riskli standart aktivlər";
             this.kataloqToolStripMenuItem1.Click += new System.EventHandler(this.kataloqToolStripMenuItem1_Click);
             // 
-            // kreditPortfeliToolStripMenuItem
-            // 
-            this.kreditPortfeliToolStripMenuItem.Name = "kreditPortfeliToolStripMenuItem";
-            this.kreditPortfeliToolStripMenuItem.Size = new System.Drawing.Size(411, 22);
-            this.kreditPortfeliToolStripMenuItem.Text = "Kredit portfeli kredit növü üzrə";
-            this.kreditPortfeliToolStripMenuItem.Click += new System.EventHandler(this.kreditPortfeliToolStripMenuItem_Click);
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(411, 22);
-            this.toolStripMenuItem2.Text = "Kredit portfeli girov növü üzrə";
-            this.toolStripMenuItem2.Click += new System.EventHandler(this.işSektorlarıÜzrəVerilmişKreditVəQalıqlarToolStripMenuItem_Click);
-            // 
-            // kreditPortfeliIşSektorÜzrəToolStripMenuItem
-            // 
-            this.kreditPortfeliIşSektorÜzrəToolStripMenuItem.Name = "kreditPortfeliIşSektorÜzrəToolStripMenuItem";
-            this.kreditPortfeliIşSektorÜzrəToolStripMenuItem.Size = new System.Drawing.Size(411, 22);
-            this.kreditPortfeliIşSektorÜzrəToolStripMenuItem.Text = "Kredit portfeli iş sektor üzrə";
-            this.kreditPortfeliIşSektorÜzrəToolStripMenuItem.Click += new System.EventHandler(this.kreditPortfeliIşSektorÜzrəToolStripMenuItem_Click);
-            // 
             // verilmişödənilmişVəHesablanmışFaizlərToolStripMenuItem
             // 
             this.verilmişödənilmişVəHesablanmışFaizlərToolStripMenuItem.Name = "verilmişödənilmişVəHesablanmışFaizlərToolStripMenuItem";
             this.verilmişödənilmişVəHesablanmışFaizlərToolStripMenuItem.Size = new System.Drawing.Size(411, 22);
             this.verilmişödənilmişVəHesablanmışFaizlərToolStripMenuItem.Text = "Ödənilmiş kreditlər";
             this.verilmişödənilmişVəHesablanmışFaizlərToolStripMenuItem.Click += new System.EventHandler(this.verilmişödənilmişVəHesablanmışFaizlərToolStripMenuItem_Click);
-            // 
-            // kreditPortfeliQalıqlarÜzrəToolStripMenuItem
-            // 
-            this.kreditPortfeliQalıqlarÜzrəToolStripMenuItem.Name = "kreditPortfeliQalıqlarÜzrəToolStripMenuItem";
-            this.kreditPortfeliQalıqlarÜzrəToolStripMenuItem.Size = new System.Drawing.Size(411, 22);
-            this.kreditPortfeliQalıqlarÜzrəToolStripMenuItem.Text = "Kredit portfeli qalıqları 10 -dan az qalanlar";
-            this.kreditPortfeliQalıqlarÜzrəToolStripMenuItem.Click += new System.EventHandler(this.kreditPortfeliQalıqlarÜzrəToolStripMenuItem_Click);
             // 
             // ödənişlərVəFərqliSilinmələrToolStripMenuItem1
             // 
@@ -596,12 +594,68 @@
             this.kreditiBağlıOlubBkMəbləğiQalanlarVəYaUyğunsuzOlanlarToolStripMenuItem.Text = "Krediti bağlı olub b/k məbləği qalanlar və ya uyğunsuz olanlar";
             this.kreditiBağlıOlubBkMəbləğiQalanlarVəYaUyğunsuzOlanlarToolStripMenuItem.Click += new System.EventHandler(this.kreditiBağlıOlubBkMəbləğiQalanlarVəYaUyğunsuzOlanlarToolStripMenuItem_Click);
             // 
+            // kreditPortfeliToolStripMenuItem1
+            // 
+            this.kreditPortfeliToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1,
+            this.kreditPortfeliQalıqlarÜzrəToolStripMenuItem,
+            this.kreditPortfeliIşSektorÜzrəToolStripMenuItem,
+            this.toolStripMenuItem2,
+            this.aylarÜzrəMüqayisəliToolStripMenuItem,
+            this.sonBeşIlÜzrəVerilmişKreditlərToolStripMenuItem});
+            this.kreditPortfeliToolStripMenuItem1.Name = "kreditPortfeliToolStripMenuItem1";
+            this.kreditPortfeliToolStripMenuItem1.Size = new System.Drawing.Size(411, 22);
+            this.kreditPortfeliToolStripMenuItem1.Text = "Kredit Portfeli";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(368, 22);
+            this.toolStripMenuItem1.Text = "Kredit növü üzrə";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            // 
+            // kreditPortfeliQalıqlarÜzrəToolStripMenuItem
+            // 
+            this.kreditPortfeliQalıqlarÜzrəToolStripMenuItem.Name = "kreditPortfeliQalıqlarÜzrəToolStripMenuItem";
+            this.kreditPortfeliQalıqlarÜzrəToolStripMenuItem.Size = new System.Drawing.Size(368, 22);
+            this.kreditPortfeliQalıqlarÜzrəToolStripMenuItem.Text = "Kredit portfeli qalıqları 10 -dan az qalanlar";
+            this.kreditPortfeliQalıqlarÜzrəToolStripMenuItem.Click += new System.EventHandler(this.kreditPortfeliQalıqlarÜzrəToolStripMenuItem_Click_1);
+            // 
+            // kreditPortfeliIşSektorÜzrəToolStripMenuItem
+            // 
+            this.kreditPortfeliIşSektorÜzrəToolStripMenuItem.Name = "kreditPortfeliIşSektorÜzrəToolStripMenuItem";
+            this.kreditPortfeliIşSektorÜzrəToolStripMenuItem.Size = new System.Drawing.Size(368, 22);
+            this.kreditPortfeliIşSektorÜzrəToolStripMenuItem.Text = "İş sektor üzrə";
+            this.kreditPortfeliIşSektorÜzrəToolStripMenuItem.Click += new System.EventHandler(this.kreditPortfeliIşSektorÜzrəToolStripMenuItem_Click_1);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(368, 22);
+            this.toolStripMenuItem2.Text = "Girov növü üzrə";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
+            // 
+            // aylarÜzrəMüqayisəliToolStripMenuItem
+            // 
+            this.aylarÜzrəMüqayisəliToolStripMenuItem.Image = global::BMI.Properties.Resources._1477521928_10_icon_icons_com_74620;
+            this.aylarÜzrəMüqayisəliToolStripMenuItem.Name = "aylarÜzrəMüqayisəliToolStripMenuItem";
+            this.aylarÜzrəMüqayisəliToolStripMenuItem.Size = new System.Drawing.Size(368, 22);
+            this.aylarÜzrəMüqayisəliToolStripMenuItem.Text = "Aylar üzrə müqayisəli";
+            this.aylarÜzrəMüqayisəliToolStripMenuItem.Click += new System.EventHandler(this.aylarÜzrəMüqayisəliToolStripMenuItem_Click);
+            // 
+            // sonBeşIlÜzrəVerilmişKreditlərToolStripMenuItem
+            // 
+            this.sonBeşIlÜzrəVerilmişKreditlərToolStripMenuItem.Name = "sonBeşIlÜzrəVerilmişKreditlərToolStripMenuItem";
+            this.sonBeşIlÜzrəVerilmişKreditlərToolStripMenuItem.Size = new System.Drawing.Size(368, 22);
+            this.sonBeşIlÜzrəVerilmişKreditlərToolStripMenuItem.Text = "Son beş il üzrə verilmiş kreditlərin aylar üzrə məbləği";
+            this.sonBeşIlÜzrəVerilmişKreditlərToolStripMenuItem.Click += new System.EventHandler(this.sonBeşIlÜzrəVerilmişKreditlərToolStripMenuItem_Click);
+            // 
             // kreditToolStripMenuItem1
             // 
             this.kreditToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aktivCariHesabMəlumatıToolStripMenuItem});
             this.kreditToolStripMenuItem1.Name = "kreditToolStripMenuItem1";
-            this.kreditToolStripMenuItem1.Size = new System.Drawing.Size(173, 22);
+            this.kreditToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.kreditToolStripMenuItem1.Text = "Customer Service";
             // 
             // aktivCariHesabMəlumatıToolStripMenuItem
@@ -616,7 +670,7 @@
             this.banklarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.theCorrespondentAccountsNostroToolStripMenuItem});
             this.banklarToolStripMenuItem.Name = "banklarToolStripMenuItem";
-            this.banklarToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.banklarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.banklarToolStripMenuItem.Text = "Banklar";
             // 
             // theCorrespondentAccountsNostroToolStripMenuItem
@@ -629,7 +683,7 @@
             // uTimeMasterToolStripMenuItem
             // 
             this.uTimeMasterToolStripMenuItem.Name = "uTimeMasterToolStripMenuItem";
-            this.uTimeMasterToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.uTimeMasterToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.uTimeMasterToolStripMenuItem.Text = "UTimeMaster";
             this.uTimeMasterToolStripMenuItem.Click += new System.EventHandler(this.uTimeMasterToolStripMenuItem_Click);
             // 
@@ -637,7 +691,8 @@
             // 
             this.pİDToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.iddiaƏrizəsiToolStripMenuItem,
-            this.sMSSiyahıToolStripMenuItem});
+            this.sMSSiyahıToolStripMenuItem,
+            this.hesabatlarToolStripMenuItem2});
             this.pİDToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.pİDToolStripMenuItem.Name = "pİDToolStripMenuItem";
             this.pİDToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
@@ -646,16 +701,31 @@
             // iddiaƏrizəsiToolStripMenuItem
             // 
             this.iddiaƏrizəsiToolStripMenuItem.Name = "iddiaƏrizəsiToolStripMenuItem";
-            this.iddiaƏrizəsiToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.iddiaƏrizəsiToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.iddiaƏrizəsiToolStripMenuItem.Text = "İddia Ərizəsi";
             this.iddiaƏrizəsiToolStripMenuItem.Click += new System.EventHandler(this.iddiaƏrizəsiToolStripMenuItem_Click);
             // 
             // sMSSiyahıToolStripMenuItem
             // 
             this.sMSSiyahıToolStripMenuItem.Name = "sMSSiyahıToolStripMenuItem";
-            this.sMSSiyahıToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.sMSSiyahıToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.sMSSiyahıToolStripMenuItem.Text = "SMS siyahı";
             this.sMSSiyahıToolStripMenuItem.Click += new System.EventHandler(this.sMSSiyahıToolStripMenuItem_Click);
+            // 
+            // hesabatlarToolStripMenuItem2
+            // 
+            this.hesabatlarToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.vintajToolStripMenuItem});
+            this.hesabatlarToolStripMenuItem2.Name = "hesabatlarToolStripMenuItem2";
+            this.hesabatlarToolStripMenuItem2.Size = new System.Drawing.Size(156, 22);
+            this.hesabatlarToolStripMenuItem2.Text = "PID Hesabatlar";
+            // 
+            // vintajToolStripMenuItem
+            // 
+            this.vintajToolStripMenuItem.Name = "vintajToolStripMenuItem";
+            this.vintajToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
+            this.vintajToolStripMenuItem.Text = "Vintaj ";
+            this.vintajToolStripMenuItem.Click += new System.EventHandler(this.vintajToolStripMenuItem_Click);
             // 
             // ümumiSorğularToolStripMenuItem
             // 
@@ -940,30 +1010,6 @@
             this.panelesas.TabIndex = 11;
             this.panelesas.Paint += new System.Windows.Forms.PaintEventHandler(this.panelesas_Paint);
             // 
-            // hesabatlarToolStripMenuItem1
-            // 
-            this.hesabatlarToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.benefisiarMülkiyyətçiToolStripMenuItem});
-            this.hesabatlarToolStripMenuItem1.Name = "hesabatlarToolStripMenuItem1";
-            this.hesabatlarToolStripMenuItem1.Size = new System.Drawing.Size(336, 22);
-            this.hesabatlarToolStripMenuItem1.Text = "Hesabatlar";
-            // 
-            // benefisiarMülkiyyətçiToolStripMenuItem
-            // 
-            this.benefisiarMülkiyyətçiToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.benefisiarMülkiyyətçiToolStripMenuItem1});
-            this.benefisiarMülkiyyətçiToolStripMenuItem.Name = "benefisiarMülkiyyətçiToolStripMenuItem";
-            this.benefisiarMülkiyyətçiToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.benefisiarMülkiyyətçiToolStripMenuItem.Text = "Rüblük";
-            this.benefisiarMülkiyyətçiToolStripMenuItem.Click += new System.EventHandler(this.benefisiarMülkiyyətçiToolStripMenuItem_Click);
-            // 
-            // benefisiarMülkiyyətçiToolStripMenuItem1
-            // 
-            this.benefisiarMülkiyyətçiToolStripMenuItem1.Name = "benefisiarMülkiyyətçiToolStripMenuItem1";
-            this.benefisiarMülkiyyətçiToolStripMenuItem1.Size = new System.Drawing.Size(197, 22);
-            this.benefisiarMülkiyyətçiToolStripMenuItem1.Text = "Benefisiar mülkiyyətçi";
-            this.benefisiarMülkiyyətçiToolStripMenuItem1.Click += new System.EventHandler(this.benefisiarMülkiyyətçiToolStripMenuItem1_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1051,11 +1097,7 @@
         private System.Windows.Forms.ToolStripMenuItem restruktruzasiyaOlunmuşKreditlərToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem kreditToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem kataloqToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem kreditPortfeliToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem kreditPortfeliIşSektorÜzrəToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem kreditPortfeliQalıqlarÜzrəToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ödənişlərVəFərqliSilinmələrToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem aktivCariHesabMəlumatıToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem kreditiBağlıOlubBkMəbləğiQalanlarVəYaUyğunsuzOlanlarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem kassaToolStripMenuItem;
@@ -1091,6 +1133,15 @@
         private System.Windows.Forms.ToolStripMenuItem hesabatlarToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem benefisiarMülkiyyətçiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem benefisiarMülkiyyətçiToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem kreditPortfeliToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem aylarÜzrəMüqayisəliToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem kreditPortfeliIşSektorÜzrəToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem kreditPortfeliQalıqlarÜzrəToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem hesabatlarToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem vintajToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sonBeşIlÜzrəVerilmişKreditlərToolStripMenuItem;
     }
 }
 

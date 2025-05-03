@@ -229,7 +229,7 @@ namespace BMI
 
                     this.Close();
 
-                    
+
 
                     OracleConnection GirshOcon1 = new OracleConnection("DATA SOURCE=" + datasorc + ";USER ID=" + comboBox1.Text + ";Password=" + textBox1.Text + "");
                     GirshOcon1.Open();
@@ -239,14 +239,14 @@ namespace BMI
                     {
                         Currentuser = Ordr["f_i_o"].ToString();
                         icracikodu = Ordr["code"].ToString();
-                        
-                        
+
+
                     }
                     Ordr.Close();
                     GirshOcon1.Close();
                     SetMenuPermissions(Convert.ToInt32(icracikodu), frmana.menuStrip1);
-                    cl.icraci =Convert.ToInt16(icracikodu);
-                    frmana.icraci_kod= icracikodu;
+                    cl.icraci = Convert.ToInt16(icracikodu);
+                    frmana.icraci_kod = icracikodu;
 
                 }
             }
@@ -276,7 +276,7 @@ namespace BMI
         }
         private void Login_FormClosing(object sender, FormClosingEventArgs e)
         {
-            
+
         }
         private void Logiin_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -315,16 +315,24 @@ namespace BMI
 
                     // Elementlər və dərəcələri gətirən sorğu
                     string elementQuery = @"
-                    SELECT element_adi,
-                    case when e.id=x.form_id and x.icaze='1' then 1 else e.derece end derece
-                    FROM bmi_elementler e,bmi_xususi_icazeler x where e.id=x.form_id(+)";
+                    SELECT e.element_adi,
+                           CASE 
+                               WHEN x.form_id IS NOT NULL AND x.icaze = '1' THEN 1 
+                               ELSE e.derece 
+                           END AS derece
+                    FROM bmi_elementler e
+                    LEFT JOIN bmi_xususi_icazeler x 
+                         ON e.id = x.form_id AND x.istifadeci_id = :userCode";
 
                     // Elementləri əldə et
                     DataTable elementTable = new DataTable();
                     using (OracleCommand elementCommand = new OracleCommand(elementQuery, connection))
-                    using (OracleDataAdapter adapter = new OracleDataAdapter(elementCommand))
                     {
-                        adapter.Fill(elementTable); // Elementlər cədvələ yüklənir
+                        elementCommand.Parameters.Add(new OracleParameter("userCode", userCode));
+                        using (OracleDataAdapter adapter = new OracleDataAdapter(elementCommand))
+                        {
+                            adapter.Fill(elementTable); // Elementlər cədvələ yüklənir
+                        }
                     }
 
                     // Menü elementlərini yoxla
@@ -364,7 +372,7 @@ namespace BMI
         }
         private void chkRemember_CheckedChanged(object sender, EventArgs e)
         {
-            
+
         }
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {

@@ -332,33 +332,19 @@ namespace BMI
         }
         private void kreditPortfeliToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Kredit.frm_portfel frm = new Kredit.frm_portfel();
-            frm.Text = "Kredit növləri üzrə";
-            frm.lbld_yolu.Text = "tip";
-
-            frm.Show();
+            
         }
         private void işSektorlarıÜzrəVerilmişKreditVəQalıqlarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Kredit.frm_portfel frm = new Kredit.frm_portfel();
-            frm.Text = "Kredit girovları üzrə";
-            frm.lbld_yolu.Text = "zaloq";
-            frm.Show();
+            
         }
         private void kreditPortfeliIşSektorÜzrəToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Kredit.frm_portfel frm = new Kredit.frm_portfel();
-            frm.Text = "Kredit iş sektorları üzrə";
-            frm.lbld_yolu.Text = "sektor";
-            frm.Show();
+            
         }
         private void kreditPortfeliQalıqlarÜzrəToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Kredit.frm_portfel frm = new Kredit.frm_portfel();
-            frm.Text = "Kredit qalıqları üzrə";
-            frm.lbld_yolu.Text = "qaliq";
             
-            frm.Show();
         }
         private void kataloqToolStripMenuItem1_Click(object sender, EventArgs e)
         {
@@ -551,6 +537,58 @@ namespace BMI
         {
             AML.frm_Benefisiar_hesabat fr = new AML.frm_Benefisiar_hesabat();
             fr.ShowDialog();
+        }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Kredit.frm_portfel frm = new Kredit.frm_portfel();
+            frm.Text = "Kredit girovları üzrə";
+            frm.lbld_yolu.Text = "zaloq";
+            frm.Show();
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Kredit.frm_portfel frm = new Kredit.frm_portfel();
+            frm.Text = "Kredit növləri üzrə";
+            frm.lbld_yolu.Text = "tip";
+
+            frm.Show();
+        }
+
+        private void kreditPortfeliIşSektorÜzrəToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            Kredit.frm_portfel frm = new Kredit.frm_portfel();
+            frm.Text = "Kredit iş sektorları üzrə";
+            frm.lbld_yolu.Text = "sektor";
+            frm.Show();
+        }
+
+        private void kreditPortfeliQalıqlarÜzrəToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            Kredit.frm_portfel frm = new Kredit.frm_portfel();
+            frm.Text = "Kredit qalıqları üzrə";
+            frm.lbld_yolu.Text = "qaliq";
+
+            frm.Show();
+        }
+
+        private void aylarÜzrəMüqayisəliToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Sorgular.Kredit.frm_kredit_portfeli_aylar_uzre_qaliqalr fr=new Sorgular.Kredit.frm_kredit_portfeli_aylar_uzre_qaliqalr();
+            fr.ShowDialog();
+        }
+
+        private void vintajToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PID.Hesabatlar.frmVintaj fr=new PID.Hesabatlar.frmVintaj();
+            fr.ShowDialog();
+        }
+
+        private void sonBeşIlÜzrəVerilmişKreditlərToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Sorgular.Kredit.frmSonBesİlVerilmisKreditler frm = new Sorgular.Kredit.frmSonBesİlVerilmisKreditler();
+            frm.ShowDialog();
         }
     }
 }
